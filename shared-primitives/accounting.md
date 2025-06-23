@@ -1,0 +1,3 @@
+# Accounting
+
+Placeholder content.

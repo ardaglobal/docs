@@ -1,0 +1,3 @@
+# Taxonomy
+
+Placeholder content.

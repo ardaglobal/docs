@@ -1,1 +1,48 @@
-site_name: My Docs
+
+site_name: Arda Documentation
+nav:
+  - Arda Core:
+      - Overview: arda-core/README.md
+      - Arda OS: arda-core/ardaos.md
+      - Taxonomy: arda-core/taxonomy.md
+      - Vault: arda-core/vault.md
+      - Wallet: arda-core/wallet.md
+      - Onboarding: arda-core/onboarding.md
+      - Compliance: arda-core/compliance.md
+      - Token Factory: arda-core/token-factory.md
+      - Clear: arda-core/clear.md
+      - Network-as-a-Service: arda-core/naas.md
+      - Identity: arda-core/identity.md
+      - Interop: arda-core/interop.md
+  - Arda Capital:
+      - Overview: arda-capital/README.md
+      - Loan Structures: arda-capital/loan-structures.md
+      - Underwriting: arda-capital/underwriting.md
+      - Syndication: arda-capital/syndication.md
+      - Tranches: arda-capital/tranches.md
+      - Treasury: arda-capital/treasury.md
+      - Mandates: arda-capital/mandates.md
+      - Permissioned Pools: arda-capital/permissioned-pools.md
+      - Compliance: arda-capital/compliance.md
+      - Analytics: arda-capital/analytics.md
+  - Arda Trading:
+      - Overview: arda-trading/README.md
+      - Order Book: arda-trading/orderbook.md
+      - Fractional: arda-trading/fractional.md
+      - Market Makers: arda-trading/market-makers.md
+      - Settlement: arda-trading/settlement.md
+      - Compliance: arda-trading/compliance.md
+      - Cross Chain: arda-trading/cross-chain.md
+      - Interfaces: arda-trading/interfaces.md
+  - Shared Primitives:
+      - Overview: shared-primitives/README.md
+      - Accounting: shared-primitives/accounting.md
+      - Compliance: shared-primitives/compliance.md
+      - Governance: shared-primitives/governance.md
+      - Modules: shared-primitives/modules.md
+      - ZK TEEs: shared-primitives/zk-tees.md
+  - Reference:
+      - ERC20 Wrapping: reference/erc20-wrapping.md
+      - Bridges: reference/bridges.md
+      - Stablecoins: reference/stablecoins.md
+      - External Agents: reference/external-agents.md

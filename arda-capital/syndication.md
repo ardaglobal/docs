@@ -1,0 +1,3 @@
+# Syndication
+
+Placeholder content.
