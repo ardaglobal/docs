@@ -1,8 +1,8 @@
-
 site_name: Arda Docs
 site_url: https://docs.arda.xyz
 theme:
   name: material
+  favicon: favicon.ico
 nav:
   - Arda Core:
       - Overview: arda-core/README.md
