@@ -1,5 +1,8 @@
 
-site_name: Arda Documentation
+site_name: Arda Docs
+site_url: https://docs.arda.xyz
+theme:
+  name: material
 nav:
   - Arda Core:
       - Overview: arda-core/README.md
