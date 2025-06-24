@@ -25,4 +25,6 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material
+      - name: Create CNAME file
+        run: echo "docs.arda.xyz" > docs/CNAME
       - run: mkdocs gh-deploy --force
