@@ -1,12 +1,9 @@
+--8<-- "warning.md"
 # Settlement Specification
-
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
 
 ---
 
-## 🧭 Overview
+## Overview
 
 The Arda Settlement system provides finality, netting, and token movement infrastructure across Arda OS chains and external blockchains. It underpins Arda Clear and ensures compliant, auditable, and efficient settlement of real estate and capital markets transactions.
 
@@ -14,7 +11,7 @@ This spec defines the settlement-related primitives, flows, and constraints.
 
 ---
 
-## 🧱 Core Components
+## Core Components
 
 ### 1. **SettlementQueue**
 - Queue of pending transfers and nettable events.
@@ -45,7 +42,7 @@ This spec defines the settlement-related primitives, flows, and constraints.
 
 ---
 
-## 🔁 Cross-Chain / Cross-Asset Logic
+## Cross-Chain / Cross-Asset Logic
 
 Arda Clear handles cross-network finality via:
 
@@ -55,7 +52,7 @@ Arda Clear handles cross-network finality via:
 
 ---
 
-## ⚖️ Compliance Integration
+## Compliance Integration
 
 - All settlement actions must pass:
   - `TransferRule`
@@ -65,7 +62,7 @@ Arda Clear handles cross-network finality via:
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - `enqueueSettlement()` call creates queue entry
 - `settle()` or `batchSettle()` finalizes and clears nettable items
@@ -73,7 +70,7 @@ Arda Clear handles cross-network finality via:
 
 ---
 
-## 🧪 Examples
+## Examples
 
 **Example 1: Token Transfer on Same Chain**
 ```json
@@ -97,28 +94,3 @@ Arda Clear handles cross-network finality via:
   "jurisdiction": "UAE → USA"
 }
 ```
-
----
-
-## 📚 Related Specs
-
-- [Treasury Flow](treasury-flow.md)
-- [Core Primitives](../primitives/core-primitives.md)
-- [Compliance Engine](compliance-engine.md)
-- [Lifecycle](lifecycle.md)
-
----
-
-## 🧭 Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |
-
----
-
-## 📚 See Also
-
-- [Core Primitives](../primitives/core-primitives.md)
-- [Cross-Chain Bridge](../middleware/cross-chain.md)
-- [Treasury Flow](treasury-flow.md)

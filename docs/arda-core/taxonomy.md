@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Arda Taxonomy
 
 ---
@@ -69,16 +70,3 @@ Taxonomy changes follow the Arda Improvement Proposal (AIP) governance flow:
 - **Onboarding**: Maps real-world property or documents into a recognized category.
 - **Compliance Engine**: Applies different rules depending on taxonomy-derived type.
 - **Analytics**: Risk analytics and benchmarks segment portfolios by taxonomy labels.
-
----
-
-## Related Docs
-
-- [`token-factory.md`](./token-factory.md)
-- [`compliance.md`](./compliance.md)
-- [`identity.md`](./identity.md)
-- [`README.md`](./README.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

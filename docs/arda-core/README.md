@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Arda Core
 
 > *Version: 1.0 • Last updated: 2025-06-23*
@@ -49,16 +50,3 @@ Each sovereign ArdaOS instance imports Core definitions for compliance, taxonomy
 | ArdaOS          | SDK Interfaces   | Arda Core Modules        |
 | Identity        | KYC Tiers        | Custody APIs, Verifiers  |
 | Arda Clear      | Transfers/Settles| Global bridges, NaaS     |
-
----
-
-## Related Docs
-
-- [`ardaos.md`](./ardaos.md)
-- [`compliance.md`](./compliance.md)
-- [`token-factory.md`](./token-factory.md)
-- [`vault.md`](./vault.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

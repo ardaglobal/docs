@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Fiat Onramp Integration
 
 ---
@@ -64,20 +65,3 @@ Fiat onramps in Arda allow users to convert local currency into compliant, progr
   - `initiateFiatOnramp()`, `mintMoneyToken()`, `burnMoneyToken()`
 - Oracle feeds verify off-chain payment status
 - Integrated with Arda Vault for regulatory audit trail
-
----
-
-## Related Specs
-
-- [Token Models](../protocol/token-models.md)
-- [Settlement](../protocol/settlement.md)
-- [Compliance Engine](../protocol/compliance-engine.md)
-- [Arda Clear](../product/arda-core.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

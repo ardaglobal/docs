@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Identity Providers
 
 ---
@@ -65,20 +66,3 @@ Identity provider integrations enable Arda to verify users, investors, instituti
   - `registerIdentityProvider()`, `verifyKYC()`, `updateTier()`
 - WalletGroups may require re-verification after policy change
 - All identity flows logged in AuditLog and scoped by region
-
----
-
-## Related Specs
-
-- [Compliance Engine](../protocol/compliance-engine.md)
-- [Token Models](../protocol/token-models.md)
-- [Arda Vault](../middleware/arda-vault.md)
-- [Governance](../middleware/governance.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

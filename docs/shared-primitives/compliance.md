@@ -1,6 +1,5 @@
+--8<-- "warning.md"
 # Compliance Primitives
-
-> *Version: 1.0 • Last updated: 2025-06-23*
 
 ---
 
@@ -72,15 +71,3 @@ These primitives are imported by:
 - Syndication Engine (pool filtering)
 - Trading Engine (order rejection)
 - Agents (access and permissions)
-
----
-
-## Related Docs
-
-- [`token-factory.md`](../arda-core/token-factory.md)
-- [`wallet.md`](../arda-core/wallet.md)
-- [`compliance.md`](../arda-core/compliance.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

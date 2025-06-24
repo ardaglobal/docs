@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Trading Compliance Layer
 
 ---
@@ -66,16 +67,3 @@ RFQ messages undergo pre-execution filtering:
 - **Initiator Check**: Can only submit if tier and attestation are valid
 - **Counterparty Filter**: Auto-matches based on shared eligibility
 - **Jurisdiction Mapping**: Ensures both sides meet regional requirements
-
----
-
-## Related Docs
-
-- [`orderbook.md`](./orderbook.md)
-- [`settlement.md`](./settlement.md)
-- [`vault.md`](../arda-core/vault.md)
-- [`compliance.md`](../arda-core/compliance.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

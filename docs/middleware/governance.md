@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Governance
 
 ---
@@ -76,28 +77,3 @@ It is designed for flexibility across sovereign regions, while retaining coheren
   - `submitAIP()`, `vote()`, `executeProposal()`, `queryPolicy()`
 - Governance execution is auditable and logged to Arda AuditLog
 - Proposal templates are available for standard policy types
-
----
-
-## Related Specs
-
-- [Core Primitives](../primitives/core-primitives.md)
-- [Compliance Engine](../protocol/compliance-engine.md)
-- [Arda Core](../product/arda-core.md)
-- [SDK](sdk.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |
-
----
-
-## See Also
-
-- [Core Primitives](../primitives/core-primitives.md)
-- [Agent Primitives](../primitives/agent-primitives.md)
-- [Arda Improvement Proposals (AIPs)](https://aips.arda.xyz)

@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Data Residency
 
 ---
@@ -57,19 +58,3 @@ Data residency in Arda ensures that sensitive data—such as personal identity, 
   - Attestation by owner or regulator
   - Double-keyed access (MPC share + regional gate)
 - All metadata hashes traceable to Arda Core or AuditLog
-
----
-
-## Related Specs
-
-- [Arda Vault](../middleware/arda-vault.md)
-- [Compliance Engine](../protocol/compliance-engine.md)
-- [Regional Deployment](regional-deployment.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

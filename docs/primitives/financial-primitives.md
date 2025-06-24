@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Financial Primitives
 
 ---
@@ -99,20 +100,3 @@ Arda supports higher-order instruments via combinations of primitives:
   - `createDebtToken()`, `splitTranche()`, `accrueInterest()`
 - Compatible with governance and compliance systems
 - Indexed by `TrancheIndex`, `FacilityRegistry`, and `YieldBook`
-
----
-
-## Related Specs
-
-- [Token Models](../protocol/token-models.md)
-- [Treasury Flow](../protocol/treasury-flow.md)
-- [Arda Capital](../product/arda-capital.md)
-- [Settlement](../protocol/settlement.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

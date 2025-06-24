@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Asset Primitives
 
 ---
@@ -87,20 +88,3 @@ Assets can evolve through:
 - Asset metadata managed via Arda Ledger
 - Linked documents stored and hashed in Arda Vault
 - Queryable via asset registry APIs with filter by jurisdiction, SPV, usage
-
----
-
-## Related Specs
-
-- [Core Primitives](core-primitives.md)
-- [Token Models](../protocol/token-models.md)
-- [Arda Foundry](../product/arda-foundry.md)
-- [Arda Vault](../middleware/arda-vault.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Fractional Ownership and Trading
 
 ---
@@ -65,16 +66,3 @@ The trading of fractional interests is fully compliance-gated, supporting retail
   }
 }
 ```
-
----
-
-## Related Docs
-
-- [`token-factory.md`](../arda-core/token-factory.md)
-- [`orderbook.md`](./orderbook.md)
-- [`clear.md`](../arda-core/clear.md)
-- [`wallet.md`](../arda-core/wallet.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

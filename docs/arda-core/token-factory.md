@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Arda Token Factory
 
 ---
@@ -77,16 +78,3 @@ Issuers may use pre-approved templates for rapid issuance, e.g.:
 - **Rental Yield Participation** (Tokenized cashflow rights)
 
 These templates enforce type-specific behavior and ease validation for secondary markets and custodians.
-
----
-
-## Related Docs
-
-- [`compliance.md`](./compliance.md)
-- [`vault.md`](./vault.md)
-- [`taxonomy.md`](./taxonomy.md)
-- [`clear.md`](./clear.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

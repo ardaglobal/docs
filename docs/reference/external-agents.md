@@ -1,6 +1,5 @@
+--8<-- "warning.md"
 # External Agents
-
-> *Version: 1.0 • Last updated: 2025-06-23*
 
 ---
 
@@ -72,15 +71,3 @@ They operate under permissioned attestations and are tracked via the Agent Regis
 - **Token Factory** — May submit structuring logic and tranche metadata
 - **Vault** — Secure access to inspection reports, contracts, or valuation records
 - **Clear** — Triggers based on agent signals (e.g. default events, payment failures)
-
----
-
-## Related Docs
-
-- [`underwriting.md`](../arda-capital/underwriting.md)
-- [`vault.md`](../arda-core/vault.md)
-- [`token-factory.md`](../arda-core/token-factory.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Programmable Loan Example
 
 ---
@@ -68,20 +69,3 @@ A developer sets up a $2M construction loan facility for a residential project u
   - `createFacility()`, `registerSchedule()`, `drawdown()`, `repay()`
 - Milestone status queryable via Monitoring Agent output
 - Tranche data viewable in `TrancheIndex`
-
----
-
-## Related Specs
-
-- [Arda Capital](../product/arda-capital.md)
-- [Financial Primitives](../primitives/financial-primitives.md)
-- [Lifecycle](../protocol/lifecycle.md)
-- [Treasury Flow](../protocol/treasury-flow.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

@@ -1,6 +1,5 @@
+--8<-- "warning.md"
 # Stablecoins and Fiat Integration
-
-> *Version: 1.0 • Last updated: 2025-06-23*
 
 ---
 
@@ -73,15 +72,3 @@ Fiat on/off ramps are regionally configured and integrated into the Arda Wallet,
   "attestationDoc": "vault://reserves/d-dirham-q1.pdf"
 }
 ```
-
----
-
-## Related Docs
-
-- [`clear.md`](../arda-core/clear.md)
-- [`wallet.md`](../arda-core/wallet.md)
-- [`treasury.md`](../arda-capital/treasury.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

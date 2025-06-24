@@ -1,12 +1,9 @@
+--8<-- "warning.md"
 # Token Models
-
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
 
 ---
 
-## 🧭 Overview
+## Overview
 
 Arda supports a suite of token types purpose-built to represent real-world financial and legal constructs. Each token type conforms to the underlying Arda compliance engine and is designed to interoperate across Arda OS chains and external networks via bridges.
 
@@ -16,7 +13,7 @@ Each token model is built upon Arda's [Core Primitives](../primitives/core-primi
 
 ---
 
-## 🧱 Token Categories
+## Token Categories
 
 ### 1. **MoneyToken**
 - Represents fiat or stablecoin value.
@@ -60,7 +57,7 @@ Each token model is built upon Arda's [Core Primitives](../primitives/core-primi
 
 ---
 
-## 🧬 Token Lifecycle Components
+## Token Lifecycle Components
 
 Each token type may use the following lifecycle extensions:
 
@@ -72,7 +69,7 @@ Each token type may use the following lifecycle extensions:
 
 ---
 
-## 📜 Compliance Features
+## Compliance Features
 
 All tokens implement:
 
@@ -83,7 +80,7 @@ All tokens implement:
 
 ---
 
-## 💱 Bridging & Interoperability
+## Bridging & Interoperability
 
 - Tokens can be wrapped for EVM chains (ERC-20 compatible wrappers).
 - Cosmos IBC or ZK light-client bridges supported for secure inter-region movement.
@@ -91,25 +88,8 @@ All tokens implement:
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - All tokens are natively indexed in the Arda Ledger and visible via APIs.
 - Token schema follows a strict standard defined in the SDK.
 - Validators and bridge relayers enforce token properties and lifecycle constraints.
-
----
-
-## 📚 Related Specs
-
-- [Core Primitives](../primitives/core-primitives.md)
-- [Compliance Engine](compliance-engine.md)
-- [Lifecycle](lifecycle.md)
-- [SDK / Middleware](../middleware/sdk.md)
-
----
-
-## 🧭 Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

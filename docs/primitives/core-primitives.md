@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Core Protocol Primitives
 
 ---
@@ -151,20 +152,3 @@ Receives fees and distributes per protocol logic.
 
 ### 32. **NettingEngine**
 Performs multi-party netting and finalizes token movements.
-
----
-
-## Related Specs
-
-- [Token Models](../protocol/token-models.md)
-- [Compliance Engine](../protocol/compliance-engine.md)
-- [Treasury Flow](../protocol/treasury-flow.md)
-- [Lifecycle](../protocol/lifecycle.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

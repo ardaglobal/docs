@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Arda Wallet
 
 ---
@@ -60,16 +61,3 @@ KYC tiers are enforced via `TransferRule` and `JurisdictionProfile` hooks during
 - **TransferRules**: Wallet transfer requests are checked against jurisdictional rules.
 - **JurisdictionProfiles**: Limits wallet activity based on geographic regulatory mappings.
 - **AuditLogs**: Chain-level record of every wallet action and permission update.
-
----
-
-## Related Docs
-
-- [`identity.md`](./identity.md)
-- [`compliance.md`](./compliance.md)
-- [`token-factory.md`](./token-factory.md)
-- [`README.md`](./README.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

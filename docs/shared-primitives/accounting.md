@@ -1,12 +1,11 @@
+--8<-- "warning.md"
 # Accounting Primitives
-
-> *Version: 1.0 • Last updated: 2025-06-23*
 
 ---
 
 ## Overview
 
-Arda’s accounting primitives define the fundamental mechanisms for calculating, accruing, distributing, and reconciling financial flows across the protocol. These primitives support everything from interest accrual on loans to fee allocation, treasury sweeping, and escrow disbursement.
+Arda's accounting primitives define the fundamental mechanisms for calculating, accruing, distributing, and reconciling financial flows across the protocol. These primitives support everything from interest accrual on loans to fee allocation, treasury sweeping, and escrow disbursement.
 
 They are core to the Treasury, Clear, Tranche, and Yield systems and operate deterministically across ArdaOS chains.
 
@@ -79,15 +78,3 @@ These hooks trigger Vault logging, AuditLog updates, and state transitions in To
 - **Clear**: Executes actual transfers post-reconciliation
 - **TokenFactory**: Triggers lifecycle hooks based on token type
 - **Vault**: Anchors off-chain proof for payments and disbursements
-
----
-
-## Related Docs
-
-- [`treasury.md`](../arda-capital/treasury.md)
-- [`clear.md`](../arda-core/clear.md)
-- [`token-factory.md`](../arda-core/token-factory.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

@@ -1,6 +1,5 @@
+--8<-- "warning.md"
 # Bridges
-
-> *Version: 1.0 • Last updated: 2025-06-23*
 
 ---
 
@@ -66,14 +65,3 @@ sequenceDiagram
 - **Vault** — Anchors metadata and bridge contract details
 - **Clear** — Executes final asset movements
 - **Compliance Engine** — Blocks unauthorized cross-chain events
-
----
-
-## Related Docs
-
-- [`cross-chain.md`](../arda-trading/cross-chain.md)
-- [`interop.md`](../arda-core/interop.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Arda SDK
 
 ---
@@ -77,20 +78,3 @@ const investor = await sdk.registerEntity("Investor", KYC_TIER_2)
 const token = await sdk.createAssetToken(propertyMetadata)
 await sdk.transferWithComplianceCheck(token.id, investor.wallet, 100)
 ```
-
----
-
-## Related Specs
-
-- [Compliance Engine](../protocol/compliance-engine.md)
-- [Token Models](../protocol/token-models.md)
-- [Agent Primitives](../primitives/agent-primitives.md)
-- [Settlement](../protocol/settlement.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

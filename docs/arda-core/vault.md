@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Arda Vault
 
 ---
@@ -61,16 +62,3 @@ flowchart TD
 - **Proof of Asset**: FHE-based attestation that tokenized assets reflect valid off-chain ownership.
 - **Cross-border Compliance**: Enables selective disclosure for regulators in different jurisdictions.
 - **Regulated Identity Workflows**: Used by KYC/AML engines to securely access identity proofs.
-
----
-
-## Related Docs
-
-- [`compliance.md`](./compliance.md)
-- [`identity.md`](./identity.md)
-- [`onboarding.md`](./onboarding.md)
-- [`README.md`](./README.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

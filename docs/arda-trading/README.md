@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Arda Trading
 
 > *Version: 1.0 • Last updated: 2025-06-23*
@@ -71,16 +72,3 @@ flowchart TD
 - Liquidity exit for crowdfunding participants
 - OTC block deals with compliance rails
 - Landmark asset auctions with verified buyer pools
-
----
-
-## Related Docs
-
-- [`orderbook.md`](./orderbook.md)
-- [`fractional.md`](./fractional.md)
-- [`settlement.md`](./settlement.md)
-- [`compliance.md`](./compliance.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

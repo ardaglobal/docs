@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Oracle Integration
 
 ---
@@ -72,20 +73,3 @@ Oracles in Arda supply off-chain data needed for risk assessment, asset valuatio
   "region": "UAE"
 }
 ```
-
----
-
-## Related Specs
-
-- [Compliance Engine](../protocol/compliance-engine.md)
-- [Lifecycle](../protocol/lifecycle.md)
-- [Arda Vault](../middleware/arda-vault.md)
-- [Treasury Flow](../protocol/treasury-flow.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

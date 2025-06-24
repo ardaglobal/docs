@@ -1,6 +1,5 @@
+--8<-- "warning.md"
 # ERC-20 Wrapping and Token Compatibility
-
-> *Version: 1.0 • Last updated: 2025-06-23*
 
 ---
 
@@ -81,14 +80,3 @@ Each wrapped token preserves metadata from its Arda-native counterpart:
 - **Clear** — Updates token status and release logs
 - **Compliance Engine** — Evaluates wrapping conditions
 - **Vault** — Anchors original metadata and token schema
-
----
-
-## Related Docs
-
-- [`bridges.md`](./bridges.md)
-- [`token-factory.md`](../arda-core/token-factory.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

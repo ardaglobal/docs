@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Regional Deployment
 
 ---
@@ -60,20 +61,3 @@ Each deployment is modular, sovereign, and optimized for local needs.
   - Validator keygen and rotation
   - Compliance rule upload
 - Monitored by observability tools via Arda Core
-
----
-
-## Related Specs
-
-- [Arda OS](../product/arda-os.md)
-- [Compliance Engine](../protocol/compliance-engine.md)
-- [Validator Setup](validator-setup.md)
-- [Governance](../middleware/governance.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Market Makers and Liquidity Incentives
 
 ---
@@ -79,16 +80,3 @@ These are published in the Agent Registry and on-chain analytics dashboards.
   }
 }
 ```
-
----
-
-## Related Docs
-
-- [`orderbook.md`](./orderbook.md)
-- [`fractional.md`](./fractional.md)
-- [`compliance.md`](./compliance.md)
-- [`identity.md`](../arda-core/identity.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

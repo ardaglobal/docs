@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Arda Vault
 
 ---
@@ -69,20 +70,3 @@ Arda Vault is foundational for asset legitimacy, compliance, auditability, and r
   - `registerDoc()`, `getHash()`, `verifyAccess()`
 - Access granted via key attestations or agent permissions
 - Frontends can reference Vault docs by hash ID, not content
-
----
-
-## Related Specs
-
-- [Compliance Engine](../protocol/compliance-engine.md)
-- [Token Models](../protocol/token-models.md)
-- [Arda Foundry](../product/arda-foundry.md)
-- [Asset Primitives](../primitives/asset-primitives.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

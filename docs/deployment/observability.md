@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Observability
 
 ---
@@ -66,20 +67,3 @@ Arda's observability layer is modular, privacy-aware, and compatible with enterp
 - SDK includes:
   - `subscribeLogs()`, `queryMetrics()`, `reportIssue()`
 - Agent telemetry is opt-in with staking-backed incentives for uptime
-
----
-
-## Related Specs
-
-- [Validator Setup](validator-setup.md)
-- [Arda Vault](../middleware/arda-vault.md)
-- [Governance](../middleware/governance.md)
-- [Lifecycle](../protocol/lifecycle.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

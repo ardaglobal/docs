@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Arda Onboarding
 
 ---
@@ -59,16 +60,3 @@ flowchart TD
 - **Dynamic Jurisdiction Flow**: Forms, checks, and disclosures vary per region.
 - **Attestation Registry**: All verifications are immutably logged for later proof.
 - **Revocation Support**: Identity or asset claims can be revoked and re-onboarded if disputed or stale.
-
----
-
-## Related Docs
-
-- [`vault.md`](./vault.md)
-- [`compliance.md`](./compliance.md)
-- [`identity.md`](./identity.md)
-- [`token-factory.md`](./token-factory.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

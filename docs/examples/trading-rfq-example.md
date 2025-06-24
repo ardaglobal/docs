@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Trading RFQ Example
 
 ---
@@ -59,20 +60,3 @@ A Tier 3 investor negotiates to acquire a 5% stake in a Dubai residential buildi
   - `createRFQ()`, `respondToRFQ()`, `finalizeRFQTrade()`
 - All trades visible via `queryRFQBook()` and `SettlementQueue`
 - AuditLog indexed by jurisdiction and token ID
-
----
-
-## Related Specs
-
-- [Arda Trading](../product/arda-trading.md)
-- [Compliance Engine](../protocol/compliance-engine.md)
-- [Settlement](../protocol/settlement.md)
-- [Token Models](../protocol/token-models.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

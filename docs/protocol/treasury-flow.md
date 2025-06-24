@@ -1,12 +1,9 @@
+--8<-- "warning.md"
 # Treasury Flow
-
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
 
 ---
 
-## 🧭 Overview
+## Overview
 
 Arda's Treasury Flow system manages the movement of funds across facilities, tokens, fee recipients, and compliance-controlled accounts. It supports programmable distribution, interest allocation, and sweeping logic, all enforced by deterministic, permissioned protocol logic.
 
@@ -14,7 +11,7 @@ This enables real-time capital flows across structured financial products with f
 
 ---
 
-## 🧱 Core Components
+## Core Components
 
 ### 1. **SweepInstruction**
 - Defines automatic movement of MoneyTokens from one account to another.
@@ -72,28 +69,3 @@ This enables real-time capital flows across structured financial products with f
 - SDK exposes `createSweep`, `registerSplitRule`, and `simulateFeeImpact`
 - Events are posted to protocol event bus for downstream systems
 - Integration with Arda Clear allows off-chain fiat or cross-chain bridging to follow same logic
-
----
-
-## 📚 Related Specs
-
-- [Lifecycle](lifecycle.md)
-- [Compliance Engine](compliance-engine.md)
-- [Core Primitives](../primitives/core-primitives.md)
-- [Settlement](settlement.md)
-
----
-
-## 🧭 Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |
-
----
-
-## 📚 See Also
-
-- [Core Primitives](../primitives/core-primitives.md)
-- [Settlement](settlement.md)
-- [Arda Capital](../product/arda-capital.md)

@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Trade Settlement and Finality
 
 ---
@@ -68,16 +69,3 @@ Arda Clear acts as a post-trade coordination layer between the matching engine, 
 - **Vault**: References off-chain proof or escrow triggers
 - **Compliance Engine**: Blocks unauthorized settlements
 - **Wallet / Identity**: Applies tier logic for volume thresholds
-
----
-
-## Related Docs
-
-- [`orderbook.md`](./orderbook.md)
-- [`compliance.md`](./compliance.md)
-- [`clear.md`](../arda-core/clear.md)
-- [`wallet.md`](../arda-core/wallet.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

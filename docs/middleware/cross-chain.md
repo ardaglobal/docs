@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Cross-Chain Architecture
 
 ---
@@ -78,20 +79,3 @@ Arda Clear includes:
   - `wrapToken()`, `transferToRegion()`, `queryBridgeProof()`
 - Bridged assets maintain link to Vault and SPV for traceability
 - Chain state synchronization monitored via Arda Core indexers
-
----
-
-## Related Specs
-
-- [Settlement](../protocol/settlement.md)
-- [Token Models](../protocol/token-models.md)
-- [Arda OS](../product/arda-os.md)
-- [Arda Core](../product/arda-core.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

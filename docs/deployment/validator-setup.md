@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Validator Setup
 
 ---
@@ -63,20 +64,3 @@ Validators are responsible for block production, compliance enforcement, and cro
   - `registerValidator()`, `rotateKeys()`, `submitProof()`
 - Validators can be assigned compliance zones
 - Alerting via Prometheus or Arda observability plugin
-
----
-
-## Related Specs
-
-- [Regional Deployment](regional-deployment.md)
-- [Compliance Engine](../protocol/compliance-engine.md)
-- [Cross-Chain](../middleware/cross-chain.md)
-- [Governance](../middleware/governance.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Shared Protocol Primitives
 
 > *Version: 1.0 • Last updated: 2025-06-23*

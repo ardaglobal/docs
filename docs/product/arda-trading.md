@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Arda Trading
 
 > **Status**: Stable  

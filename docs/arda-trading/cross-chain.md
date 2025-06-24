@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Cross-Chain Liquidity and Transfers
 
 ---
@@ -78,15 +79,3 @@ flowchart TD
 - Destination chain validates sender rules
 - Funds/token moved only after full compliance approval
 - Timeout + rollback available on Oracle fallback bridges
-
----
-
-## Related Docs
-
-- [`interop.md`](../arda-core/interop.md)
-- [`settlement.md`](./settlement.md)
-- [`compliance.md`](./compliance.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

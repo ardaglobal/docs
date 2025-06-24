@@ -1,18 +1,15 @@
+--8<-- "warning.md"
 # Lifecycle Specification
-
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
 
 ---
 
-## 🧭 Overview
+## Overview
 
 This specification defines the lifecycle model for key token types and facilities in the Arda protocol. Lifecycle events drive financial logic, compliance enforcement, and state changes across tokens, capital structures, and legal wrappers. These transitions are deterministic, event-driven, and anchored in Arda's core protocol state.
 
 ---
 
-## 🔄 General Lifecycle Flow
+## General Lifecycle Flow
 
 Typical lifecycle phases (varies by object):
 
@@ -25,7 +22,7 @@ Typical lifecycle phases (varies by object):
 
 ---
 
-## 🧱 Lifecycle Objects
+## Lifecycle Objects
 
 ### 1. **FacilityStatus**
 Tracks the current stage of a financing or issuance process.
@@ -67,7 +64,7 @@ Automated trigger for lifecycle transitions
 
 ---
 
-## 📜 Compliance Integration
+## Compliance Integration
 
 - All lifecycle transitions are gated by `TransferRule`, `JurisdictionProfile`, or `KYC Tier`.
 - Lifecycle logs are added to `AuditLog` for traceability.
@@ -75,7 +72,7 @@ Automated trigger for lifecycle transitions
 
 ---
 
-## 🔁 Reusability and Composition
+## Reusability and Composition
 
 - Multiple lifecycle objects can be linked:
   - One PaymentSchedule may cover several TrancheTokens
@@ -84,25 +81,8 @@ Automated trigger for lifecycle transitions
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - Lifecycle events are broadcast via the protocol event bus.
 - SDK includes simulation and preview functions for all transitions.
 - Status is queryable via `FacilityRegistry`, `TrancheIndex`, or object-specific endpoints.
-
----
-
-## 📚 Related Specs
-
-- [Core Primitives](../primitives/core-primitives.md)
-- [Token Models](token-models.md)
-- [Compliance Engine](compliance-engine.md)
-- [Treasury Flow](treasury-flow.md)
-
----
-
-## 🧭 Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

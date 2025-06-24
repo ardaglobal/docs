@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Trading Interfaces and SDKs
 
 ---
@@ -79,16 +80,3 @@ Misconfigured or disallowed calls return clear structured errors and are never f
   "actualTier": 1
 }
 ```
-
----
-
-## Related Docs
-
-- [`orderbook.md`](./orderbook.md)
-- [`wallet.md`](../arda-core/wallet.md)
-- [`identity.md`](../arda-core/identity.md)
-- [`compliance.md`](./compliance.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

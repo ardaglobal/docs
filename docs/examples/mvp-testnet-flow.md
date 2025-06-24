@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # MVP Testnet Flow
 
 ---
@@ -68,20 +69,3 @@ A developer launches a testnet instance for a fictional city (e.g. Testburg) and
 - All SDK calls tested using Arda CLI and Postman collection
 - Events can be queried via `queryAuditLog()` or testnet explorer
 - Tracing support via OpenTelemetry plugin
-
----
-
-## Related Specs
-
-- [Asset Primitives](../primitives/asset-primitives.md)
-- [Token Models](../protocol/token-models.md)
-- [Compliance Engine](../protocol/compliance-engine.md)
-- [Arda Trading](../product/arda-trading.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Agent Primitives
 
 ---
@@ -80,20 +81,3 @@ They can be composed into deal flows, delegated to users or institutions, or use
 - Agents deploy via SDK using `registerAgent()` and `publishTemplate()`
 - Agent outputs are callable in facility creation, monitoring, and governance
 - Custom agents can extend logic using approved hooks
-
----
-
-## Related Specs
-
-- [Token Models](../protocol/token-models.md)
-- [Compliance Engine](../protocol/compliance-engine.md)
-- [Lifecycle](../protocol/lifecycle.md)
-- [Arda Capital](../product/arda-capital.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

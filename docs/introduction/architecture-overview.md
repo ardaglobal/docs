@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Arda Architecture Overview
 
 ---
@@ -74,20 +75,3 @@ Arda's architecture is a vertically integrated, modular system for enabling real
   - Multi-asset collateralization
   - Programmatic underwriting and syndication
   - Embedded legal enforceability
-
----
-
-## Related Specs
-
-- [What is Arda](what-is-arda.md)
-- [Design Principles](design-principles.md)
-- [Arda Core](../product/arda-core.md)
-- [Arda OS](../product/arda-os.md)
-
----
-
-## Changelog
-
-| Date       | Change           | Author       |
-|------------|------------------|--------------|
-| 2025-06-23 | Initial Draft    | Arda Team    |

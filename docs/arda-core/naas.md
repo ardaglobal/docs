@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Arda Network-as-a-Service (NaaS)
 
 ---
@@ -57,16 +58,3 @@ Arda NaaS chains are sovereign but interoperable via:
 - **GovTech Infrastructure**: Digitized land, licensing, or public asset systems.
 - **Private Markets**: Regionally bounded capital formation or tokenized finance platforms.
 - **Sandbox Environments**: Custom testnets for partners or regulators to simulate jurisdictional logic.
-
----
-
-## Related Docs
-
-- [`ardaos.md`](./ardaos.md)
-- [`interop.md`](./interop.md)
-- [`compliance.md`](./compliance.md)
-- [`README.md`](./README.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*
