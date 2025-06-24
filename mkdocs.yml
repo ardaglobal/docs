@@ -49,3 +49,46 @@ nav:
       - Bridges: reference/bridges.md
       - Stablecoins: reference/stablecoins.md
       - External Agents: reference/external-agents.md
+  - Introduction:
+      - What is Arda: introduction/what-is-arda.md
+      - Design Principles: introduction/design-principles.md
+      - Architecture Overview: introduction/architecture-overview.md
+  - Protocol:
+      - Core Primitives: protocol/core-primitives.md
+      - Token Models: protocol/token-models.md
+      - Compliance Engine: protocol/compliance-engine.md
+      - Lifecycle: protocol/lifecycle.md
+      - Treasury Flow: protocol/treasury-flow.md
+      - Settlement: protocol/settlement.md
+  - Product Suite:
+      - Arda Core: product/arda-core.md
+      - Arda OS: product/arda-os.md
+      - Arda Capital: product/arda-capital.md
+      - Arda Trading: product/arda-trading.md
+      - Arda Foundry: product/arda-foundry.md
+  - Primitives:
+      - Asset Primitives: primitives/asset-primitives.md
+      - Financial Primitives: primitives/financial-primitives.md
+      - Agent Primitives: primitives/agent-primitives.md
+  - Middleware & Tools:
+      - Vault: middleware/arda-vault.md
+      - SDK: middleware/sdk.md
+      - Cross-Chain Infra: middleware/cross-chain.md
+      - Governance: middleware/governance.md
+  - Deployment:
+      - Regional Setup: deployment/regional-deployment.md
+      - Validator Setup: deployment/validator-setup.md
+      - Data Residency: deployment/data-residency.md
+      - Observability: deployment/observability.md
+  - Examples:
+      - MVP Testnet Flow: examples/mvp-testnet-flow.md
+      - Programmable Loan: examples/programmable-loan.md
+      - Trading RFQ Example: examples/trading-rfq-example.md
+  - Integration:
+      - Fiat Onramp: integration/fiat-onramp.md
+      - Identity Providers: integration/identity-providers.md
+      - Oracles: integration/oracles.md
+  - Appendix:
+      - Glossary: appendix/glossary.md
+      - References: appendix/references.md
+      - Changelog: appendix/changelog.md

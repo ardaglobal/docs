@@ -1,3 +1,0 @@
-# Zk Tees
-
-Placeholder content.
