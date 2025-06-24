@@ -15,12 +15,8 @@ nav:
       - What is Arda: introduction/what-is-arda.md
       - Design Principles: introduction/design-principles.md
       - Architecture Overview: introduction/architecture-overview.md
-      - Arda Core: product/arda-core.md
-      - Arda OS: product/arda-os.md
-      - Arda Capital: product/arda-capital.md
-      - Arda Trading: product/arda-trading.md
-      - Arda Foundry: product/arda-foundry.md
   - Arda Core:
+      - Arda Foundry: product/arda-foundry.md
       - Overview: arda-core/README.md
       - Arda OS: arda-core/ardaos.md
       - Taxonomy: arda-core/taxonomy.md

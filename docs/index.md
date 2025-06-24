@@ -12,7 +12,7 @@ This documentation provides a full specification of Arda's protocol architecture
 
 Arda is a vertically integrated operating system for real estate and structured private capital markets. It transforms real-world assets into programmable, compliance-first digital instruments, enabling global liquidity, institutional-grade compliance, and seamless financial innovation.
 
-This documentation provides a full specification of Arda's protocol architecture, primitives, products, deployment strategies, and integration layers. It is designed for developers, integrators, regulators, and contributors to the Arda ecosystem.
+This documentation provides a full specification of Arda's protocol architecture, primitives, products, and integration layers. It is designed for developers, integrators, regulators, and contributors to the Arda ecosystem.
 
 ---
 
@@ -35,7 +35,7 @@ This documentation provides a full specification of Arda's protocol architecture
 2. **Execution Layer (Arda OS)** – Sovereign rollups and modular regional networks.
 3. **Coordination Layer (Arda Core)** – Registry, governance, liquidity and compliance interfaces.
 4. **Application Layer** – Capital formation, trading, asset management, marketplace tools.
-5. **Agentic Layer (Novum)** – Modular agents performing underwriting, structuring, and monitoring.
+5. **Agentic Layer** – Modular agents performing underwriting, structuring, and monitoring.
 6. **Data & Intelligence Layer** – Shared schemas, risk primitives, and semantic analytics.
 
 ---
@@ -45,8 +45,5 @@ This documentation provides a full specification of Arda's protocol architecture
 This site is structured to help both technical and non-technical stakeholders explore and contribute to Arda's ecosystem.
 
 - Start with the **Introduction** to learn the vision and design philosophy.
-- Dive into the **Protocol** section to understand Arda's core logic.
-- Review **Product Modules** for how Arda delivers utility to end users.
-- Explore **Middleware & Deployment** for running or integrating with Arda nodes.
-- Browse **Examples & Integrations** to see real-world use cases and workflows.
+ > TBD: fill in
 - Use the **Glossary** for a definition of all core terms.
