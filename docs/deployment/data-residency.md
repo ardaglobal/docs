@@ -1,18 +1,14 @@
 # Data Residency
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
+---
+
+## Overview
+
+Data residency in Arda ensures that sensitive data—such as personal identity, legal documents, and asset records—remain stored and processed within specific jurisdictions in compliance with local regulations. Arda's architecture separates data layers from consensus to enforce locality while maintaining cryptographic verifiability.
 
 ---
 
-## 🧭 Overview
-
-Data residency in Arda ensures that sensitive data—such as personal identity, legal documents, and asset records—remain stored and processed within specific jurisdictions in compliance with local regulations. Arda’s architecture separates data layers from consensus to enforce locality while maintaining cryptographic verifiability.
-
----
-
-## 🧱 Residency Strategies
+## Residency Strategies
 
 ### 1. **Jurisdictional Vault Nodes**
 - Arda Vaults can be deployed regionally with:
@@ -38,7 +34,7 @@ Data residency in Arda ensures that sensitive data—such as personal identity, 
 
 ---
 
-## 🔐 Use Cases
+## Use Cases
 
 - UAE DLD title data cannot leave local cloud under law
 - Singapore MAS requires investor data retention in APAC
@@ -46,7 +42,7 @@ Data residency in Arda ensures that sensitive data—such as personal identity, 
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - SDK allows:
   - `registerRegionalVault()`, `verifyResidency()`
@@ -55,7 +51,7 @@ Data residency in Arda ensures that sensitive data—such as personal identity, 
 
 ---
 
-## 🔄 Interop and Encryption
+## Interop and Encryption
 
 - Data can be mirrored across jurisdictions only with:
   - Attestation by owner or regulator
@@ -64,7 +60,7 @@ Data residency in Arda ensures that sensitive data—such as personal identity, 
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Arda Vault](../middleware/arda-vault.md)
 - [Compliance Engine](../protocol/compliance-engine.md)
@@ -72,7 +68,7 @@ Data residency in Arda ensures that sensitive data—such as personal identity, 
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

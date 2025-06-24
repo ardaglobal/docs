@@ -1,24 +1,20 @@
 # Trading RFQ Example
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
+---
+
+## Overview
+
+This example demonstrates how to execute a compliant off-chain negotiated trade using Arda Trading's Request-for-Quote (RFQ) engine. It simulates a fractional real estate token being offered and acquired through an RFQ flow, with embedded eligibility checks and escrowed settlement.
 
 ---
 
-## 🧭 Overview
-
-This example demonstrates how to execute a compliant off-chain negotiated trade using Arda Trading’s Request-for-Quote (RFQ) engine. It simulates a fractional real estate token being offered and acquired through an RFQ flow, with embedded eligibility checks and escrowed settlement.
-
----
-
-## 🧪 Scenario Summary
+## Scenario Summary
 
 A Tier 3 investor negotiates to acquire a 5% stake in a Dubai residential building via an RFQ exchange with a Tier 2 seller. Settlement is delayed until regulatory approval and escrow validation.
 
 ---
 
-## 🧱 Step-by-Step Flow
+## Step-by-Step Flow
 
 ### 1. **List RFQ Offer**
 - Seller calls `createRFQ()` via SDK:
@@ -49,7 +45,7 @@ A Tier 3 investor negotiates to acquire a 5% stake in a Dubai residential buildi
 
 ---
 
-## 🔁 Hooks and Logs
+## Hooks and Logs
 
 - `onEscrowReady()` → triggers buffer countdown
 - `onEscrowExpired()` → triggers rollback
@@ -57,7 +53,7 @@ A Tier 3 investor negotiates to acquire a 5% stake in a Dubai residential buildi
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - SDK:
   - `createRFQ()`, `respondToRFQ()`, `finalizeRFQTrade()`
@@ -66,7 +62,7 @@ A Tier 3 investor negotiates to acquire a 5% stake in a Dubai residential buildi
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Arda Trading](../product/arda-trading.md)
 - [Compliance Engine](../protocol/compliance-engine.md)
@@ -75,7 +71,7 @@ A Tier 3 investor negotiates to acquire a 5% stake in a Dubai residential buildi
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

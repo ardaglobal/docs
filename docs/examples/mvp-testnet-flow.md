@@ -1,18 +1,14 @@
 # MVP Testnet Flow
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 This example outlines a Minimum Viable Product (MVP) flow for testing tokenized real estate functionality in a regional Arda OS testnet. It includes onboarding, asset registration, token issuance, compliance enforcement, and secondary trading—all under test conditions.
 
 ---
 
-## 🧪 Scenario Summary
+## Scenario Summary
 
 A developer launches a testnet instance for a fictional city (e.g. Testburg) and simulates the lifecycle of a fractionalized residential property:
 
@@ -23,7 +19,7 @@ A developer launches a testnet instance for a fictional city (e.g. Testburg) and
 
 ---
 
-## 🧱 Step-by-Step Flow
+## Step-by-Step Flow
 
 ### 1. **Create Region Testnet**
 - Launch Arda OS using `testburg-genesis.json`
@@ -57,7 +53,7 @@ A developer launches a testnet instance for a fictional city (e.g. Testburg) and
 
 ---
 
-## 📦 Deployment Checklist
+## Deployment Checklist
 
 - [ ] Arda OS testnet running
 - [ ] KYC module deployed and configured
@@ -67,7 +63,7 @@ A developer launches a testnet instance for a fictional city (e.g. Testburg) and
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - All SDK calls tested using Arda CLI and Postman collection
 - Events can be queried via `queryAuditLog()` or testnet explorer
@@ -75,7 +71,7 @@ A developer launches a testnet instance for a fictional city (e.g. Testburg) and
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Asset Primitives](../primitives/asset-primitives.md)
 - [Token Models](../protocol/token-models.md)
@@ -84,7 +80,7 @@ A developer launches a testnet instance for a fictional city (e.g. Testburg) and
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

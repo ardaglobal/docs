@@ -1,10 +1,8 @@
 # Loan Structures
 
-> *Version: 1.0 • Last updated: 2025-06-23*
-
 ---
 
-## Overview
+## 🧭 Overview
 
 This module defines the supported loan structures within Arda Capital. Each structure represents a standardized template for configuring real-world asset-backed loans, including repayment mechanics, collateralization terms, jurisdiction-specific rules, and tokenization logic.
 

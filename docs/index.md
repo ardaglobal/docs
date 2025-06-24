@@ -1,8 +1,8 @@
-# Arda Protocol Documentation
+# Arda Documentation
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
+Arda is a vertically integrated operating system for real estate and structured private capital markets. It transforms real-world assets into programmable, compliance-first digital instruments, enabling global liquidity, institutional-grade compliance, and seamless financial innovation.
+
+This documentation provides a full specification of Arda's protocol architecture, primitives, products, deployment strategies, and integration layers. It is designed for developers, integrators, regulators, and contributors to the Arda ecosystem.
 
 ---
 

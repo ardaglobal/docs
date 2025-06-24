@@ -1,12 +1,8 @@
 # Arda SDK
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 The Arda SDK provides a developer-facing interface to interact with the Arda protocol stack. It abstracts core functionality across sovereign chains, the Arda Core coordination layer, compliance enforcement, token lifecycles, and agentic logic. 
 
@@ -14,7 +10,7 @@ It is the primary toolkit for building applications, integrations, agents, and d
 
 ---
 
-## 🧱 Key Modules
+## Key Modules
 
 ### 1. **Identity & Access**
 - Methods:
@@ -55,7 +51,7 @@ It is the primary toolkit for building applications, integrations, agents, and d
 
 ---
 
-## 🔗 Chain Abstraction Layer
+## Chain Abstraction Layer
 
 - The SDK handles routing and message encoding across:
   - Arda OS regional chains (via RPC or message bus)
@@ -64,7 +60,7 @@ It is the primary toolkit for building applications, integrations, agents, and d
 
 ---
 
-## 🔐 Permissions & Role Control
+## Permissions & Role Control
 
 - SDK actions restricted by:
   - WalletGroup affiliation
@@ -74,7 +70,7 @@ It is the primary toolkit for building applications, integrations, agents, and d
 
 ---
 
-## 🧪 Example Usage
+## Example Usage
 
 ```ts
 const investor = await sdk.registerEntity("Investor", KYC_TIER_2)
@@ -84,7 +80,7 @@ await sdk.transferWithComplianceCheck(token.id, investor.wallet, 100)
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Compliance Engine](../protocol/compliance-engine.md)
 - [Token Models](../protocol/token-models.md)
@@ -93,7 +89,7 @@ await sdk.transferWithComplianceCheck(token.id, investor.wallet, 100)
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

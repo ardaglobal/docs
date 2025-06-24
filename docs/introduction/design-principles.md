@@ -1,20 +1,16 @@
 # Arda Design Principles
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 Arda is architected from first principles to serve as a compliant, programmable, and modular operating system for private capital markets and real-world assets. These guiding principles inform every design decision across protocol, infrastructure, and ecosystem layers.
 
 ---
 
-## 🧱 Core Design Principles
+## Core Design Principles
 
-### 1. 🌐 Global Liquidity, Regional Compliance
+### 1. Global Liquidity, Regional Compliance
 
 - Arda separates **global coordination** from **local execution**.
 - Regional chains (Arda OS) comply with local regulations, while Arda Core coordinates identity, registry, and liquidity routing globally.
@@ -22,7 +18,7 @@ Arda is architected from first principles to serve as a compliant, programmable,
 
 ---
 
-### 2. 🔐 Compliance by Design
+### 2. Compliance by Design
 
 - Compliance is embedded into the protocol—not bolted on.
 - Every transaction, transfer, and agent interaction respects KYC/AML, sanctions, tax rules, and jurisdictional restrictions.
@@ -30,14 +26,14 @@ Arda is architected from first principles to serve as a compliant, programmable,
 
 ---
 
-### 3. 🧩 Modular and Extensible
+### 3. Modular and Extensible
 
 - Arda is a vertically integrated stack, but each layer is modular and independently upgradeable.
 - From SDKs and agent logic to on-chain governance and asset tokenization standards, developers can plug into the protocol with minimal friction.
 
 ---
 
-### 4. 🧠 Data-Driven and Agent-Native
+### 4. Data-Driven and Agent-Native
 
 - Data is treated as a first-class asset.
 - All assets, actors, and events are mapped to a **shared semantic model** enabling analytics, risk evaluation, and AI-native workflows.
@@ -45,7 +41,7 @@ Arda is architected from first principles to serve as a compliant, programmable,
 
 ---
 
-### 5. ⚖️ Deterministic Execution with Institutional Guarantees
+### 5. Deterministic Execution with Institutional Guarantees
 
 - Arda avoids unpredictable smart contract execution by embedding deterministic rules into the protocol.
 - Legal structures (SPVs, mandates) and financial logic (drawdowns, tranching) are modeled as verifiable state transitions.
@@ -53,7 +49,7 @@ Arda is architected from first principles to serve as a compliant, programmable,
 
 ---
 
-### 6. 🤝 Ecosystem Interoperability
+### 6. Ecosystem Interoperability
 
 - Arda is designed to interoperate with traditional systems (land registries, banks, custodians) and emerging ones (zkRollups, Cosmos IBC, L2 bridges).
 - Support for ISO, SWIFT, ISIN, and global financial standards ensures institutional readiness.
@@ -61,7 +57,7 @@ Arda is architected from first principles to serve as a compliant, programmable,
 
 ---
 
-## 🛠️ Developer Takeaways
+## Developer Takeaways
 
 - No global VM: Execution occurs locally with minimal trusted coordination.
 - Agents are first-class: Workflows and deal logic can be modeled using programmable agent modules.
@@ -69,7 +65,7 @@ Arda is architected from first principles to serve as a compliant, programmable,
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [What is Arda](what-is-arda.md)
 - [Core Primitives](../primitives/core-primitives.md)
@@ -78,7 +74,7 @@ Arda is architected from first principles to serve as a compliant, programmable,
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|
@@ -86,7 +82,7 @@ Arda is architected from first principles to serve as a compliant, programmable,
 
 ---
 
-## 📚 See Also
+## See Also
 
 - **Programmable & Composable**: Assets and agreements are not static. They are programmable state machines that can be composed into higher-order financial products. See [Core Primitives](../primitives/core-primitives.md) for more.
 - **Open & Interoperable**: Arda is designed to integrate with existing financial infrastructure, public blockchains, and third-party services, avoiding vendor lock-in.

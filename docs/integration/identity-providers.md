@@ -1,18 +1,14 @@
 # Identity Providers
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 Identity provider integrations enable Arda to verify users, investors, institutions, and agents across jurisdictions using trusted KYC/KYB workflows. Arda supports pluggable, programmable identity systems that conform to both local compliance rules and global coordination needs.
 
 ---
 
-## 🔐 Identity Types
+## Identity Types
 
 ### 1. **KYC (Individuals)**
 - Tiered system:
@@ -33,7 +29,7 @@ Identity provider integrations enable Arda to verify users, investors, instituti
 
 ---
 
-## 🧩 Integration Standards
+## Integration Standards
 
 - OAuth2 and OpenID Connect supported
 - Verifiable Credential (VC) format with ZK proof compatibility
@@ -42,7 +38,7 @@ Identity provider integrations enable Arda to verify users, investors, instituti
 
 ---
 
-## 🧱 Regional Providers (Examples)
+## Regional Providers (Examples)
 
 | Region | Providers |
 |--------|-----------|
@@ -53,7 +49,7 @@ Identity provider integrations enable Arda to verify users, investors, instituti
 
 ---
 
-## 🔄 Identity Lifecycle
+## Identity Lifecycle
 
 1. User initiates onboarding
 2. Identity verified via provider
@@ -63,7 +59,7 @@ Identity provider integrations enable Arda to verify users, investors, instituti
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - SDK includes:
   - `registerIdentityProvider()`, `verifyKYC()`, `updateTier()`
@@ -72,7 +68,7 @@ Identity provider integrations enable Arda to verify users, investors, instituti
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Compliance Engine](../protocol/compliance-engine.md)
 - [Token Models](../protocol/token-models.md)
@@ -81,7 +77,7 @@ Identity provider integrations enable Arda to verify users, investors, instituti
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

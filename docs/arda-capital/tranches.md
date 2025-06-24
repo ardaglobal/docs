@@ -1,10 +1,8 @@
-# Tranche System
-
-> *Version: 1.0 • Last updated: 2025-06-23*
+# Tranches
 
 ---
 
-## Overview
+## 🧭 Overview
 
 The Tranche System in Arda Capital enables the creation, distribution, and lifecycle management of TrancheTokens. These tokens represent layered claims on cashflows within a syndicated capital pool, allowing for structured risk and return profiles.
 

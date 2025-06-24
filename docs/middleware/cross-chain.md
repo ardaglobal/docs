@@ -1,20 +1,16 @@
 # Cross-Chain Architecture
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
-Arda’s cross-chain architecture enables secure interoperability between sovereign Arda OS chains, Arda Core, and external blockchains. It ensures that assets, users, and rights can move across jurisdictions without fragmenting compliance, state, or governance.
+Arda's cross-chain architecture enables secure interoperability between sovereign Arda OS chains, Arda Core, and external blockchains. It ensures that assets, users, and rights can move across jurisdictions without fragmenting compliance, state, or governance.
 
 Arda achieves this via a layered bridging and message-passing infrastructure anchored in Arda Clear.
 
 ---
 
-## 🔁 Supported Interop Modes
+## Supported Interop Modes
 
 ### 1. **Arda OS ↔ Arda OS**
 - Message passing via:
@@ -42,7 +38,7 @@ Arda achieves this via a layered bridging and message-passing infrastructure anc
 
 ---
 
-## 📦 Arda Clear Bridge Layer
+## Arda Clear Bridge Layer
 
 Arda Clear includes:
 
@@ -53,7 +49,7 @@ Arda Clear includes:
 
 ---
 
-## 🔐 Compliance Enforcement
+## Compliance Enforcement
 
 - Transfers are only finalized if:
   - TransferRules pass on both sides
@@ -62,7 +58,7 @@ Arda Clear includes:
 
 ---
 
-## 🧱 Interop Security Design
+## Interop Security Design
 
 - All bridge messages are:
   - Signed by quorum of regional validators
@@ -76,7 +72,7 @@ Arda Clear includes:
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - SDK includes:
   - `wrapToken()`, `transferToRegion()`, `queryBridgeProof()`
@@ -85,7 +81,7 @@ Arda Clear includes:
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Settlement](../protocol/settlement.md)
 - [Token Models](../protocol/token-models.md)
@@ -94,7 +90,7 @@ Arda Clear includes:
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

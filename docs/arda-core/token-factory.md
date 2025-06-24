@@ -1,7 +1,5 @@
 # Arda Token Factory
 
-> *Version: 1.0 • Last updated: 2025-06-23*
-
 ---
 
 ## Overview

@@ -1,18 +1,14 @@
 # Validator Setup
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 Validators are responsible for block production, compliance enforcement, and cross-chain message signing within each Arda OS region. This guide outlines the setup process, role permissions, and operational requirements for regional validator nodes.
 
 ---
 
-## 🧱 Validator Roles
+## Validator Roles
 
 ### 1. **Block Producer**
 - Participates in consensus (POA or rollup sequencer)
@@ -28,7 +24,7 @@ Validators are responsible for block production, compliance enforcement, and cro
 
 ---
 
-## 🧩 Setup Requirements
+## Setup Requirements
 
 - **Hardware**:
   - 4–8 vCPUs, 16–32 GB RAM, SSD storage
@@ -42,7 +38,7 @@ Validators are responsible for block production, compliance enforcement, and cro
 
 ---
 
-## 🔐 Key Management
+## Key Management
 
 - Validator keys are generated per chain ID
 - Stored securely using:
@@ -52,7 +48,7 @@ Validators are responsible for block production, compliance enforcement, and cro
 
 ---
 
-## ⚙️ Lifecycle Operations
+## Lifecycle Operations
 
 - Join validator set via governance or allowlist
 - Run observability and heartbeats
@@ -61,7 +57,7 @@ Validators are responsible for block production, compliance enforcement, and cro
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - SDK methods:
   - `registerValidator()`, `rotateKeys()`, `submitProof()`
@@ -70,7 +66,7 @@ Validators are responsible for block production, compliance enforcement, and cro
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Regional Deployment](regional-deployment.md)
 - [Compliance Engine](../protocol/compliance-engine.md)
@@ -79,7 +75,7 @@ Validators are responsible for block production, compliance enforcement, and cro
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

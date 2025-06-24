@@ -1,10 +1,8 @@
-# Syndication Engine
-
-> *Version: 1.0 • Last updated: 2025-06-23*
+# Syndication
 
 ---
 
-## Overview
+## 🧭 Overview
 
 The Syndication Engine is the programmable capital allocation layer within Arda Capital. It enables institutional and retail investors to participate in structured deals by staking capital into permissioned pools. These pools syndicate approved loans or deals based on predefined risk filters, jurisdictional rules, and tranche mechanics.
 

@@ -1,20 +1,16 @@
 # Observability
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 Observability in Arda ensures operational integrity, regulatory traceability, and developer visibility across all deployed chains, agents, and vaults. It includes metrics, logging, tracing, and alerting across sovereign Arda OS chains and Arda Core coordination logic.
 
-Arda’s observability layer is modular, privacy-aware, and compatible with enterprise security standards.
+Arda's observability layer is modular, privacy-aware, and compatible with enterprise security standards.
 
 ---
 
-## 📊 Key Components
+## Key Components
 
 ### 1. **Metrics & Monitoring**
 - Collected from:
@@ -55,7 +51,7 @@ Arda’s observability layer is modular, privacy-aware, and compatible with ente
 
 ---
 
-## 🔐 Data Privacy
+## Data Privacy
 
 - Logs can be scoped by:
   - Jurisdiction
@@ -64,7 +60,7 @@ Arda’s observability layer is modular, privacy-aware, and compatible with ente
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - Arda OS and Core export metrics via `/metrics` and log JSON files
 - SDK includes:
@@ -73,7 +69,7 @@ Arda’s observability layer is modular, privacy-aware, and compatible with ente
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Validator Setup](validator-setup.md)
 - [Arda Vault](../middleware/arda-vault.md)
@@ -82,7 +78,7 @@ Arda’s observability layer is modular, privacy-aware, and compatible with ente
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

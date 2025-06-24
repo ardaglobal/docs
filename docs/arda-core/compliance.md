@@ -1,7 +1,5 @@
 # Arda Compliance Engine
 
-> *Version: 1.0 • Last updated: 2025-06-23*
-
 ---
 
 ## Overview
@@ -77,7 +75,7 @@ transfer_rule:
 - **Trading Gatekeeping**: Ensure only whitelisted jurisdictions can trade high-risk asset classes.
 - **Cross-Border Limits**: Block specific transfers or require additional documentation for international movement.
 - **Investor Qualification**: Restrict offerings to accredited or professional investors.
-- **Lifecycle Enforcement**: Apply different rules at each stage of an asset’s lifecycle (issuance, transfer, redemption).
+- **Lifecycle Enforcement**: Apply different rules at each stage of an asset's lifecycle (issuance, transfer, redemption).
 
 ---
 

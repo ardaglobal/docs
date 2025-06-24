@@ -1,12 +1,8 @@
 # Financial Primitives
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 Financial primitives in Arda define the contract-level representations of capital, debt, yield, and structured risk. These standardized components enable composable financial engineering while maintaining compliance and lifecycle guarantees.
 
@@ -14,7 +10,7 @@ They serve as the foundation for Arda Capital, Arda Trading, and Arda Clear flow
 
 ---
 
-## 💰 Primary Primitives
+## Primary Primitives
 
 ### 1. **DebtToken**
 - Represents a borrower's obligation to repay a lender or syndicate.
@@ -51,7 +47,7 @@ They serve as the foundation for Arda Capital, Arda Trading, and Arda Clear flow
 
 ---
 
-## 🔁 Supporting Logic
+## Supporting Logic
 
 ### 5. **Drawdown**
 - Event triggered when funds are disbursed from a facility.
@@ -69,7 +65,7 @@ They serve as the foundation for Arda Capital, Arda Trading, and Arda Clear flow
 
 ---
 
-## 📊 Structuring & Monitoring
+## Structuring & Monitoring
 
 ### 8. **Waterfall**
 - Defines how cash flows are distributed across TrancheTokens.
@@ -87,7 +83,7 @@ They serve as the foundation for Arda Capital, Arda Trading, and Arda Clear flow
 
 ---
 
-## 🧠 Derived Instruments
+## Derived Instruments
 
 Arda supports higher-order instruments via combinations of primitives:
 - Tokenized REITs
@@ -97,7 +93,7 @@ Arda supports higher-order instruments via combinations of primitives:
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - SDK methods:
   - `createDebtToken()`, `splitTranche()`, `accrueInterest()`
@@ -106,7 +102,7 @@ Arda supports higher-order instruments via combinations of primitives:
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Token Models](../protocol/token-models.md)
 - [Treasury Flow](../protocol/treasury-flow.md)
@@ -115,7 +111,7 @@ Arda supports higher-order instruments via combinations of primitives:
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

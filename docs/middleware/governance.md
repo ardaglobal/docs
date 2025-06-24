@@ -1,12 +1,8 @@
 # Governance
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 Arda Governance enables decentralized, structured decision-making across the Arda ecosystem. It governs protocol upgrades, taxonomy changes, jurisdictional policy updates, and ecosystem funding allocations. Governance is enforced both on-chain and via cryptographic attestations.
 
@@ -14,7 +10,7 @@ It is designed for flexibility across sovereign regions, while retaining coheren
 
 ---
 
-## 🧱 Core Components
+## Core Components
 
 ### 1. **Arda Improvement Proposals (AIPs)**
 - Proposal format for:
@@ -54,7 +50,7 @@ It is designed for flexibility across sovereign regions, while retaining coheren
 
 ---
 
-## 🌐 Regional Autonomy
+## Regional Autonomy
 
 - Jurisdictions may define:
   - Local policies
@@ -64,7 +60,7 @@ It is designed for flexibility across sovereign regions, while retaining coheren
 
 ---
 
-## 🔐 Role and Identity Controls
+## Role and Identity Controls
 
 - Voting and proposals gated by:
   - Entity registration
@@ -74,7 +70,7 @@ It is designed for flexibility across sovereign regions, while retaining coheren
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - SDK methods:
   - `submitAIP()`, `vote()`, `executeProposal()`, `queryPolicy()`
@@ -83,7 +79,7 @@ It is designed for flexibility across sovereign regions, while retaining coheren
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Core Primitives](../primitives/core-primitives.md)
 - [Compliance Engine](../protocol/compliance-engine.md)
@@ -92,7 +88,7 @@ It is designed for flexibility across sovereign regions, while retaining coheren
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|
@@ -100,7 +96,7 @@ It is designed for flexibility across sovereign regions, while retaining coheren
 
 ---
 
-## 📚 See Also
+## See Also
 
 - [Core Primitives](../primitives/core-primitives.md)
 - [Agent Primitives](../primitives/agent-primitives.md)

@@ -1,24 +1,20 @@
 # Programmable Loan Example
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 This example demonstrates how to structure and deploy a programmable loan using Arda Capital. It covers facility creation, drawdown logic, interest accrual, repayment schedules, and event-triggered transitions—all under embedded compliance and risk monitoring.
 
 ---
 
-## 🧪 Scenario Summary
+## Scenario Summary
 
 A developer sets up a $2M construction loan facility for a residential project using a programmable SPV and automated milestone-based drawdowns. Yield and tranche structuring logic is included.
 
 ---
 
-## 🧱 Step-by-Step Flow
+## Step-by-Step Flow
 
 ### 1. **Create SPV and Facility**
 - SPV entity initialized with `createEntity()`
@@ -58,7 +54,7 @@ A developer sets up a $2M construction loan facility for a residential project u
 
 ---
 
-## 🔄 Event Hooks Used
+## Event Hooks Used
 
 - `onMilestoneCompleted()` → triggers drawdown
 - `onLatePayment()` → apply penalty and alert agent
@@ -66,7 +62,7 @@ A developer sets up a $2M construction loan facility for a residential project u
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - SDK used:
   - `createFacility()`, `registerSchedule()`, `drawdown()`, `repay()`
@@ -75,7 +71,7 @@ A developer sets up a $2M construction loan facility for a residential project u
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Arda Capital](../product/arda-capital.md)
 - [Financial Primitives](../primitives/financial-primitives.md)
@@ -84,7 +80,7 @@ A developer sets up a $2M construction loan facility for a residential project u
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

@@ -1,12 +1,8 @@
 # Regional Deployment
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 Regional deployment is the process of launching and configuring an Arda OS instance for a specific jurisdiction. This enables compliance with local regulations, data residency mandates, and infrastructure control, while maintaining global interoperability through Arda Core.
 
@@ -14,7 +10,7 @@ Each deployment is modular, sovereign, and optimized for local needs.
 
 ---
 
-## 🧱 Deployment Architecture
+## Deployment Architecture
 
 ### 1. **Sovereign Chain Instance**
 - Rollkit / Cosmos SDK-based rollup or POA chain
@@ -35,7 +31,7 @@ Each deployment is modular, sovereign, and optimized for local needs.
 
 ---
 
-## 🌐 Integration with Arda Core
+## Integration with Arda Core
 
 - All regional chains register:
   - Chain ID
@@ -46,7 +42,7 @@ Each deployment is modular, sovereign, and optimized for local needs.
 
 ---
 
-## 🧾 Legal & Regulatory Considerations
+## Legal & Regulatory Considerations
 
 - Requires MOU or legal agreement with:
   - Land registry
@@ -56,7 +52,7 @@ Each deployment is modular, sovereign, and optimized for local needs.
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - Deployment SDK available for scripted config and validator launch
 - Initial setup includes:
@@ -67,7 +63,7 @@ Each deployment is modular, sovereign, and optimized for local needs.
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Arda OS](../product/arda-os.md)
 - [Compliance Engine](../protocol/compliance-engine.md)
@@ -76,7 +72,7 @@ Each deployment is modular, sovereign, and optimized for local needs.
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

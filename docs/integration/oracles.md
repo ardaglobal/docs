@@ -1,18 +1,14 @@
 # Oracle Integration
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 Oracles in Arda supply off-chain data needed for risk assessment, asset valuation, repayment triggers, and compliance enforcement. Arda supports trusted oracles scoped by jurisdiction and role, with optional staking, signature, or zero-knowledge attestation.
 
 ---
 
-## 📦 Oracle Use Cases
+## Oracle Use Cases
 
 ### 1. **Asset Valuation**
 - Periodic updates for:
@@ -40,7 +36,7 @@ Oracles in Arda supply off-chain data needed for risk assessment, asset valuatio
 
 ---
 
-## 🔐 Security Models
+## Security Models
 
 - Oracles may be:
   - Signed by validator sets
@@ -55,7 +51,7 @@ Oracles in Arda supply off-chain data needed for risk assessment, asset valuatio
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - SDK methods:
   - `registerOracleSource()`, `submitOracleUpdate()`, `verifyOracleProof()`
@@ -64,7 +60,7 @@ Oracles in Arda supply off-chain data needed for risk assessment, asset valuatio
 
 ---
 
-## 🧪 Example Oracle Update
+## Example Oracle Update
 
 ```json
 {
@@ -79,7 +75,7 @@ Oracles in Arda supply off-chain data needed for risk assessment, asset valuatio
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Compliance Engine](../protocol/compliance-engine.md)
 - [Lifecycle](../protocol/lifecycle.md)
@@ -88,7 +84,7 @@ Oracles in Arda supply off-chain data needed for risk assessment, asset valuatio
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

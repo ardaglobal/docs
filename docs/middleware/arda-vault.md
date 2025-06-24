@@ -1,12 +1,8 @@
 # Arda Vault
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 Arda Vault is the privacy-preserving data layer for sensitive legal, financial, and identity-related documents and metadata. It ensures compliance with data residency laws, preserves confidentiality, and enables cryptographic verification of off-chain documents tied to on-chain state.
 
@@ -14,7 +10,7 @@ Arda Vault is foundational for asset legitimacy, compliance, auditability, and r
 
 ---
 
-## 🔐 Core Capabilities
+## Core Capabilities
 
 ### 1. **Secure Document Storage**
 - Documents stored off-chain with hash anchoring on-chain.
@@ -49,7 +45,7 @@ Arda Vault is foundational for asset legitimacy, compliance, auditability, and r
 
 ---
 
-## 📜 Compliance Applications
+## Compliance Applications
 
 - KYC documents stored with attestation link to Wallet Group
 - Real estate registry anchors linked to AssetTokens
@@ -58,16 +54,16 @@ Arda Vault is foundational for asset legitimacy, compliance, auditability, and r
 
 ---
 
-## 🧠 Query and Compute
+## Query and Compute
 
 - MPC or FHE allows:
-  - “Yes/No” compliance proofs without revealing data
+  - "Yes/No" compliance proofs without revealing data
   - Statistical summaries (e.g. investor demographics)
   - Verification of document state without decrypting content
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - Vault API includes:
   - `registerDoc()`, `getHash()`, `verifyAccess()`
@@ -76,7 +72,7 @@ Arda Vault is foundational for asset legitimacy, compliance, auditability, and r
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Compliance Engine](../protocol/compliance-engine.md)
 - [Token Models](../protocol/token-models.md)
@@ -85,7 +81,7 @@ Arda Vault is foundational for asset legitimacy, compliance, auditability, and r
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

@@ -1,7 +1,5 @@
 # ArdaOS
 
-> *Version: 1.0 • Last updated: 2025-06-23*
-
 ---
 
 ## Overview
@@ -49,7 +47,7 @@ Each ArdaOS deployment includes a reference SDK interface that:
 - Implements all Arda Core modules
 - Exposes cross-chain callable methods (`xcall`)
 - Maps global asset IDs to local chain representations
-- Routes compliance requests to Arda Core’s attestation layer
+- Routes compliance requests to Arda Core's attestation layer
 
 ---
 

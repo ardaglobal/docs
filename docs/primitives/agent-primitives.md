@@ -1,12 +1,8 @@
 # Agent Primitives
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 Agent primitives are modular, programmable actors within Arda that facilitate structured decision-making and execution for credit, compliance, trading, and monitoring. These agents operate within the protocol, follow deterministic rules or AI-augmented logic, and are permissioned by role and jurisdiction.
 
@@ -14,7 +10,7 @@ They can be composed into deal flows, delegated to users or institutions, or use
 
 ---
 
-## 🤖 Core Agent Types
+## Core Agent Types
 
 ### 1. **Connect Agent**
 - Matches originators with investors based on:
@@ -56,7 +52,7 @@ They can be composed into deal flows, delegated to users or institutions, or use
 
 ---
 
-## 🧩 Agent Registry & Permissions
+## Agent Registry & Permissions
 
 - Each agent is registered with:
   - Agent ID
@@ -71,7 +67,7 @@ They can be composed into deal flows, delegated to users or institutions, or use
 
 ---
 
-## 🎯 Staking and Attribution
+## Staking and Attribution
 
 - Agents may be required to stake tokens to operate.
 - Bad behavior may result in slashing or blacklist.
@@ -79,7 +75,7 @@ They can be composed into deal flows, delegated to users or institutions, or use
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - Agents deploy via SDK using `registerAgent()` and `publishTemplate()`
 - Agent outputs are callable in facility creation, monitoring, and governance
@@ -87,7 +83,7 @@ They can be composed into deal flows, delegated to users or institutions, or use
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Token Models](../protocol/token-models.md)
 - [Compliance Engine](../protocol/compliance-engine.md)
@@ -96,7 +92,7 @@ They can be composed into deal flows, delegated to users or institutions, or use
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

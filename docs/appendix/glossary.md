@@ -1,9 +1,5 @@
 # Glossary
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
 ## 🧭 Overview

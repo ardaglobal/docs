@@ -1,10 +1,8 @@
-# Capital Compliance Layer
-
-> *Version: 1.0 • Last updated: 2025-06-23*
+# Compliance
 
 ---
 
-## Overview
+## 🧭 Overview
 
 This document defines how Arda Capital applies compliance enforcement across the lending, syndication, and tokenization lifecycle. While Arda Core's Compliance Engine provides the base enforcement primitives, Arda Capital extends them to enforce eligibility, permissioning, and transparency in capital markets contexts.
 

@@ -1,12 +1,10 @@
-# Mandates and Legal Structuring
-
-> *Version: 1.0 • Last updated: 2025-06-23*
+# Investment Mandates
 
 ---
 
-## Overview
+## 🧭 Overview
 
-The Mandates module in Arda Capital facilitates the creation and management of legal and operational structures such as SPVs, trusts, and fund wrappers. These entities enable tokenized assets and debt instruments to remain legally enforceable off-chain while interoperating with Arda Core’s programmable logic.
+The Mandates module in Arda Capital facilitates the creation and management of legal and operational structures such as SPVs, trusts, and fund wrappers. These entities enable tokenized assets and debt instruments to remain legally enforceable off-chain while interoperating with Arda Core's programmable logic.
 
 Mandates provide the bridge between on-chain financial instruments and traditional legal entities required by institutional investors, regulators, and auditors.
 

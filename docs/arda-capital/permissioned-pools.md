@@ -1,10 +1,8 @@
 # Permissioned Pools
 
-> *Version: 1.0 • Last updated: 2025-06-23*
-
 ---
 
-## Overview
+## 🧭 Overview
 
 Permissioned Pools are a foundational primitive in Arda Capital used to facilitate jurisdiction-aware, KYC-gated capital formation. They enable only qualified participants to join investment opportunities, ensuring compliance with regional regulations while supporting programmable capital deployment.
 

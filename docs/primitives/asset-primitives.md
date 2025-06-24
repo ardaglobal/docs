@@ -1,12 +1,8 @@
 # Asset Primitives
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 Asset Primitives in Arda define how physical, legal, and economic characteristics of real-world assets are modeled on-chain. These primitives serve as the foundation for tokenizing and interacting with real estate, infrastructure, commodities, and their associated rights.
 
@@ -16,7 +12,7 @@ This document outlines the key primitives that define assets on Arda. For a broa
 
 ---
 
-## 🧱 Core Asset Types
+## Core Asset Types
 
 ### 1. **AssetToken**
 - Tokenized representation of a physical or legal asset.
@@ -45,7 +41,7 @@ This document outlines the key primitives that define assets on Arda. For a broa
 
 ---
 
-## 🧬 Metadata Schema
+## Metadata Schema
 
 Each asset has a standardized schema:
 
@@ -65,7 +61,7 @@ Each asset has a standardized schema:
 
 ---
 
-## 🔁 Lifecycle Hooks
+## Lifecycle Hooks
 
 Assets can evolve through:
 
@@ -76,7 +72,7 @@ Assets can evolve through:
 
 ---
 
-## 🔐 Compliance & Permissions
+## Compliance & Permissions
 
 - Ownership transfers require:
   - KYC Tier match
@@ -86,7 +82,7 @@ Assets can evolve through:
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - Asset metadata managed via Arda Ledger
 - Linked documents stored and hashed in Arda Vault
@@ -94,7 +90,7 @@ Assets can evolve through:
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Core Primitives](core-primitives.md)
 - [Token Models](../protocol/token-models.md)
@@ -103,7 +99,7 @@ Assets can evolve through:
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

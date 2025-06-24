@@ -1,10 +1,8 @@
-# Capital Analytics and Monitoring
-
-> *Version: 1.0 • Last updated: 2025-06-23*
+# Analytics & Reporting
 
 ---
 
-## Overview
+## 🧭 Overview
 
 The Analytics module in Arda Capital provides real-time, on-chain and off-chain performance insights for loans, pools, tranches, and portfolios. It leverages protocol-native data structures, observability agents, and risk primitives to power dashboards, reports, and agent-based triggers.
 

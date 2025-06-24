@@ -1,12 +1,8 @@
 # Core Protocol Primitives
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 Arda's protocol is built on a set of well-defined primitives that model real-world legal, financial, and operational structures as composable on-chain objects. These primitives define the semantics, permissions, and behaviors of all entities and assets within the Arda ecosystem.
 
@@ -14,7 +10,7 @@ They are deterministic, auditable, and designed to enable secure automation, com
 
 ---
 
-## 🧱 Core Entities
+## Core Entities
 
 ### 1. **Entity**
 Represents a person, organization, or legal wrapper (e.g. SPV, Trust).
@@ -31,7 +27,7 @@ Permissioning schema for identity verification.
 
 ---
 
-## 💰 Token Primitives
+## Token Primitives
 
 ### 4. **MoneyToken**
 Fungible tokens used for payments, stablecoins, or fiat representations.
@@ -59,7 +55,7 @@ Smart container for capital constrained by compliance rules.
 
 ---
 
-## ⚖️ Legal & Operational Structures
+## Legal & Operational Structures
 
 ### 10. **SPV**
 Special-purpose vehicle tied to one or more assets and/or investors.
@@ -74,7 +70,7 @@ Models asset custodianship, e.g. when a bank or trust holds tokens or off-chain 
 
 ---
 
-## 🔄 Financial Logic
+## Financial Logic
 
 ### 13. **Drawdown**
 Represents an authorized capital disbursement in a facility.
@@ -90,7 +86,7 @@ Manages originator, servicer, platform, and regulatory fees.
 
 ---
 
-## 💸 Treasury & Capital Flow
+## Treasury & Capital Flow
 
 ### 17. **SweepInstruction**
 Automated treasury actions for cash flows (e.g. daily sweep to issuer).
@@ -103,7 +99,7 @@ Permissioned price or valuation input.
 
 ---
 
-## 📊 Syndication & Structuring
+## Syndication & Structuring
 
 ### 20. **OrderBook**
 Used in primary issuance or lending syndication.
@@ -119,7 +115,7 @@ Defines payment priority for a pool or facility.
 
 ---
 
-## 🛡️ Compliance & Permissioning
+## Compliance & Permissioning
 
 ### 24. **TransferRule**
 Enforces allowable transfers between participants or regions.
@@ -132,7 +128,7 @@ Immutable record of all compliance-relevant protocol events.
 
 ---
 
-## ⏳ Lifecycle & Execution
+## Lifecycle & Execution
 
 ### 27. **FacilityStatus**
 Tracks lifecycle stages of an issuance or facility.
@@ -145,7 +141,7 @@ Triggers logic based on time, status, or oracle condition.
 
 ---
 
-## 💰 Settlement
+## Settlement
 
 ### 30. **SettlementQueue**
 Tracks pending state changes requiring confirmation.
@@ -158,7 +154,7 @@ Performs multi-party netting and finalizes token movements.
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Token Models](../protocol/token-models.md)
 - [Compliance Engine](../protocol/compliance-engine.md)
@@ -167,7 +163,7 @@ Performs multi-party netting and finalizes token movements.
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

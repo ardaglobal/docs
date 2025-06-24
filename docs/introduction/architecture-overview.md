@@ -1,21 +1,17 @@
 # Arda Architecture Overview
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 Arda's architecture is a vertically integrated, modular system for enabling real-world assets to be tokenized, traded, financed, and governed across jurisdictions. It is organized across six primary layers, each serving a specific role in delivering trust, compliance, and composability in private markets.
 
 ---
 
-## 🧱 Layered Stack
+## Layered Stack
 
 ### 1. **Core Protocol Layer**
-- Defines Arda’s primitives: tokens (Asset, Money, Debt, Yield), identity (Entities, KYC), compliance rules, and lifecycle logic (Drawdown, Settlement).
+- Defines Arda's primitives: tokens (Asset, Money, Debt, Yield), identity (Entities, KYC), compliance rules, and lifecycle logic (Drawdown, Settlement).
 - Encoded in a deterministic, no-VM logic format for auditability and control.
 
 ### 2. **Execution Layer (Arda OS)**
@@ -46,7 +42,7 @@ Arda's architecture is a vertically integrated, modular system for enabling real
 
 ---
 
-## 🧩 Diagram
+## Diagram
 
 ```
 [ Semantic Data & Intelligence Layer ]
@@ -64,14 +60,14 @@ Arda's architecture is a vertically integrated, modular system for enabling real
 
 ---
 
-## 🔗 Interoperability & Standards
+## Interoperability & Standards
 
 - Modular bridges with L2s, EVM, IBC, and traditional systems (via ISO/SWIFT standards).
 - Agent SDK and governance APIs allow integration with fintechs, banks, and public registries.
 
 ---
 
-## ⚙️ Future-Proofing
+## Future-Proofing
 
 - Designed to support:
   - Cross-chain liquidity
@@ -81,7 +77,7 @@ Arda's architecture is a vertically integrated, modular system for enabling real
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [What is Arda](what-is-arda.md)
 - [Design Principles](design-principles.md)
@@ -90,7 +86,7 @@ Arda's architecture is a vertically integrated, modular system for enabling real
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|
