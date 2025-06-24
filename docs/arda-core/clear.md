@@ -70,16 +70,3 @@ It ensures that all transfers respect jurisdictional rules, netting configuratio
   "status": "QUEUED"
 }
 ```
-
----
-
-## Related Docs
-
-- [`token-factory.md`](./token-factory.md)
-- [`compliance.md`](./compliance.md)
-- [`vault.md`](./vault.md)
-- [`interop.md`](./interop.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

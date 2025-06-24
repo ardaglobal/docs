@@ -70,13 +70,4 @@ These are modeled using shared risk primitives and intelligence protocol agents.
 
 ---
 
-## Related Docs
-
-- [`loan-structures.md`](./loan-structures.md)
-- [`syndication.md`](./syndication.md)
-- [`token-factory.md`](../arda-core/token-factory.md)
-- [`vault.md`](../arda-core/vault.md)
-
----
-
 *© Arda OS Documentation • Licensed under MIT*

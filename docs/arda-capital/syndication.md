@@ -2,7 +2,7 @@
 
 ---
 
-## 🧭 Overview
+## Overview
 
 The Syndication Engine is the programmable capital allocation layer within Arda Capital. It enables institutional and retail investors to participate in structured deals by staking capital into permissioned pools. These pools syndicate approved loans or deals based on predefined risk filters, jurisdictional rules, and tranche mechanics.
 
@@ -72,16 +72,3 @@ Waterfall logic enforces these ranks programmatically at settlement.
 - **Jurisdiction Profiles**: Apply limits per region (e.g. max contribution size)
 - **Attestation Matching**: Anchor investor or verifier identity linked to pool creation
 - **Audit Log**: Every allocation and distribution is logged immutably
-
----
-
-## Related Docs
-
-- [`tranches.md`](./tranches.md)
-- [`loan-structures.md`](./loan-structures.md)
-- [`token-factory.md`](../arda-core/token-factory.md)
-- [`clear.md`](../arda-core/clear.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

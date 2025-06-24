@@ -2,7 +2,7 @@
 
 ---
 
-## 🧭 Overview
+## Overview
 
 Permissioned Pools are a foundational primitive in Arda Capital used to facilitate jurisdiction-aware, KYC-gated capital formation. They enable only qualified participants to join investment opportunities, ensuring compliance with regional regulations while supporting programmable capital deployment.
 
@@ -68,14 +68,6 @@ Pool access is governed by:
 - **Tranche System** — Issues TrancheTokens for risk-layered pools
 - **Compliance Engine** — Validates eligibility of each participant
 - **Identity Module** — Binds wallet groups to entity roles within the pool
-
----
-
-## Related Docs
-
-- [`syndication.md`](./syndication.md)
-- [`compliance.md`](../arda-core/compliance.md)
-- [`identity.md`](../arda-core/identity.md)
 
 ---
 

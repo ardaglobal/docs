@@ -2,13 +2,13 @@
 
 ---
 
-## 🧭 Overview
+## Overview
 
 This glossary defines the key concepts, roles, and primitives used throughout the Arda ecosystem. It is intended as a quick-reference index for protocol developers, integrators, and stakeholders.
 
 ---
 
-## 🔤 Key Terms
+## Key Terms
 
 ### **AIP (Arda Improvement Proposal)**
 Governance proposal format used to upgrade standards, taxonomies, and rules across Arda.
@@ -72,19 +72,3 @@ A digital representation of an asset, which may be a real-world asset (RWA), a d
 
 ### **Wallet**
 A user-facing application for managing digital assets and interacting with the Arda network. See [Wallet](../arda-core/wallet.md).
-
----
-
-## 📚 See Also
-
-- [Core Primitives](../primitives/core-primitives.md)
-- [Token Models](../protocol/token-models.md)
-- [Agent Primitives](../primitives/agent-primitives.md)
-
----
-
-## 🧭 Changelog
-
-| Date       | Change         | Author     |
-|------------|----------------|------------|
-| 2025-06-23 | Initial Draft  | Arda Team  |

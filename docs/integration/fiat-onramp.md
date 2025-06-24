@@ -1,18 +1,14 @@
 # Fiat Onramp Integration
 
-> **Status**: Stable  
-> **Last Updated**: 2025-06-23  
-> **Authors**: Arda Protocol Core Team
-
 ---
 
-## 🧭 Overview
+## Overview
 
 Fiat onramps in Arda allow users to convert local currency into compliant, programmable MoneyTokens for use across Arda OS chains. These integrations bridge banking infrastructure with blockchain execution while preserving KYC, auditability, and jurisdictional scope.
 
 ---
 
-## 💱 Supported Models
+## Supported Models
 
 ### 1. **Bank Transfer via Trusted Partner**
 - ACH / SEPA / SWIFT transfers
@@ -33,7 +29,7 @@ Fiat onramps in Arda allow users to convert local currency into compliant, progr
 
 ---
 
-## 🛂 Compliance Controls
+## Compliance Controls
 
 - KYC enforced before token issuance
 - TransferRules encode:
@@ -44,7 +40,7 @@ Fiat onramps in Arda allow users to convert local currency into compliant, progr
 
 ---
 
-## 🔁 Fiat Conversion Workflow
+## Fiat Conversion Workflow
 
 1. User completes KYC and links wallet
 2. Transfers $10,000 to Arda partner account
@@ -54,7 +50,7 @@ Fiat onramps in Arda allow users to convert local currency into compliant, progr
 
 ---
 
-## 🔐 Custody & Settlement
+## Custody & Settlement
 
 - All fiat held in segregated accounts or trust vehicles
 - Proof of Reserves published periodically
@@ -62,7 +58,7 @@ Fiat onramps in Arda allow users to convert local currency into compliant, progr
 
 ---
 
-## 🛠️ Developer Notes
+## Developer Notes
 
 - SDK includes:
   - `initiateFiatOnramp()`, `mintMoneyToken()`, `burnMoneyToken()`
@@ -71,7 +67,7 @@ Fiat onramps in Arda allow users to convert local currency into compliant, progr
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
 - [Token Models](../protocol/token-models.md)
 - [Settlement](../protocol/settlement.md)
@@ -80,7 +76,7 @@ Fiat onramps in Arda allow users to convert local currency into compliant, progr
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

@@ -2,7 +2,7 @@
 
 ---
 
-## 🧭 Overview
+## Overview
 
 This document defines how Arda Capital applies compliance enforcement across the lending, syndication, and tokenization lifecycle. While Arda Core's Compliance Engine provides the base enforcement primitives, Arda Capital extends them to enforce eligibility, permissioning, and transparency in capital markets contexts.
 
@@ -71,16 +71,3 @@ This ensures only accredited US investors can transfer or receive this tranche, 
 - **Vault**: Anchors legal agreements and compliance attestations
 - **Identity Module**: Determines role permissions and wallet group bindings
 - **Syndication + Pools**: Apply eligibility criteria before allocation
-
----
-
-## Related Docs
-
-- [`token-factory.md`](../arda-core/token-factory.md)
-- [`identity.md`](../arda-core/identity.md)
-- [`permissioned-pools.md`](./permissioned-pools.md)
-- [`syndication.md`](./syndication.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

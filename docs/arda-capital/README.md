@@ -27,7 +27,7 @@ The module is designed to serve the full capital lifecycle — from deal origina
 
 ## Key Token Types
 
-- **DebtToken**: Represents a borrower’s principal and interest obligation
+- **DebtToken**: Represents a borrower's principal and interest obligation
 - **YieldToken**: Grants rights to a portion of cashflows from assets or loans
 - **TrancheToken**: Encodes a risk-adjusted share of a syndicated capital pool
 
@@ -64,17 +64,3 @@ flowchart TD
 - REIT syndication and redemption
 - Crowdfunding and retail-accessible capital pools
 - Institutional-grade structured products
-
----
-
-## Related Docs
-
-- [`loan-structures.md`](./loan-structures.md)
-- [`syndication.md`](./syndication.md)
-- [`tranches.md`](./tranches.md)
-- [`token-factory.md`](../arda-core/token-factory.md)
-- [`clear.md`](../arda-core/clear.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

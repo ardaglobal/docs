@@ -2,7 +2,7 @@
 
 ---
 
-## 🧭 Overview
+## Overview
 
 This module defines the supported loan structures within Arda Capital. Each structure represents a standardized template for configuring real-world asset-backed loans, including repayment mechanics, collateralization terms, jurisdiction-specific rules, and tokenization logic.
 
@@ -74,16 +74,3 @@ Loan structures interact with:
 - **Vault** – For proof of documentation, contracts, inspection reports
 - **Clear** – For repayment, accrual, and waterfall logic
 - **Syndication Engine** – When structured into tranches or capital pools
-
----
-
-## Related Docs
-
-- [`underwriting.md`](./underwriting.md)
-- [`syndication.md`](./syndication.md)
-- [`token-factory.md`](../arda-core/token-factory.md)
-- [`clear.md`](../arda-core/clear.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*

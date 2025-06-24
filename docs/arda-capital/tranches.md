@@ -2,7 +2,7 @@
 
 ---
 
-## 🧭 Overview
+## Overview
 
 The Tranche System in Arda Capital enables the creation, distribution, and lifecycle management of TrancheTokens. These tokens represent layered claims on cashflows within a syndicated capital pool, allowing for structured risk and return profiles.
 
@@ -79,15 +79,3 @@ Tranches embed:
 - **TransferRule**: Restrict trading to verified addresses
 - **JurisdictionProfile**: Enforce maximum exposure or total AUM
 - **AuditLog**: Records all mint, transfer, burn, and distribution events
-
----
-
-## Related Docs
-
-- [`syndication.md`](./syndication.md)
-- [`clear.md`](../arda-core/clear.md)
-- [`token-factory.md`](../arda-core/token-factory.md)
-
----
-
-*© Arda OS Documentation • Licensed under MIT*
