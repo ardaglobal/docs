@@ -1,5 +1,6 @@
 --8<-- "warning.md"
-# Arda Documentation
+
+# Welcome to Arda
 
 Arda is a vertically integrated operating system for real estate and structured private capital markets. It transforms real-world assets into programmable, compliance-first digital instruments, enabling global liquidity, institutional-grade compliance, and seamless financial innovation.
 

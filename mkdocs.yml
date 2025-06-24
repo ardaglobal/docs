@@ -4,8 +4,11 @@ theme:
   name: material
   favicon: favicon.ico
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.snippets:
-      base_path: 'snippets'
+      base_path: "snippets"
 nav:
   - Home: index.md
   - Introduction:
