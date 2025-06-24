@@ -43,7 +43,7 @@ nav:
       - Compliance: shared-primitives/compliance.md
       - Governance: shared-primitives/governance.md
       - Modules: shared-primitives/modules.md
-      - ZK TEEs: shared-primitives/zk-tees.md
+      - ZK TEEs: shared-primitives/zktees.md
   - Reference:
       - ERC20 Wrapping: reference/erc20-wrapping.md
       - Bridges: reference/bridges.md
@@ -54,7 +54,6 @@ nav:
       - Design Principles: introduction/design-principles.md
       - Architecture Overview: introduction/architecture-overview.md
   - Protocol:
-      - Core Primitives: protocol/core-primitives.md
       - Token Models: protocol/token-models.md
       - Compliance Engine: protocol/compliance-engine.md
       - Lifecycle: protocol/lifecycle.md
@@ -67,6 +66,7 @@ nav:
       - Arda Trading: product/arda-trading.md
       - Arda Foundry: product/arda-foundry.md
   - Primitives:
+      - Core Primitives: primitives/core-primitives.md
       - Asset Primitives: primitives/asset-primitives.md
       - Financial Primitives: primitives/financial-primitives.md
       - Agent Primitives: primitives/agent-primitives.md

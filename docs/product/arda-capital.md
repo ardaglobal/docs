@@ -10,7 +10,7 @@
 
 Arda Capital is the programmable capital formation and lending layer of the Arda stack. It enables compliant issuance, syndication, and structuring of real-world asset-backed facilities, such as mortgages, credit lines, construction loans, and tokenized debt pools.
 
-Built on Arda’s core primitives, Arda Capital integrates lifecycle logic, compliance, and programmable underwriting into a unified experience.
+Built on Arda's core primitives, Arda Capital integrates lifecycle logic, compliance, and programmable underwriting into a unified experience.
 
 ---
 
@@ -40,6 +40,9 @@ Built on Arda’s core primitives, Arda Capital integrates lifecycle logic, comp
 - Facility may be sliced into TrancheTokens with defined risk profiles.
 - Waterfall logic and AllocationEngine govern distribution.
 - Syndication via programmable pools (e.g. Sharpe > 2, LTV < 70%).
+
+### 6. **Automated Underwriting & Compliance**: Enforce jurisdictional rules, investor accreditation, and loan covenants programmatically.
+### 7. **Dynamic Securitization**: Pool and tranche loans into investable assets with just-in-time settlement.
 
 ---
 
@@ -82,11 +85,12 @@ Built on Arda’s core primitives, Arda Capital integrates lifecycle logic, comp
 
 ## 📚 Related Specs
 
-- [Core Primitives](../protocol/core-primitives.md)
+- [Core Primitives](../primitives/core-primitives.md)
 - [Token Models](../protocol/token-models.md)
 - [Lifecycle](../protocol/lifecycle.md)
 - [Treasury Flow](../protocol/treasury-flow.md)
 - [Arda Foundry](arda-foundry.md)
+- [Loan Structures](../arda-capital/loan-structures.md)
 
 ---
 
@@ -95,3 +99,11 @@ Built on Arda’s core primitives, Arda Capital integrates lifecycle logic, comp
 | Date       | Change           | Author       |
 |------------|------------------|--------------|
 | 2025-06-23 | Initial Draft    | Arda Team    |
+
+---
+
+## 📚 See Also
+
+- [Core Primitives](../primitives/core-primitives.md)
+- [Loan Structures](../arda-capital/loan-structures.md)
+- [Treasury Flow](../protocol/treasury-flow.md)

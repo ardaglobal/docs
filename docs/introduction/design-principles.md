@@ -72,7 +72,7 @@ Arda is architected from first principles to serve as a compliant, programmable,
 ## 📚 Related Specs
 
 - [What is Arda](what-is-arda.md)
-- [Core Architecture](../protocol/core-primitives.md)
+- [Core Primitives](../primitives/core-primitives.md)
 - [Semantic Data Model](../middleware/sdk.md)
 - [Agent Primitives](../primitives/agent-primitives.md)
 
@@ -83,3 +83,11 @@ Arda is architected from first principles to serve as a compliant, programmable,
 | Date       | Change           | Author       |
 |------------|------------------|--------------|
 | 2025-06-23 | Initial Draft    | Arda Team    |
+
+---
+
+## 📚 See Also
+
+- **Programmable & Composable**: Assets and agreements are not static. They are programmable state machines that can be composed into higher-order financial products. See [Core Primitives](../primitives/core-primitives.md) for more.
+- **Open & Interoperable**: Arda is designed to integrate with existing financial infrastructure, public blockchains, and third-party services, avoiding vendor lock-in.
+- **Secure & Auditable**: Every significant action is captured in an immutable, on-chain `AuditLog`, providing transparency and verifiable proof of compliance.

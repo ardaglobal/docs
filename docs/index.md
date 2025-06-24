@@ -6,15 +6,15 @@
 
 ---
 
-## 🧭 Overview
+## Overview
 
 Arda is a vertically integrated operating system for real estate and structured private capital markets. It transforms real-world assets into programmable, compliance-first digital instruments, enabling global liquidity, institutional-grade compliance, and seamless financial innovation.
 
-This documentation provides a full specification of Arda’s protocol architecture, primitives, products, deployment strategies, and integration layers. It is designed for developers, integrators, regulators, and contributors to the Arda ecosystem.
+This documentation provides a full specification of Arda's protocol architecture, primitives, products, deployment strategies, and integration layers. It is designed for developers, integrators, regulators, and contributors to the Arda ecosystem.
 
 ---
 
-## 🧱 Key Concepts
+## Key Concepts
 
 - **Arda Core**: The foundational global coordination layer that handles compliance, identity, registry, and liquidity routing.
 - **Arda OS**: Regional execution environments tailored to sovereign compliance, privacy, and legal constraints.
@@ -27,7 +27,7 @@ This documentation provides a full specification of Arda’s protocol architectu
 
 ---
 
-## 🌐 Architecture Layers
+## Architecture Layers
 
 1. **Core Protocol** – Defines primitives for identity, compliance, tokens, and legal logic.
 2. **Execution Layer (Arda OS)** – Sovereign rollups and modular regional networks.
@@ -38,12 +38,12 @@ This documentation provides a full specification of Arda’s protocol architectu
 
 ---
 
-## 🛠️ How to Use This Documentation
+## How to Use This Documentation
 
-This site is structured to help both technical and non-technical stakeholders explore and contribute to Arda’s ecosystem.
+This site is structured to help both technical and non-technical stakeholders explore and contribute to Arda's ecosystem.
 
 - Start with the **Introduction** to learn the vision and design philosophy.
-- Dive into the **Protocol** section to understand Arda’s core logic.
+- Dive into the **Protocol** section to understand Arda's core logic.
 - Review **Product Modules** for how Arda delivers utility to end users.
 - Explore **Middleware & Deployment** for running or integrating with Arda nodes.
 - Browse **Examples & Integrations** to see real-world use cases and workflows.
@@ -51,16 +51,18 @@ This site is structured to help both technical and non-technical stakeholders ex
 
 ---
 
-## 📚 Related Specs
+## Related Specs
 
-- [Protocol Primitives](protocol/core-primitives.md)
-- [Token Standards](protocol/token-models.md)
-- [Vault Architecture](middleware/arda-vault.md)
-- [Agentic Workflows](primitives/agent-primitives.md)
+- [Core Primitives](primitives/core-primitives.md)
+- [Token Models](protocol/token-models.md)
+- [Compliance Engine](protocol/compliance-engine.md)
+- [Lifecycle](protocol/lifecycle.md)
+- [Treasury Flow](protocol/treasury-flow.md)
+- [Settlement](protocol/settlement.md)
 
 ---
 
-## 🧭 Changelog
+## Changelog
 
 | Date       | Change           | Author       |
 |------------|------------------|--------------|

@@ -12,6 +12,8 @@ Asset Primitives in Arda define how physical, legal, and economic characteristic
 
 Each asset primitive is tied to compliance metadata, valuation logic, and lifecycle status—making them programmable, composable, and enforceable.
 
+This document outlines the key primitives that define assets on Arda. For a broader overview of Arda's core data structures, see the [Core Primitives](core-primitives.md) documentation.
+
 ---
 
 ## 🧱 Core Asset Types
@@ -94,7 +96,7 @@ Assets can evolve through:
 
 ## 📚 Related Specs
 
-- [Core Primitives](../protocol/core-primitives.md)
+- [Core Primitives](core-primitives.md)
 - [Token Models](../protocol/token-models.md)
 - [Arda Foundry](../product/arda-foundry.md)
 - [Arda Vault](../middleware/arda-vault.md)

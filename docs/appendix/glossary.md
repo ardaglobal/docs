@@ -71,11 +71,17 @@ Risk-segmented share in a capital structure, defined by position in the waterfal
 ### **Vault**
 Encrypted, jurisdiction-aware off-chain storage layer used for sensitive documents and attestations.
 
+### **Asset Tokenization**
+A digital representation of an asset, which may be a real-world asset (RWA), a digital asset, or a hybrid instrument. See [Core Primitives](../primitives/core-primitives.md) for more details.
+
+### **Wallet**
+A user-facing application for managing digital assets and interacting with the Arda network. See [Wallet](../arda-core/wallet.md).
+
 ---
 
 ## 📚 See Also
 
-- [Core Primitives](../protocol/core-primitives.md)
+- [Core Primitives](../primitives/core-primitives.md)
 - [Token Models](../protocol/token-models.md)
 - [Agent Primitives](../primitives/agent-primitives.md)
 

@@ -42,6 +42,9 @@ Arda OS is the regional execution environment layer within the Arda architecture
 - Region-specific MoneyTokens, AssetTokens, DebtTokens, and YieldTokens.
 - Customizable bridge wrappers and token templates.
 
+### 6. **Shared Security & Compliance**: Inherit global compliance rules and validator security from Arda Core.
+### 7. **Low-Cost, High-Throughput**: Optimized for enterprise-grade workloads without the high fees of public mainnets.
+
 ---
 
 ## 🔁 Cross-Chain Coordination
@@ -76,9 +79,17 @@ Arda OS is the regional execution environment layer within the Arda architecture
 ## 📚 Related Specs
 
 - [Arda Core](arda-core.md)
-- [Core Primitives](../protocol/core-primitives.md)
+- [Core Primitives](../primitives/core-primitives.md)
 - [Compliance Engine](../protocol/compliance-engine.md)
 - [Settlement](../protocol/settlement.md)
+
+---
+
+## 📚 See Also
+
+- [Core Primitives](../primitives/core-primitives.md)
+- [Regional Deployment](../deployment/regional-deployment.md)
+- [Data Residency](../deployment/data-residency.md)
 
 ---
 

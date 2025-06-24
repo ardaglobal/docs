@@ -34,7 +34,7 @@ Its mission is to make private capital markets as programmable, liquid, and acce
 
 ## 🌐 Architectural Context
 
-Arda’s design departs from traditional smart contract platforms and generic DeFi protocols in three critical ways:
+Arda's design departs from traditional smart contract platforms and generic DeFi protocols in three critical ways:
 
 1. **Compliance-First**: Transfers, trades, and interactions are constraint-checked by jurisdictional rules.
 2. **No Global Consensus**: Arda supports local execution zones with shared semantics rather than global state.
@@ -54,8 +54,8 @@ Arda’s design departs from traditional smart contract platforms and generic De
 ## 📚 Related Specs
 
 - [Design Principles](design-principles.md)
-- [Core Architecture](../protocol/core-primitives.md)
-- [Token Factory](../product/arda-token-factory.md)
+- [Core Architecture](../primitives/core-primitives.md)
+- [Token Factory](../arda-core/token-factory.md)
 - [Arda OS](../product/arda-os.md)
 
 ---
@@ -65,3 +65,12 @@ Arda’s design departs from traditional smart contract platforms and generic De
 | Date       | Change           | Author       |
 |------------|------------------|--------------|
 | 2025-06-23 | Initial Draft    | Arda Team    |
+
+### For Developers
+- **Protocol & Primitives**: Understand the core logic of Arda by exploring its [Primitives](../primitives/core-primitives.md) and [Token Models](../protocol/token-models.md).
+- **Products & Services**: See how Arda is applied in the real world through [Arda Capital](../product/arda-capital.md), [Arda Trading](../product/arda-trading.md), and the [Token Factory](../arda-core/token-factory.md).
+- **Deployment & Integration**: Learn how to run an Arda node or integrate with the network by reviewing the [Deployment Guides](../deployment/regional-deployment.md) and [SDK documentation](../middleware/sdk.md).
+
+---
+
+## 📚 See Also

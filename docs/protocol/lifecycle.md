@@ -94,10 +94,10 @@ Automated trigger for lifecycle transitions
 
 ## 📚 Related Specs
 
-- [Core Primitives](core-primitives.md)
+- [Core Primitives](../primitives/core-primitives.md)
+- [Token Models](token-models.md)
 - [Compliance Engine](compliance-engine.md)
 - [Treasury Flow](treasury-flow.md)
-- [Token Models](token-models.md)
 
 ---
 

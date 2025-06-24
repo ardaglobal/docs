@@ -12,6 +12,8 @@ Arda supports a suite of token types purpose-built to represent real-world finan
 
 This specification outlines the key token categories and their lifecycle logic, permissions, and data structure standards.
 
+Each token model is built upon Arda's [Core Primitives](../primitives/core-primitives.md) and inherits the protocol's compliance and lifecycle management capabilities. This document specifies the key token types and their attributes.
+
 ---
 
 ## 🧱 Token Categories
@@ -99,7 +101,7 @@ All tokens implement:
 
 ## 📚 Related Specs
 
-- [Core Primitives](core-primitives.md)
+- [Core Primitives](../primitives/core-primitives.md)
 - [Compliance Engine](compliance-engine.md)
 - [Lifecycle](lifecycle.md)
 - [SDK / Middleware](../middleware/sdk.md)

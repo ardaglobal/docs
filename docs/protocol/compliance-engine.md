@@ -65,9 +65,9 @@ The Arda Compliance Engine is a foundational layer responsible for enforcing rea
 
 ## 🛡️ Example Use Cases
 
-- **Cross-border restriction**: A UAE resident can’t receive equity in a US-regulated SPV without additional KYC.
+- **Cross-border restriction**: A UAE resident can't receive equity in a US-regulated SPV without additional KYC.
 - **Restricted instruments**: US retail investor blocked from high-risk tranches.
-- **Real-time compliance hooks**: Disallow primary market participation if a participant’s tax ID is invalid or expired.
+- **Real-time compliance hooks**: Disallow primary market participation if a participant's tax ID is invalid or expired.
 
 ---
 
@@ -81,7 +81,7 @@ The Arda Compliance Engine is a foundational layer responsible for enforcing rea
 
 ## 📚 Related Specs
 
-- [Core Primitives](core-primitives.md)
+- [Core Primitives](../primitives/core-primitives.md)
 - [Token Models](token-models.md)
 - [Lifecycle](lifecycle.md)
 - [Governance](../middleware/governance.md)
@@ -93,3 +93,11 @@ The Arda Compliance Engine is a foundational layer responsible for enforcing rea
 | Date       | Change           | Author       |
 |------------|------------------|--------------|
 | 2025-06-23 | Initial Draft    | Arda Team    |
+
+---
+
+## 📚 See Also
+
+- [Core Primitives](../primitives/core-primitives.md)
+- [Compliance Module](../shared-primitives/compliance.md)
+- [Identity Providers](../integration/identity-providers.md)

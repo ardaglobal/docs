@@ -67,7 +67,7 @@ Special-purpose vehicle tied to one or more assets and/or investors.
 
 ### 11. **Mandate**
 Defines operational intent for a facility, portfolio, or investment.
-- Example: “Lend to SMEs in UAE with <65% LTV”
+- Example: "Lend to SMEs in UAE with <65% LTV"
 
 ### 12. **CustodyRelationship**
 Models asset custodianship, e.g. when a bank or trust holds tokens or off-chain property.
@@ -160,10 +160,10 @@ Performs multi-party netting and finalizes token movements.
 
 ## 📚 Related Specs
 
-- [Token Models](token-models.md)
-- [Compliance Engine](compliance-engine.md)
-- [Treasury Flow](treasury-flow.md)
-- [Lifecycle](lifecycle.md)
+- [Token Models](../protocol/token-models.md)
+- [Compliance Engine](../protocol/compliance-engine.md)
+- [Treasury Flow](../protocol/treasury-flow.md)
+- [Lifecycle](../protocol/lifecycle.md)
 
 ---
 

@@ -8,7 +8,7 @@
 
 ## 🧭 Overview
 
-Arda’s Treasury Flow system manages the movement of funds across facilities, tokens, fee recipients, and compliance-controlled accounts. It supports programmable distribution, interest allocation, and sweeping logic, all enforced by deterministic, permissioned protocol logic.
+Arda's Treasury Flow system manages the movement of funds across facilities, tokens, fee recipients, and compliance-controlled accounts. It supports programmable distribution, interest allocation, and sweeping logic, all enforced by deterministic, permissioned protocol logic.
 
 This enables real-time capital flows across structured financial products with full auditability and regulatory compliance.
 
@@ -79,7 +79,7 @@ This enables real-time capital flows across structured financial products with f
 
 - [Lifecycle](lifecycle.md)
 - [Compliance Engine](compliance-engine.md)
-- [Core Primitives](core-primitives.md)
+- [Core Primitives](../primitives/core-primitives.md)
 - [Settlement](settlement.md)
 
 ---
@@ -89,3 +89,11 @@ This enables real-time capital flows across structured financial products with f
 | Date       | Change           | Author       |
 |------------|------------------|--------------|
 | 2025-06-23 | Initial Draft    | Arda Team    |
+
+---
+
+## 📚 See Also
+
+- [Core Primitives](../primitives/core-primitives.md)
+- [Settlement](settlement.md)
+- [Arda Capital](../product/arda-capital.md)

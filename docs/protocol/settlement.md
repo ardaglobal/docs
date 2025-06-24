@@ -103,7 +103,7 @@ Arda Clear handles cross-network finality via:
 ## 📚 Related Specs
 
 - [Treasury Flow](treasury-flow.md)
-- [Core Primitives](core-primitives.md)
+- [Core Primitives](../primitives/core-primitives.md)
 - [Compliance Engine](compliance-engine.md)
 - [Lifecycle](lifecycle.md)
 
@@ -114,3 +114,11 @@ Arda Clear handles cross-network finality via:
 | Date       | Change           | Author       |
 |------------|------------------|--------------|
 | 2025-06-23 | Initial Draft    | Arda Team    |
+
+---
+
+## 📚 See Also
+
+- [Core Primitives](../primitives/core-primitives.md)
+- [Cross-Chain Bridge](../middleware/cross-chain.md)
+- [Treasury Flow](treasury-flow.md)

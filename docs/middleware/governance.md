@@ -85,7 +85,7 @@ It is designed for flexibility across sovereign regions, while retaining coheren
 
 ## 📚 Related Specs
 
-- [Core Primitives](../protocol/core-primitives.md)
+- [Core Primitives](../primitives/core-primitives.md)
 - [Compliance Engine](../protocol/compliance-engine.md)
 - [Arda Core](../product/arda-core.md)
 - [SDK](sdk.md)
@@ -97,3 +97,11 @@ It is designed for flexibility across sovereign regions, while retaining coheren
 | Date       | Change           | Author       |
 |------------|------------------|--------------|
 | 2025-06-23 | Initial Draft    | Arda Team    |
+
+---
+
+## 📚 See Also
+
+- [Core Primitives](../primitives/core-primitives.md)
+- [Agent Primitives](../primitives/agent-primitives.md)
+- [Arda Improvement Proposals (AIPs)](https://aips.arda.xyz)

@@ -51,6 +51,12 @@ Foundry is essential for bridging the on-chain logic of Arda with the off-chain 
   - Tranche-based debt facilities
   - Property co-ownership schemes
 
+### 6. **Digital Twin Creation**
+- Generate a compliant, enforceable digital representation of any asset.
+
+### 7. **Automated Governance**
+- Embed rules for transfer, reporting, and lifecycle events directly into the asset.
+
 ---
 
 ## 📜 Compliance & Validity
@@ -82,9 +88,18 @@ Foundry is essential for bridging the on-chain logic of Arda with the off-chain 
 
 ## 📚 Related Specs
 
-- [Core Primitives](../protocol/core-primitives.md)
+- [Core Primitives](../primitives/core-primitives.md)
+- [Asset Primitives](../primitives/asset-primitives.md)
 - [Arda Vault](../middleware/arda-vault.md)
 - [Compliance Engine](../protocol/compliance-engine.md)
+- [Token Models](../protocol/token-models.md)
+
+---
+
+## 📚 See Also
+
+- [Core Primitives](../primitives/core-primitives.md)
+- [Asset Primitives](../primitives/asset-primitives.md)
 - [Token Models](../protocol/token-models.md)
 
 ---
