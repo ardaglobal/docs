@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Arda Core
 
 ---
@@ -27,6 +28,7 @@ Arda Core is the global coordination layer of the Arda architecture. It provides
 - **Identity** — Core entity structures like Entity, WalletGroup, KYC Tiers, and attestation-backed identity management.
 
 ### 1. **Arda Taxonomy**
+
 - A shared data model for describing assets, rights, entities, and relationships.
 - Supports on-chain enforceability of legal, financial, and regulatory semantics.
 - Includes:
@@ -35,6 +37,7 @@ Arda Core is the global coordination layer of the Arda architecture. It provides
   - Governance via Arda Improvement Proposals (AIPs)
 
 ### 2. **Arda Vault**
+
 - Privacy-preserving data layer for sensitive documents (e.g. deeds, SPV docs, valuations).
 - Supports:
   - FHE/MPC-encrypted access control
@@ -42,6 +45,7 @@ Arda Core is the global coordination layer of the Arda architecture. It provides
   - Queryable zero-knowledge proofs
 
 ### 3. **Arda Compliance**
+
 - Dynamic compliance engine and registry.
 - Includes:
   - KYC / AML Engine
@@ -51,10 +55,12 @@ Arda Core is the global coordination layer of the Arda architecture. It provides
 - Governs all cross-chain, cross-border activity.
 
 ### 4. **Arda Governance**
+
 - Upgrades and rule changes are driven via decentralized governance.
 - AIPs define schema evolution, protocol parameters, and jurisdictional rules.
 
 ### 5. **Arda Clear**
+
 - Global clearing and net settlement engine.
 - Supports:
   - Cross-chain transaction routing

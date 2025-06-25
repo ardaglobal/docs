@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Compliance Primitives
 
 The compliance primitives in Arda define the standardized, protocol-level enforcement rules for identity, jurisdiction, and transaction eligibility. These components are embedded across token issuance, trading, settlement, lending, and governance workflows.

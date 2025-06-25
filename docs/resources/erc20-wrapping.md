@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # ERC-20 Wrapping and Token Compatibility
 
 ---

@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Permissioned Pools
 
 ---
@@ -71,5 +72,3 @@ Pool access is governed by:
 - **Identity Module** — Binds wallet groups to entity roles within the pool
 
 ---
-
-*© ArdaOS Documentation • Licensed under MIT*

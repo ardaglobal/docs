@@ -11,6 +11,7 @@
 Arda aims to serve as the global operating system for programmable private capital. As part of this mission, it must provide a robust, transparent, and scalable mechanism to maintain the integrity of on-chain financial state and ensure efficient compliance, analytics, and settlement workflows.
 
 One challenge in modern blockchain architectures is the overhead required to reconstruct full state or verify past balances through full transaction replay. Arda is exploring a native reconciliation architecture that allows for:
+
 - Periodic state snapshotting
 - Audit-ready reporting
 - Reduced memory and query load
@@ -31,10 +32,12 @@ One challenge in modern blockchain architectures is the overhead required to rec
 ## 🔧 Architecture Components
 
 ### 1. **State Snapshot Module**
+
 - Periodically traverses the full key-value state
 - Serializes the canonical state of entities, wallets, and contracts
 - Persists snapshots in versioned, on-disk or IPFS-compatible formats
 - Commits the Merkle root of each snapshot on-chain:
+
   ```json
   {
     "event": "StateSnapshotCommitted",
@@ -45,16 +48,19 @@ One challenge in modern blockchain architectures is the overhead required to rec
   ```
 
 ### 2. **Snapshot Query Interface**
+
 - Supports time-based and block-based queries:
   - "What was wallet 0xABC’s balance on 2025-06-01?"
 - Integrates with `FacilityRegistry`, `WalletGroup`, and `AuditLog` modules
 
 ### 3. **Structured Append-Only Logs**
+
 - All state transitions emit machine-readable events
 - Indexed by `EntityID`, `JurisdictionID`, `TokenID`
 - Enables forensic reconstruction and regulatory inspection
 
 ### 4. **Event-Triggered Reconciliation**
+
 - Triggers include:
   - Threshold crossings
   - Facility status transitions
@@ -62,6 +68,7 @@ One challenge in modern blockchain architectures is the overhead required to rec
 - Can reconcile per-region, per-token, or globally
 
 ### 5. **Compliance-Aware Design**
+
 - Snapshots are scoped per `JurisdictionProfile`
 - Stored in region-specific data stores for compliance (e.g., UAE-local S3)
 - Supports regulator attestations and proofs of reconciliation
@@ -104,4 +111,3 @@ listSnapshots(entityId: string): Promise<SnapshotMeta[]>
 3. Design SDK + UI integrations for query and inspection
 4. Configure scheduled and event-based snapshot triggers
 5. Pilot with select jurisdictions (e.g., UAE)
-

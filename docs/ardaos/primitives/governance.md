@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Governance Primitives
 
 Arda's governance primitives define how roles, rights, and protocol upgrades are managed in a modular, jurisdiction-aware, and compliance-first fashion. Governance spans asset configuration, pool rules, agent registration, and protocol module evolution.

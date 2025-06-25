@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Arda Compliance Engine
 
 The Arda Compliance Engine is the foundational policy enforcement layer that governs identity, asset, and transaction behavior across the Arda ecosystem. It acts as the runtime permission system for the protocol, ensuring all activity aligns with regional regulations, KYC requirements, investor eligibility, and capital controls.
@@ -10,6 +11,7 @@ Compliance is embedded directly into the protocol's deterministic logic and is e
 ## Core Components
 
 ### 1. **KYC / AML Engine & Attestation Registry**
+
 This component manages identity verification and credentials. It records KYC completion, accreditation status, sanctions screening results, and legal agreements. These attestations are used to dynamically determine user permissions and eligibility across the protocol.
 
 - Supports tiered verification levels (e.g. KYC Tier 0–3).
@@ -17,6 +19,7 @@ This component manages identity verification and credentials. It records KYC com
 - All attestations are tied to an `Entity` and `WalletGroup`.
 
 ### 2. **Transfer Rules**
+
 Transfer Rules define the dynamic logic that determines whether a token transfer is allowed between two parties. They are evaluated before any token movement.
 
 | Field | Description |
@@ -28,6 +31,7 @@ Transfer Rules define the dynamic logic that determines whether a token transfer
 | `restrictions` | Any conditional logic or flags (e.g., accredited only, investor caps) |
 
 **Example:**
+
 ```yaml
 transfer_rule:
   tokenType: AssetToken
@@ -40,9 +44,11 @@ transfer_rule:
 ```
 
 ### 3. **Jurisdiction Profiles**
+
 Jurisdiction Profiles encode regulatory policies and schemas for specific regions, allowing the protocol to adapt its behavior based on an asset's or user's location.
 
 Profiles include:
+
 - Approved currencies
 - Maximum LTVs for lending
 - Permitted legal asset types
@@ -56,6 +62,7 @@ Profiles include:
 | EU | GDPR, MiFID II, cross-border disclosure |
 
 ### 4. **Audit Logs**
+
 The engine maintains an immutable, on-chain registry of all compliance-relevant actions, including onboarding events, token transfer approvals and denials, attestations, and revocations. For sensitive data, logs are anchored on-chain with secure off-chain storage in Arda Vault, supporting audit trails for regulators and institutional users.
 
 ---
@@ -63,6 +70,7 @@ The engine maintains an immutable, on-chain registry of all compliance-relevant 
 ## Enforcement
 
 ### Invocation Points
+
 Compliance checks are invoked at critical points in the transaction lifecycle:
 
 - **Token Transfer**: Validates both sender and receiver against the applicable `TransferRule` and `JurisdictionProfile`.
@@ -71,6 +79,7 @@ Compliance checks are invoked at critical points in the transaction lifecycle:
 - **Attestation Matching**: Validates a user's on-chain proofs before enabling sensitive actions like investing or governance voting.
 
 ### Enforcement Modes
+
 The engine operates in multiple modes to provide flexible and robust enforcement:
 
 - **Preventative**: Disallows non-compliant actions before execution (e.g., rejecting a transfer).

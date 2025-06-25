@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Protocol Modules
 
 Protocol modules in Arda are reusable, self-contained logic units that implement the behavior of tokens, pools, agents, settlements, or compliance enforcement. Each module can be deployed across ArdaOS regions, imported by SDKs, and extended by agents or DAOs to fit local requirements.

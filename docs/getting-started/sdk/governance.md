@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Governance
 
 ---
@@ -14,6 +15,7 @@ It is designed for flexibility across sovereign regions, while retaining coheren
 ## Core Components
 
 ### 1. **Arda Improvement Proposals (AIPs)**
+
 - Proposal format for:
   - Taxonomy extensions
   - Token model upgrades
@@ -22,12 +24,14 @@ It is designed for flexibility across sovereign regions, while retaining coheren
 - Includes rationale, impact, region scope, and executable logic
 
 ### 2. **Governance Registry**
+
 - Tracks:
   - Active proposals
   - Region, scope, and eligibility
   - Vote results and execution status
 
 ### 3. **Voting Engine**
+
 - Modular architecture:
   - Token-weighted (e.g. VOTE, GOV)
   - Role-weighted (e.g. regional validator veto)
@@ -35,6 +39,7 @@ It is designed for flexibility across sovereign regions, while retaining coheren
 - Supports quadratic or delegated voting
 
 ### 4. **Execution Engine**
+
 - Executes approved AIPs on:
   - Token config
   - Transfer rules
@@ -42,6 +47,7 @@ It is designed for flexibility across sovereign regions, while retaining coheren
   - Vault permission schemas
 
 ### 5. **Governance Token Model**
+
 - Optional native governance token: `GOV`
 - Utility:
   - Proposal rights

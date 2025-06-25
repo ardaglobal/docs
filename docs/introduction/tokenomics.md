@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Tokenomics
 
 Arda’s programmable capital platform is underpinned by a dual-token model and a compliance-first token factory architecture. This page outlines the foundational token types in the Arda ecosystem, their roles, and future expansion plans.
@@ -43,21 +44,25 @@ The Arda Token Factory module enables compliant issuance of custom, on-chain fin
 ### Categories of Factory-Issued Tokens
 
 #### Ownership Tokens
+
 - Represent direct or fractional ownership of real-world properties or entities (e.g., SPVs)
 - Linked to legal wrappers (e.g., Delaware LLCs, Dubai SPVs)
 - Subject to jurisdictional transfer restrictions
 
 #### Representative Tokens
+
 - Mirror the ownership tokens but are optimized for trading or use as collateral
 - Can be wrapped or reissued versions of core asset tokens
 - Useful in liquidity pools, cross-chain transfer, or synthetic index creation
 
 #### Loan Tokens
+
 - Represent on-chain obligations like mortgages, bridge loans, or structured notes
 - Contain payment schedule metadata, interest terms, and amortization logic
 - Traded or syndicated via Arda’s programmable capital markets
 
 #### Equity Tokens
+
 - Track the residual or preferred value of an underlying asset (e.g., mezzanine tranches)
 - Integrate with Waterfall distribution contracts
 - Potentially tied to governance rights or dividend flows
@@ -93,12 +98,14 @@ Typical lifecycle phases (varies by object):
 ## Lifecycle Objects
 
 ### 1. **FacilityStatus**
+
 Tracks the current stage of a financing or issuance process.
 
 - Phases: `Draft`, `Open`, `Subscribed`, `Funded`, `In Repayment`, `Closed`
 - Used for: debt issuances, equity raises, structured pools
 
 ### 2. **Drawdown**
+
 Represents capital released from a facility.
 
 - Triggered by: investor subscription, milestone completion, disbursement logic
@@ -106,6 +113,7 @@ Represents capital released from a facility.
 - Includes: timestamp, amount, purpose, oracle snapshot
 
 ### 3. **InterestAccrual**
+
 Defines how interest is accumulated.
 
 - Types: fixed, floating, step-up, hybrid
@@ -113,16 +121,19 @@ Defines how interest is accumulated.
 - Integrated with fee and yield flows
 
 ### 4. **Repay / Burn Events**
+
 - Tracks repayment or voluntary cancellation of debt or assets
 - Tokens are updated or burned to reflect reduction in obligation
 
 ### 5. **PaymentSchedule**
+
 Defines planned disbursement and repayment dates
 
 - Example: construction loan may include 6 milestone-linked disbursements, then quarterly interest
 - Can include grace periods, prepayment windows, and penalties
 
 ### 6. **EventHook**
+
 Automated trigger for lifecycle transitions
 
 - Can be time-based, oracle-based, or dependent on compliance state
@@ -158,4 +169,3 @@ All tokens issued in Arda adhere to a “compliance-by-default” design:
 ## Summary
 
 Arda’s token architecture is modular, jurisdiction-aware, and future-proof. The native ARDA token and stablecoin form the backbone of protocol activity and compliance-enabled settlement. Around them, the Token Factory supports programmable real-world finance across ownership, credit, and liquidity domains.
-

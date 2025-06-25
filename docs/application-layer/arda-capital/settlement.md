@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Arda Settlement
 
 The Arda Settlement system provides finality, netting, and token movement infrastructure across ArdaOS chains and external blockchains. It underpins Arda Clear and ensures compliant, auditable, and efficient settlement of real estate and capital markets transactions.
@@ -10,6 +11,7 @@ This spec defines the settlement-related primitives, flows, and constraints.
 ## Core Components
 
 ### 1. **SettlementQueue**
+
 - Queue of pending transfers and nettable events.
 - Types:
   - Internal (same chain, direct finality)
@@ -21,6 +23,7 @@ This spec defines the settlement-related primitives, flows, and constraints.
   - Dependencies (e.g. compliance check or hook)
 
 ### 2. **NettingEngine**
+
 - Aggregates multi-party flows into net positions for final settlement.
 - Reduces gas and execution overhead.
 - Example:
@@ -28,6 +31,7 @@ This spec defines the settlement-related primitives, flows, and constraints.
   - 3 lenders repay a tranche → net repayment to token holders
 
 ### 3. **FeeSink**
+
 - Final recipient for all protocol or regulatory fees.
 - Configured by governance or jurisdiction profile.
 - Can route to:
@@ -68,7 +72,8 @@ Arda Clear handles cross-network finality via:
 
 ## Examples
 
-**Example 1: Token Transfer on Same Chain**
+### Token Transfer on Same Chain
+
 ```json
 {
   "source": "walletA",
@@ -79,7 +84,8 @@ Arda Clear handles cross-network finality via:
 }
 ```
 
-**Example 2: Cross-Region Debt Repayment**
+### Cross-Region Debt Repayment
+
 ```json
 {
   "source": "borrower.wallet",

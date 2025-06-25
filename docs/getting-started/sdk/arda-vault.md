@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Arda Vault
 
 ---
@@ -14,6 +15,7 @@ Arda Vault is foundational for asset legitimacy, compliance, auditability, and r
 ## Core Capabilities
 
 ### 1. **Secure Document Storage**
+
 - Documents stored off-chain with hash anchoring on-chain.
 - Storage backends may include:
   - Encrypted cloud storage (jurisdictional)
@@ -21,6 +23,7 @@ Arda Vault is foundational for asset legitimacy, compliance, auditability, and r
   - Government/private APIs
 
 ### 2. **Encryption and Access Control**
+
 - Uses:
   - Fully Homomorphic Encryption (FHE)
   - Multi-Party Computation (MPC)
@@ -31,12 +34,14 @@ Arda Vault is foundational for asset legitimacy, compliance, auditability, and r
   - Time window or event
 
 ### 3. **Document Types Supported**
+
 - Title deeds, shareholder agreements, ID/KYC docs
 - Valuation reports, inspection certificates
 - Legal filings, tax forms
 - Structuring memos, regulatory filings
 
 ### 4. **Vault Anchors**
+
 - Every entry includes:
   - Hash (SHA-256 or Poseidon for ZK use)
   - Document type

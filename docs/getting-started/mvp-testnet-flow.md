@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Arda MVP Testnet Flow
 
 ---
@@ -23,11 +24,13 @@ A developer launches a testnet instance for a fictional city (e.g. Testburg) and
 ## Step-by-Step Flow
 
 ### 1. **Create Region Testnet**
+
 - Launch ArdaOS using `testburg-genesis.json`
 - Deploy KYC engine with local T1/T2 schema
 - Register `TEST.USD` MoneyToken and connect Arda Vault node
 
 ### 2. **Register SPV and Upload Deed**
+
 - Call `createEntity()` → SPV owner onboarded
 - Use Arda Vault to register property deed with metadata:
   - Location: "123 Test Street"
@@ -35,20 +38,24 @@ A developer launches a testnet instance for a fictional city (e.g. Testburg) and
   - Document: `deed-testburg.pdf`
 
 ### 3. **Issue AssetToken**
+
 - Call `createAssetToken()` and link to Vault doc hash
 - Mint 10,000 fractional tokens
 - Lock into PermissionedPool scoped to KYC Tier 2+
 
 ### 4. **Investor Onboarding**
+
 - 3 investors complete simulated KYC (Tiers 1–3)
 - Tier 2 investor contributes $50,000 via testnet `TEST.USD`
 
 ### 5. **Transfer and Compliance Enforcement**
+
 - KYC Tier 1 investor attempts transfer → rejected
 - Tier 2 transfer → passes compliance and transfer rule
 - Event logs recorded in AuditLog
 
 ### 6. **Secondary Trading**
+
 - Tier 2 investor lists 1,000 tokens via Arda Trading RFQ
 - Tier 3 investor accepts → Arda Clear finalizes cross-account settlement
 

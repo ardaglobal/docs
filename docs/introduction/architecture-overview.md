@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Arda Architecture Overview
 
 Arda's architecture is a vertically integrated, modular system for enabling real-world assets to be tokenized, traded, financed, and governed across jurisdictions. It is organized across 4 primary layers, each serving a specific role in delivering trust, compliance, and composability in private markets.
@@ -44,12 +45,11 @@ Capital formation, trading, asset management, marketplace tools.
   - **Arda Trading**: secondary markets, RFQs, exchanges
 - Exposed via SDKs and platform APIs.
 
-
 ---
 
 ## Diagram
 
-```
+```mermaid
 [ Application Layer: Capital | Trading ]
         ↑
 [ Semantic Data & Intelligence Layer ]

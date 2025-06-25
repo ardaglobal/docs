@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Arda Trading
 
 ---
@@ -13,7 +14,6 @@ Arda Trading provides secondary market infrastructure for real-world asset token
 
 Arda Trading enables institutions, brokers, and individuals to interact with tokenized real estate and private credit as seamlessly as modern equities—while remaining compliant with regional laws and regulations.
 
-
 ---
 
 ## Key Capabilities
@@ -27,6 +27,7 @@ Arda Trading enables institutions, brokers, and individuals to interact with tok
 | Arda Clear Integration | All trades settle via the Arda Clear engine for real-time finality |
 
 ### 1. **Hybrid Exchange Model**
+
 - Supports both:
   - Public limit and market orders
   - Private negotiated RFQs and OTC trades
@@ -34,17 +35,20 @@ Arda Trading enables institutions, brokers, and individuals to interact with tok
   - AssetToken, DebtToken, TrancheToken, YieldToken
 
 ### 2. **Order Management System**
+
 - Standard order types:
   - Limit, market, stop, TWAP, fill-or-kill
 - Compliance checks triggered before order execution
 - Wallet-level permissions integrated
 
 ### 3. **RFQ Engine**
+
 - Brokers and agents can quote or respond to structured deals
 - Settlement can be deferred or contingent
 - Ideal for large block trades or illiquid asset types
 
 ### 4. **Compliance-Layer Matching**
+
 - Matches only allowed trades:
   - Jurisdictional permission
   - Role and wallet status
@@ -52,6 +56,7 @@ Arda Trading enables institutions, brokers, and individuals to interact with tok
 - Disallowed trades are rejected before matching
 
 ### 5. **Escrow & Conditional Settlement**
+
 - Optional escrow of tokens or payments
 - Delayed or phased release
 - Useful for milestone-dependent deals or legal finality requirements

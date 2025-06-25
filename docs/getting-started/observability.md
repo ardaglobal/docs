@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Observability
 
 Arda's observability stack provides unified logging, metrics, tracing, and alerting across sovereign ArdaOS chains and Arda Core coordination logic.
@@ -16,6 +17,7 @@ Arda's observability layer is modular, privacy-aware, and compatible with enterp
 ## Key Components
 
 ### 1. **Metrics & Monitoring**
+
 - Collected from:
   - Validators
   - Arda Vaults
@@ -27,6 +29,7 @@ Arda's observability layer is modular, privacy-aware, and compatible with enterp
   - Cloud-native dashboards (e.g. AWS CloudWatch)
 
 ### 2. **Logs**
+
 - Categories:
   - Transaction logs
   - Compliance events (KYC, transfer rejections)
@@ -36,11 +39,13 @@ Arda's observability layer is modular, privacy-aware, and compatible with enterp
 - Anchored to AuditLog
 
 ### 3. **Tracing**
+
 - Cross-service tracing via OpenTelemetry
 - Transaction ID and wallet-based correlation
 - Used to diagnose stuck flows, slashing triggers, or performance bottlenecks
 
 ### 4. **Alerting**
+
 - Rule-based triggers for:
   - Missed validator heartbeats
   - Slashed agent actions

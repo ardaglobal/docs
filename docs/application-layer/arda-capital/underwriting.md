@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Underwriting
 
 ---
@@ -70,5 +71,3 @@ These are modeled using shared risk primitives and intelligence protocol agents.
 - **Compliance Engine** — Filters disqualified applicants and applies local rules
 
 ---
-
-*© ArdaOS Documentation • Licensed under MIT*

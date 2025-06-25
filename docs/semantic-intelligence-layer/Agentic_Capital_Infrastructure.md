@@ -17,33 +17,40 @@ Arda seeks to pioneer an on-chain infrastructure layer that enables AI agents to
 ### Core Components
 
 #### 1. Agent Identity & Wallet
+
 - Powered by DIDs (Decentralized Identifiers) or Arda-native `Entity` + `WalletGroup`
 - Linked to KYC tier, access scopes, and action logs
 
 #### 2. Agent Wallet Control Layer
+
 - Permissioning logic defined by `TransferRules`, `SpendingLimits`, `SpendingTriggers`
 - Modular triggers for automatic payouts, streaming payments, etc.
 
 #### 3. Programmable Safeguards
+
 - Multi-sig wallet enforcement
 - Time-locked funds
 - Whitelisted contract destinations
 - Budget caps per operation
 
 #### 4. Auditability & Governance Hooks
+
 - `AuditLog` for all agent actions
 - `EventHooks` for state transitions (e.g., balance thresholds, external alerts)
 - Optional approval queues for human oversight
 
 #### 5. Cross-Chain Bridge Support
+
 - Enable agents to move stablecoins/assets cross-chain
 - ZK/TEE-based attestation for cross-domain identity and state consistency
 
 #### 6. Agent Deployment Framework
+
 - SDK to instantiate new agents
 - Template libraries for common use cases (e.g. licensing bots, trading bots)
 
 #### 7. Risk Scoring Engine
+
 - Score agents on behavior, longevity, audit cleanliness
 - Used to gate capital access, scale privileges, or revoke custody
 
@@ -103,5 +110,3 @@ Arda seeks to pioneer an on-chain infrastructure layer that enables AI agents to
 ## Final Thoughts
 
 This is not just AI automation—it’s capital infrastructure for a machine-native economy. Arda is positioned to provide the governance substrate, compliance rails, and programmable primitives that will empower AI agents to transact safely and autonomously. This unlocks entirely new capital deployment mechanisms, liquidity models, and operational efficiencies.
-
-*Prepared by Arda Protocol Engineering — 2025*

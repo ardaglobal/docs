@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Arda Design Principles
 
 Arda is architected from first principles to serve as a compliant, programmable, and modular operating system for private capital markets and real-world assets. These guiding principles inform every design decision across protocol, infrastructure, and ecosystem layers.
@@ -10,6 +11,7 @@ Arda is architected from first principles to serve as a compliant, programmable,
 One of the reasons private markets are so fragmented is because every jurisdiction has different regulatory requirements. This means that execution needs to happen regionally.
 
 ### Sovereign, Interoperable Chains
+
 - **Principle**: Global liquidity and local compliance are not mutually exclusive.
 - **Implementation**: Regional chains (ArdaOS) comply with local regulations, while Arda Core coordinates identity, registry, and liquidity routing globally.
 - This allows Arda to scale across jurisdictions without compromising legal enforceability.

@@ -5,21 +5,25 @@ This repository contains the documentation for the Arda project, built with [MkD
 ## Quick Start
 
 1. **Install dependencies:**
+
    ```bash
    make install-deps
    ```
 
 2. **Serve locally:**
+
    ```bash
    make serve
    ```
 
 3. **Build documentation:**
+
    ```bash
    make build
    ```
 
 4. **List Available Commands:**
+
    ```bash
    make help
    ```
@@ -29,7 +33,6 @@ This repository contains the documentation for the Arda project, built with [MkD
 ### Markdownlint
 
 This project uses [markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2) to ensure consistent markdown formatting. The linting rules are configured in `.markdownlint-cli2.yaml`.
-
 
 #### Linting Rules
 
@@ -63,6 +66,7 @@ make lint-fix
 ```
 
 ## Development
+
 This repository contains the documentation for the Arda platform, built with [MkDocs](https://www.mkdocs.org/).
 
 ## Development Setup
@@ -89,7 +93,7 @@ The development server will automatically reload when you make changes to the do
 
 Key files:
 
-```
+```bash
 .github/ # GitHub Actions workflows
 docs/ # Markdown files
 Makefile # Makefile for development and deployment
@@ -100,4 +104,4 @@ mkdocs.yml # Configuration file
 
 The documentation is automatically deployed to GitHub Pages via the CI/CD pipeline.
 
-The deployed site is available at: https://docs.arda.xyz
+The deployed site is available at: <https://docs.arda.xyz>
