@@ -5,19 +5,33 @@ Arda’s programmable capital platform is underpinned by a dual-token model and 
 
 ## Core Tokens
 
-### 1. ARDA (Native Protocol Token)
+### ARDA (Native Protocol Token)
+
 The ARDA token is the native coin of the Arda network and serves as the foundational economic and governance instrument.
 
 **Functions:**
+
 - Pay protocol-level transaction and service fees
 - Stake for protocol governance and network security
 - Participate in governance decisions (protocol upgrades, treasury allocation)
 - Earn rewards via staking and protocol contributions
 
-### 2. Arda Stablecoin (Region-Specific)
+**Supply:**
+
+- 1,000,000,000 ARDA
+- 100% of ARDA supply is minted at genesis
+- Unlock and distribution schedule TBD
+
+**Example Mechanics:**
+
+- Portion of protocol fees are sent to an on chain insurance fund that can buy ARDA back from the market. This fund could be used to seed new ArdaOS regions.
+
+### Arda Stablecoin (Region-Specific)
+
 Arda chains may issue a compliant, fiat-backed or regulated stablecoin that reflects local currency value (e.g., ArdaUSD, ArdaAED).
 
 **Functions:**
+
 - Serve as the unit of account for real estate and capital transactions
 - Enable compliance-first settlement with integrated KYC/AML enforcement
 - Plug into escrow, waterfall, and loan repayment modules
@@ -53,11 +67,13 @@ The Arda Token Factory module enables compliant issuance of custom, on-chain fin
 Arda’s governance structure enables token-weighted participation, reputation gating, and compliance-enforced roles.
 
 **Mechanisms:**
+
 - On-chain DAO voting via ARDA token
 - Reputation boosts for verified contributors (agents, data providers, liquidity suppliers)
 - Treasury incentives for onboarding strategic assets or participants
 
 **Incentive Recipients:**
+
 - Agents (structuring, risk, monitoring)
 - Originators and asset onboarders
 - Data providers and oracle publishers
