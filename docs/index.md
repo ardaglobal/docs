@@ -16,17 +16,17 @@ Arda converts messy private markets into programmable digital assets with persis
 
 ### Global Liquidity & 24/7 Market Access
 
-Arda eliminates traditional market barriers, enabling real estate to trade with the same accessibility and liquidity as global financial markets enjoy.
+Arda eliminates traditional market barriers, enabling private markets to trade with the same accessibility and liquidity as global financial markets enjoy.
 
 ### Instant Settlement & Transaction Efficiency
 
-Traditional real estate deals and transfers, often plagued by multi-month settlement times and delays due to paper-based processes spanning buyer and seller chains, are reduced to minutes with Arda’s infrastructure.
+Traditional private market deals and transfers, often plagued by multi-month settlement times and delays due to paper-based processes spanning buyer and seller chains, are reduced to minutes with Arda’s infrastructure.
 
 ### Empowering Business Model Innovation
 
 Our vision is not just about what Arda does itself but what Arda does for others too. Activating and empowering thousands of businesses and a global community to bloom. Imagine a 10x more powerful digital and programmable version of what Coldwell Banker might facilitate. 
 
-Arda’s programmable ecosystem enables the creation of composable financial products and real estate applications tailored to user needs.
+Arda’s programmable ecosystem enables the creation of composable financial products and private market applications tailored to user needs.
 
 ### Compliance & Regulatory-First Approach
 

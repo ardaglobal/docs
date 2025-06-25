@@ -10,7 +10,7 @@ markdown_extensions:
   - pymdownx.snippets:
       base_path: "snippets"
 nav:
-  - Home: index.md
+  - Welcome to Arda: index.md
   - Introduction:
       - Design Principles: introduction/design-principles.md
       - Architecture Overview: introduction/architecture-overview.md
@@ -80,9 +80,9 @@ nav:
           - SDK: getting-started/sdk/sdk.md
           - Cross-Chain Infra: getting-started/sdk/cross-chain.md
           - Governance: getting-started/sdk/governance.md
-  - Appendix:
-      - Glossary: appendix/glossary.md
-      - References: appendix/references.md
-      - ERC20 Wrapping: appendix/erc20-wrapping.md
-      - Bridges: appendix/bridges.md
-      - Stablecoins: appendix/stablecoins.md
+  - Resources:
+      - Glossary: resources/glossary.md
+      - References: resources/references.md
+      - ERC20 Wrapping: resources/erc20-wrapping.md
+      - Bridges: resources/bridges.md
+      - Stablecoins: resources/stablecoins.md
