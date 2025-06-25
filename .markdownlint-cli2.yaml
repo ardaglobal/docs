@@ -1,0 +1,23 @@
+config:
+  # MD013/line-length - Allow longer lines for documentation
+  MD013:
+    line_length: 120
+    code_blocks: false
+    tables: false
+    headings: false
+  
+  # MD033/no-inline-html - Allow inline HTML for MkDocs extensions
+  MD033: false
+  
+  # MD041/first-line-heading - Don't require first line to be heading
+  MD041: false
+  
+  # MD024/no-duplicate-heading - Allow duplicate headings (common in docs)
+  MD024:
+    siblings_only: true
+
+globs:
+  - "docs/**/*.md"
+  - "*.md"
+  - "!site/**"
+  - "!.git/**"
