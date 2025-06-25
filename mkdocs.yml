@@ -18,20 +18,20 @@ nav:
       - Tokenomics: introduction/tokenomics.md
       - Token Models: introduction/token-models.md
       - Lifecycle: introduction/lifecycle.md
+  - ArdaOS:
+      - Arda OS: arda-core/ardaos.md
+      - Overview: ardaos/README.md
+      - Accounting: ardaos/accounting.md
+      - Compliance: ardaos/compliance.md
+      - Governance: ardaos/governance.md
+      - Modules: ardaos/modules.md
+      - ZK TEEs: ardaos/zktees.md
+      - Core Primitives: ardaos/core-primitives.md
+      - Asset Primitives: ardaos/asset-primitives.md
+      - Financial Primitives: ardaos/financial-primitives.md
+      - Agent Primitives: ardaos/agent-primitives.md
   - Arda Core:
       - Overview: arda-core/README.md
-      - ArdaOS:
-          - Arda OS: arda-core/ardaos.md
-          - Overview: ardaos/README.md
-          - Accounting: ardaos/accounting.md
-          - Compliance: ardaos/compliance.md
-          - Governance: ardaos/governance.md
-          - Modules: ardaos/modules.md
-          - ZK TEEs: ardaos/zktees.md
-          - Core Primitives: ardaos/core-primitives.md
-          - Asset Primitives: ardaos/asset-primitives.md
-          - Financial Primitives: ardaos/financial-primitives.md
-          - Agent Primitives: ardaos/agent-primitives.md
       - Taxonomy: arda-core/taxonomy.md
       - Vault: arda-core/vault.md
       - Wallet: arda-core/wallet.md
@@ -42,33 +42,29 @@ nav:
       - Clear: arda-core/clear.md
       - Network-as-a-Service: arda-core/naas.md
       - Identity: arda-core/identity.md
-  - Arda Capital:
-      - Overview: arda-capital/README.md
-      - Loan Structures: arda-capital/loan-structures.md
-      - Underwriting: arda-capital/underwriting.md
-      - Syndication: arda-capital/syndication.md
-      - Tranches: arda-capital/tranches.md
-      - Treasury: arda-capital/treasury.md
-      - Treasury Flow: arda-capital/treasury-flow.md
-      - Settlement: arda-capital/settlement.md
-      - Mandates: arda-capital/mandates.md
-      - Permissioned Pools: arda-capital/permissioned-pools.md
-      - Compliance: arda-capital/compliance.md
-      - Analytics: arda-capital/analytics.md
-  - Arda Trading:
-      - Overview: arda-trading/README.md
-      - Order Book: arda-trading/orderbook.md
-      - Fractional: arda-trading/fractional.md
-      - Market Makers: arda-trading/market-makers.md
-      - Settlement: arda-trading/settlement.md
-      - Compliance: arda-trading/compliance.md
-      - Cross Chain: arda-trading/cross-chain.md
-      - Interfaces: arda-trading/interfaces.md
-  - SDK:
-      - Vault: middleware/arda-vault.md
-      - SDK: middleware/sdk.md
-      - Cross-Chain Infra: middleware/cross-chain.md
-      - Governance: middleware/governance.md
+  - Application Layer:
+      - Arda Capital:
+          - Overview: arda-capital/README.md
+          - Loan Structures: arda-capital/loan-structures.md
+          - Underwriting: arda-capital/underwriting.md
+          - Syndication: arda-capital/syndication.md
+          - Tranches: arda-capital/tranches.md
+          - Treasury: arda-capital/treasury.md
+          - Treasury Flow: arda-capital/treasury-flow.md
+          - Settlement: arda-capital/settlement.md
+          - Mandates: arda-capital/mandates.md
+          - Permissioned Pools: arda-capital/permissioned-pools.md
+          - Compliance: arda-capital/compliance.md
+          - Analytics: arda-capital/analytics.md
+      - Arda Trading:
+          - Overview: arda-trading/README.md
+          - Order Book: arda-trading/orderbook.md
+          - Fractional: arda-trading/fractional.md
+          - Market Makers: arda-trading/market-makers.md
+          - Settlement: arda-trading/settlement.md
+          - Compliance: arda-trading/compliance.md
+          - Cross Chain: arda-trading/cross-chain.md
+          - Interfaces: arda-trading/interfaces.md
   - Getting Started:
       - Interop: getting-started/interop.md
       - Fiat Onramp: integration/fiat-onramp.md
@@ -81,6 +77,11 @@ nav:
       - MVP Testnet Flow: examples/mvp-testnet-flow.md
       - Programmable Loan: examples/programmable-loan.md
       - Trading RFQ Example: examples/trading-rfq-example.md
+      - SDK:
+          - Vault: middleware/arda-vault.md
+          - SDK: middleware/sdk.md
+          - Cross-Chain Infra: middleware/cross-chain.md
+          - Governance: middleware/governance.md
   - Appendix:
       - Glossary: appendix/glossary.md
       - References: appendix/references.md
