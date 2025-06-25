@@ -15,25 +15,33 @@ nav:
       - What is Arda: introduction/what-is-arda.md
       - Design Principles: introduction/design-principles.md
       - Architecture Overview: introduction/architecture-overview.md
+      - Tokenomics: introduction/tokenomics.md
+      - Token Models: protocol/token-models.md
+      - Lifecycle: protocol/lifecycle.md
   - Arda Core:
       - Overview: arda-core/README.md
-      - Arda OS: arda-core/ardaos.md
-      - Arda Foundry: product/arda-foundry.md
+      - ArdaOS:
+          - Arda OS: arda-core/ardaos.md
+          - Overview: shared-primitives/README.md
+          - Accounting: shared-primitives/accounting.md
+          - Compliance: shared-primitives/compliance.md
+          - Governance: shared-primitives/governance.md
+          - Modules: shared-primitives/modules.md
+          - ZK TEEs: shared-primitives/zktees.md
+          - Core Primitives: primitives/core-primitives.md
+          - Asset Primitives: primitives/asset-primitives.md
+          - Financial Primitives: primitives/financial-primitives.md
+          - Agent Primitives: primitives/agent-primitives.md
       - Taxonomy: arda-core/taxonomy.md
       - Vault: arda-core/vault.md
       - Wallet: arda-core/wallet.md
       - Onboarding: arda-core/onboarding.md
       - Compliance: arda-core/compliance.md
+      - Arda Foundry: product/arda-foundry.md
       - Token Factory: arda-core/token-factory.md
       - Clear: arda-core/clear.md
       - Network-as-a-Service: arda-core/naas.md
       - Identity: arda-core/identity.md
-      - Interop: arda-core/interop.md
-      - Token Models: protocol/token-models.md
-      - Compliance Engine: protocol/compliance-engine.md
-      - Lifecycle: protocol/lifecycle.md
-      - Treasury Flow: protocol/treasury-flow.md
-      - Settlement: protocol/settlement.md
   - Arda Capital:
       - Overview: arda-capital/README.md
       - Loan Structures: arda-capital/loan-structures.md
@@ -41,6 +49,8 @@ nav:
       - Syndication: arda-capital/syndication.md
       - Tranches: arda-capital/tranches.md
       - Treasury: arda-capital/treasury.md
+      - Treasury Flow: protocol/treasury-flow.md
+      - Settlement: protocol/settlement.md
       - Mandates: arda-capital/mandates.md
       - Permissioned Pools: arda-capital/permissioned-pools.md
       - Compliance: arda-capital/compliance.md
@@ -54,30 +64,20 @@ nav:
       - Compliance: arda-trading/compliance.md
       - Cross Chain: arda-trading/cross-chain.md
       - Interfaces: arda-trading/interfaces.md
-  - Primitives:
-      - Overview: shared-primitives/README.md
-      - Accounting: shared-primitives/accounting.md
-      - Compliance: shared-primitives/compliance.md
-      - Governance: shared-primitives/governance.md
-      - Modules: shared-primitives/modules.md
-      - ZK TEEs: shared-primitives/zktees.md
-      - Core Primitives: primitives/core-primitives.md
-      - Asset Primitives: primitives/asset-primitives.md
-      - Financial Primitives: primitives/financial-primitives.md
-      - Agent Primitives: primitives/agent-primitives.md
   - SDK:
       - Vault: middleware/arda-vault.md
       - SDK: middleware/sdk.md
       - Cross-Chain Infra: middleware/cross-chain.md
       - Governance: middleware/governance.md
-  - Integration:
+  - Getting Started:
+      - Interop: arda-core/interop.md
       - Fiat Onramp: integration/fiat-onramp.md
       - Identity Providers: integration/identity-providers.md
       - Oracles: integration/oracles.md
-      - Regional Setup: deployment/regional-deployment.md
-      - Validator Setup: deployment/validator-setup.md
-      - Data Residency: deployment/data-residency.md
-      - Observability: deployment/observability.md
+      - Regional Setup: getting-started/regional-deployment.md
+      - Validator Setup: getting-started/validator-setup.md
+      - Data Residency: getting-started/data-residency.md
+      - Observability: getting-started/observability.md
       - MVP Testnet Flow: examples/mvp-testnet-flow.md
       - Programmable Loan: examples/programmable-loan.md
       - Trading RFQ Example: examples/trading-rfq-example.md
