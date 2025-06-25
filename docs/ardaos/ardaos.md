@@ -1,10 +1,6 @@
 --8<-- "warning.md"
 # ArdaOS
 
----
-
-## Overview
-
 ArdaOS is the sovereign execution layer for individual jurisdictions within the Arda ecosystem. It enables each region—such as the UAE, United States, or Singapore—to run a dedicated rollup with its own compliance, settlement, and performance rules, while still conforming to the global Arda Core standard.
 
 Each ArdaOS instance is a zk-augmented rollup (or optionally a POA appchain) designed to enforce jurisdiction-specific regulatory constraints, enable low-latency execution, and interoperate with the global coordination layer via the Arda SDK.

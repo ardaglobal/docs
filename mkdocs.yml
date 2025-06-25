@@ -19,8 +19,8 @@ nav:
       #   - Token Models: introduction/token-models.md # duplicate of tokenomics
     #   - Token Lifecycle: introduction/token-lifecycle.md # duplicate of tokenomics
   - ArdaOS:
-      - Arda OS: arda-core/ardaos.md
-      - Overview: ardaos/README.md
+      - Overview: ardaos/ardaos.md
+      #   - Overview: ardaos/README.md # This was originally an primitives overview doc
       - Accounting: ardaos/accounting.md
       - Compliance: ardaos/compliance.md
       - Governance: ardaos/governance.md
@@ -29,7 +29,6 @@ nav:
       - Core Primitives: ardaos/core-primitives.md
       - Asset Primitives: ardaos/asset-primitives.md
       - Financial Primitives: ardaos/financial-primitives.md
-      - Agent Primitives: ardaos/agent-primitives.md
   - Arda Core:
       - Overview: arda-core/README.md
       - Taxonomy: arda-core/taxonomy.md
@@ -42,6 +41,12 @@ nav:
       - Clear: arda-core/clear.md
       - Network-as-a-Service: arda-core/naas.md
       - Identity: arda-core/identity.md
+  - Semantic Intelligence Layer:
+      - Agent Primitives: ardaos/agent-primitives.md
+      - Identity Providers: integration/identity-providers.md
+      - Oracles: integration/oracles.md
+      - Data Residency: getting-started/data-residency.md
+      - External Agents: appendix/external-agents.md
   - Application Layer:
       - Arda Capital:
           - Overview: arda-capital/README.md
@@ -68,11 +73,8 @@ nav:
   - Getting Started:
       - Interop: getting-started/interop.md
       - Fiat Onramp: integration/fiat-onramp.md
-      - Identity Providers: integration/identity-providers.md
-      - Oracles: integration/oracles.md
       - Regional Setup: getting-started/regional-deployment.md
       - Validator Setup: getting-started/validator-setup.md
-      - Data Residency: getting-started/data-residency.md
       - Observability: getting-started/observability.md
       - MVP Testnet Flow: examples/mvp-testnet-flow.md
       - Programmable Loan: examples/programmable-loan.md
@@ -88,4 +90,3 @@ nav:
       - ERC20 Wrapping: appendix/erc20-wrapping.md
       - Bridges: appendix/bridges.md
       - Stablecoins: appendix/stablecoins.md
-      - External Agents: appendix/external-agents.md
