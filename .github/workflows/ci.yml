@@ -5,26 +5,57 @@ on:
       - main
 permissions:
   contents: write
+  issues: write
 jobs:
-  deploy:
+  release-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      
+      # Semantic Release Step
+      - name: Configure Semantic Release
+        # Work around for non npm project
+        # REF: https://github.com/cycjimmy/semantic-release-action/issues/115#issuecomment-1817264419
+        run: echo '{"branches":[],"plugins":["@semantic-release/commit-analyzer","@semantic-release/release-notes-generator","@semantic-release/github"]}' > .releaserc.json
+      
+      - name: Create Release
+        id: semantic-release
+        uses: cycjimmy/semantic-release-action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          branches: |
+            ["main"]
+      
+      # Deploy Steps (only if release was created)
       - uses: actions/setup-python@v5
+        if: steps.semantic-release.outputs.new-release-published == 'true'
         with:
           python-version: 3.x
+      
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+        if: steps.semantic-release.outputs.new-release-published == 'true'
+      
       - uses: actions/cache@v4
+        if: steps.semantic-release.outputs.new-release-published == 'true'
         with:
           key: mkdocs-material-${{ env.cache_id }}
           path: .cache
           restore-keys: |
             mkdocs-material-
+      
       - run: pip install mkdocs-material
+        if: steps.semantic-release.outputs.new-release-published == 'true'
+      
       - name: Create CNAME file
+        if: steps.semantic-release.outputs.new-release-published == 'true'
         run: echo "docs.arda.xyz" > docs/CNAME
+      
       - run: mkdocs gh-deploy --force
+        if: steps.semantic-release.outputs.new-release-published == 'true'
