@@ -1,0 +1,17 @@
+{
+  "name": "arda-docs",
+  "version": "1.0.0",
+  "description": "Arda Documentation",
+  "scripts": {
+    "spellcheck": "cspell '**/*.md' --config cspell.json",
+    "spellcheck:fix": "cspell '**/*.md' --config cspell.json --show-suggestions",
+    "spellcheck:ci": "cspell '**/*.md' --config cspell.json --no-progress --no-summary"
+  },
+  "devDependencies": {
+    "cspell": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/arda-docs"
+  }
+}
