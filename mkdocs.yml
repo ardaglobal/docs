@@ -42,48 +42,48 @@ nav:
       - Network-as-a-Service: arda-core/naas.md
       - Identity: arda-core/identity.md
   - Semantic Intelligence Layer:
-      - Agent Primitives: ardaos/agent-primitives.md
-      - Identity Providers: integration/identity-providers.md
-      - Oracles: integration/oracles.md
-      - Data Residency: getting-started/data-residency.md
-      - External Agents: appendix/external-agents.md
+      - Agent Primitives: semantic-intelligence-layer/agent-primitives.md
+      - Identity Providers: semantic-intelligence-layer/identity-providers.md
+      - Oracles: semantic-intelligence-layer/oracles.md
+      - Data Residency: semantic-intelligence-layer/data-residency.md
+      - External Agents: semantic-intelligence-layer/external-agents.md
   - Application Layer:
       - Arda Capital:
-          - Overview: arda-capital/README.md
-          - Loan Structures: arda-capital/loan-structures.md
-          - Underwriting: arda-capital/underwriting.md
-          - Syndication: arda-capital/syndication.md
-          - Tranches: arda-capital/tranches.md
-          - Treasury: arda-capital/treasury.md
-          - Treasury Flow: arda-capital/treasury-flow.md
-          - Settlement: arda-capital/settlement.md
-          - Mandates: arda-capital/mandates.md
-          - Permissioned Pools: arda-capital/permissioned-pools.md
-          - Compliance: arda-capital/compliance.md
-          - Analytics: arda-capital/analytics.md
+          - Overview: application-layer/arda-capital/README.md
+          - Loan Structures: application-layer/arda-capital/loan-structures.md
+          - Underwriting: application-layer/arda-capital/underwriting.md
+          - Syndication: application-layer/arda-capital/syndication.md
+          - Tranches: application-layer/arda-capital/tranches.md
+          - Treasury: application-layer/arda-capital/treasury.md
+          - Treasury Flow: application-layer/arda-capital/treasury-flow.md
+          - Settlement: application-layer/arda-capital/settlement.md
+          - Mandates: application-layer/arda-capital/mandates.md
+          - Permissioned Pools: application-layer/arda-capital/permissioned-pools.md
+          - Compliance: application-layer/arda-capital/compliance.md
+          - Analytics: application-layer/arda-capital/analytics.md
       - Arda Trading:
-          - Overview: arda-trading/README.md
-          - Order Book: arda-trading/orderbook.md
-          - Fractional: arda-trading/fractional.md
-          - Market Makers: arda-trading/market-makers.md
-          - Settlement: arda-trading/settlement.md
-          - Compliance: arda-trading/compliance.md
-          - Cross Chain: arda-trading/cross-chain.md
-          - Interfaces: arda-trading/interfaces.md
+          - Overview: application-layer/arda-trading/README.md
+          - Order Book: application-layer/arda-trading/orderbook.md
+          - Fractional: application-layer/arda-trading/fractional.md
+          - Market Makers: application-layer/arda-trading/market-makers.md
+          - Settlement: application-layer/arda-trading/settlement.md
+          - Compliance: application-layer/arda-trading/compliance.md
+          - Cross Chain: application-layer/arda-trading/cross-chain.md
+          - Interfaces: application-layer/arda-trading/interfaces.md
   - Getting Started:
       - Interop: getting-started/interop.md
-      - Fiat Onramp: integration/fiat-onramp.md
+      - Fiat Onramp: getting-started/fiat-onramp.md
       - Regional Setup: getting-started/regional-deployment.md
       - Validator Setup: getting-started/validator-setup.md
       - Observability: getting-started/observability.md
-      - MVP Testnet Flow: examples/mvp-testnet-flow.md
-      - Programmable Loan: examples/programmable-loan.md
-      - Trading RFQ Example: examples/trading-rfq-example.md
+      - MVP Testnet Flow: getting-started/mvp-testnet-flow.md
+      - Programmable Loan: getting-started/programmable-loan.md
+      - Trading RFQ Example: getting-started/trading-rfq-example.md
       - SDK:
-          - Vault: middleware/arda-vault.md
-          - SDK: middleware/sdk.md
-          - Cross-Chain Infra: middleware/cross-chain.md
-          - Governance: middleware/governance.md
+          - Vault: getting-started/sdk/arda-vault.md
+          - SDK: getting-started/sdk/sdk.md
+          - Cross-Chain Infra: getting-started/sdk/cross-chain.md
+          - Governance: getting-started/sdk/governance.md
   - Appendix:
       - Glossary: appendix/glossary.md
       - References: appendix/references.md
