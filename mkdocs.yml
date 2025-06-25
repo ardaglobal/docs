@@ -12,12 +12,9 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Introduction:
-      #   - What is Arda: introduction/what-is-arda.md # feels like a duplicate of the index page
       - Design Principles: introduction/design-principles.md
       - Architecture Overview: introduction/architecture-overview.md
       - Tokenomics: introduction/tokenomics.md
-      #   - Token Models: introduction/token-models.md # duplicate of tokenomics
-    #   - Token Lifecycle: introduction/token-lifecycle.md # duplicate of tokenomics
   - ArdaOS:
       - Overview: ardaos/ardaos.md
       #   - Overview: ardaos/README.md # This was originally an primitives overview doc
