@@ -1,10 +1,6 @@
 --8<-- "warning.md"
 # Core Protocol Primitives
 
----
-
-## Overview
-
 Arda's protocol is built on a set of well-defined primitives that model real-world legal, financial, and operational structures as composable on-chain objects. These primitives define the semantics, permissions, and behaviors of all entities and assets within the Arda ecosystem.
 
 They are deterministic, auditable, and designed to enable secure automation, compliance enforcement, and modular expansion.

@@ -58,5 +58,3 @@ ZK/TEE primitives are used in identity, vault, risk evaluation, deal execution, 
 - ZK circuits are audited and governed through upgrade proposals
 - TEEs must publish attestation keys and are whitelisted via Agent Registry
 - All proofs are hash-linked to AuditLog entries for traceability
-
----

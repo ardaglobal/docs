@@ -1,10 +1,6 @@
 --8<-- "warning.md"
 # Asset Primitives
 
----
-
-## Overview
-
 Asset Primitives in Arda define how physical, legal, and economic characteristics of real-world assets are modeled on-chain. These primitives serve as the foundation for tokenizing and interacting with real estate, infrastructure, commodities, and their associated rights.
 
 Each asset primitive is tied to compliance metadata, valuation logic, and lifecycle status—making them programmable, composable, and enforceable.
@@ -80,11 +76,3 @@ Assets can evolve through:
   - Jurisdiction compliance
   - Valid registry entry or override
 - Assets may have restricted transferability or use based on legal constraints
-
----
-
-## Developer Notes
-
-- Asset metadata managed via Arda Ledger
-- Linked documents stored and hashed in Arda Vault
-- Queryable via asset registry APIs with filter by jurisdiction, SPV, usage

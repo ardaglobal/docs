@@ -1,10 +1,6 @@
 --8<-- "warning.md"
 # Financial Primitives
 
----
-
-## Overview
-
 Financial primitives in Arda define the contract-level representations of capital, debt, yield, and structured risk. These standardized components enable composable financial engineering while maintaining compliance and lifecycle guarantees.
 
 They serve as the foundation for Arda Capital, Arda Trading, and Arda Clear flows, and are fully compatible with legal wrappers and governance layers.
@@ -91,12 +87,3 @@ Arda supports higher-order instruments via combinations of primitives:
 - Programmatic SPVs
 - Insurance-linked tranches
 - Credit-enhanced yield strategies
-
----
-
-## Developer Notes
-
-- SDK methods:
-  - `createDebtToken()`, `splitTranche()`, `accrueInterest()`
-- Compatible with governance and compliance systems
-- Indexed by `TrancheIndex`, `FacilityRegistry`, and `YieldBook`

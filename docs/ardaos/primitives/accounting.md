@@ -1,10 +1,6 @@
 --8<-- "warning.md"
 # Accounting Primitives
 
----
-
-## Overview
-
 Arda's accounting primitives define the fundamental mechanisms for calculating, accruing, distributing, and reconciling financial flows across the protocol. These primitives support everything from interest accrual on loans to fee allocation, treasury sweeping, and escrow disbursement.
 
 They are core to the Treasury, Clear, Tranche, and Yield systems and operate deterministically across ArdaOS chains.
@@ -69,12 +65,3 @@ These hooks trigger Vault logging, AuditLog updates, and state transitions in To
 - Sweep and Fee primitives are subject to TransferRules
 - Drawdown and Burn can enforce escrow verification
 - Interest splits validate recipient eligibility against JurisdictionProfile
-
----
-
-## Integration
-
-- **Treasury**: Sweep, split, buffer, and burn logic
-- **Clear**: Executes actual transfers post-reconciliation
-- **TokenFactory**: Triggers lifecycle hooks based on token type
-- **Vault**: Anchors off-chain proof for payments and disbursements

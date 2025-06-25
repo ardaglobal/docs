@@ -7,6 +7,8 @@ Each ArdaOS instance is a zk-augmented rollup (or optionally a POA appchain) des
 
 ArdaOS is the regional execution environment layer within the Arda architecture. Each ArdaOS instance operates as a sovereign, compliant, high-performance blockchain tailored to the needs of a specific jurisdiction. These chains integrate with Arda Core to ensure shared semantics, compliance rules, and interoperability.
 
+The goal of ArdaOS is for individual regions to be able to launch a standardized chain so that independent regions can be easily interoperable. Using technologies like namespaced Merkle Trees to allow for the optionality of easily interacting and being discoverable on a DA network like Celestia.
+
 ---
 
 ## Key Characteristics
@@ -20,28 +22,27 @@ ArdaOS is the regional execution environment layer within the Arda architecture.
 - **Vertically Integrated**: Includes execution logic, compliance checks, treasury flows, and event triggers natively.
 - **Coordination-Enabled**: Synchronizes with Arda Core for cross-region functionality and shared identity.
 
-### 1. **POA / Rollup Architecture**
+### POA / Rollup Architecture
 - Supported as sovereign Proof-of-Authority chains or zk-enabled rollups.
 - Optimized for <100ms latency and regional scalability.
 
-### 2. **Localized Compliance Layer**
+### Localized Compliance Layer
 - KYC/AML, jurisdiction rules, investor limits, and transaction gating enforced on-chain.
 - Built on the same primitives as Arda Core but scoped to local legal frameworks.
 
-### 3. **Arda Network-as-a-Service (NaaS)**
-- Regional deployments on cloud or local infra (e.g. AWS Middle East, EU on-prem).
-- Ensures compliance with data localization laws and regulator access.
-
-### 4. **Validator Coordination**
+### Validator Coordination
 - 3–7 regionally approved validators per chain.
 - Includes notaries, registrars, public agencies, or approved financial institutions.
 
-### 5. **Native Asset Support**
+### Native Asset Support
 - Region-specific MoneyTokens, AssetTokens, DebtTokens, and YieldTokens.
 - Customizable bridge wrappers and token templates.
 
-### 6. **Shared Security & Compliance**: Inherit global compliance rules and validator security from Arda Core.
-### 7. **Low-Cost, High-Throughput**: Optimized for enterprise-grade workloads without the high fees of public mainnets.
+### Shared Security & Compliance
+- Inherit global compliance rules and validator security from Arda Core.
+
+### Low-Cost, High-Throughput
+- Optimized for enterprise-grade workloads without the high fees of public mainnets.
 
 ---
 
@@ -73,17 +74,3 @@ Each ArdaOS deployment includes a reference SDK interface that:
 - Exposes cross-chain callable methods (`xcall`)
 - Maps global asset IDs to local chain representations
 - Routes compliance requests to Arda Core's attestation layer
-
----
-
-## Developer Notes
-
-- SDK allows for modular deployment and permission configuration.
-- Compliance engine templates are region-specific but interoperable.
-- Chains are indexed in Arda Core for routing and discovery.
-
-## Key Interactions
-
-- ArdaOS instances interact via:
-  - **Arda Core**: For identity, compliance, and governance syncs.
-  - **IBC/Bridges**: For asset transfers and cross-chain messaging.
