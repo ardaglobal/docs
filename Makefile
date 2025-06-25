@@ -21,11 +21,15 @@ install-deps:
 lint:
 	@echo "Linting markdown files..."
 	npm run lint
+	@echo "Spell checking markdown files..."
+	npm run spellcheck
 
 # Lint and fix markdown files
 lint-fix:
 	@echo "Linting and fixing markdown files..."
 	npm run lint:fix
+	@echo "Spell checking and fixing markdown files..."
+	npm run spellcheck:fix
 
 # Serve documentation locally
 serve:
