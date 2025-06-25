@@ -86,7 +86,13 @@ Capital formation, trading, asset management, marketplace tools.
 
 This site is structured to help both technical and non-technical stakeholders explore and contribute to Arda's ecosystem.
 
+- If you're interested in the vision and design philosophy, start with the **Introduction** section.
 - If you're interested in the different components of the Arda ecosystem, start with the **Architecture Layers** sections, starting with **ArdaOS**.
 - If you're interested in how to build on Arda, use the **Getting Started** section.
+
+---
+
+## Glossary
+
 
 

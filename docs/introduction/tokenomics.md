@@ -1,3 +1,4 @@
+--8<-- "warning.md"
 # Tokenomics
 
 Arda’s programmable capital platform is underpinned by a dual-token model and a compliance-first token factory architecture. This page outlines the foundational token types in the Arda ecosystem, their roles, and future expansion plans.
@@ -62,6 +63,57 @@ Arda’s governance structure enables token-weighted participation, reputation g
 - Data providers and oracle publishers
 - Investors staking capital into programmable pools
 
+## General Lifecycle Flow
+
+Typical lifecycle phases (varies by object):
+
+1. **Initialized** – Object created (SPV, Facility, AssetToken, DebtToken)
+2. **Activated** – Meets minimum compliance/config requirements
+3. **Issuance / Drawdown** – Capital deployed or token minted
+4. **Active** – Ongoing financial and/or compliance state
+5. **Repayment / Exit** – Principal or equity returned
+6. **Closed / Finalized** – Object settled, closed, or burned
+
+## Lifecycle Objects
+
+### 1. **FacilityStatus**
+Tracks the current stage of a financing or issuance process.
+
+- Phases: `Draft`, `Open`, `Subscribed`, `Funded`, `In Repayment`, `Closed`
+- Used for: debt issuances, equity raises, structured pools
+
+### 2. **Drawdown**
+Represents capital released from a facility.
+
+- Triggered by: investor subscription, milestone completion, disbursement logic
+- May create or mint a DebtToken
+- Includes: timestamp, amount, purpose, oracle snapshot
+
+### 3. **InterestAccrual**
+Defines how interest is accumulated.
+
+- Types: fixed, floating, step-up, hybrid
+- Frequency: daily, monthly, annual
+- Integrated with fee and yield flows
+
+### 4. **Repay / Burn Events**
+- Tracks repayment or voluntary cancellation of debt or assets
+- Tokens are updated or burned to reflect reduction in obligation
+
+### 5. **PaymentSchedule**
+Defines planned disbursement and repayment dates
+
+- Example: construction loan may include 6 milestone-linked disbursements, then quarterly interest
+- Can include grace periods, prepayment windows, and penalties
+
+### 6. **EventHook**
+Automated trigger for lifecycle transitions
+
+- Can be time-based, oracle-based, or dependent on compliance state
+- Examples:
+  - Convert a development right token to an ownership token upon milestone completion
+  - Auto-freeze transfers if tax documentation expires
+
 ## Future Token Concepts
 
 - **Yield Tokens**: Stream future cashflows from property rent, escrow interest, or waterfall tranches.
@@ -71,10 +123,21 @@ Arda’s governance structure enables token-weighted participation, reputation g
 ## Compliance by Design
 
 All tokens issued in Arda adhere to a “compliance-by-default” design:
+
 - Whitelist-based transfer enforcement
 - Region-aware permissioning logic
 - Lifecycle event logging for audit and transparency
 - Optional zk-based attestations for private transfer proofs
+- All lifecycle transitions are gated by `TransferRule`, `JurisdictionProfile`, or `KYC Tier`.
+- Lifecycle logs are added to `AuditLog` for traceability.
+- Status transitions can only be triggered if permissions, risk, and documentation requirements are satisfied.
+
+## Reusability and Composition
+
+- Multiple lifecycle objects can be linked:
+  - One PaymentSchedule may cover several TrancheTokens
+  - One EventHook may update both FacilityStatus and FeeEngine
+- Lifecycle definitions can be cloned and reused across deal templates (via SDK)
 
 ## Summary
 
