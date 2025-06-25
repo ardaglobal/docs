@@ -5,7 +5,7 @@ Arda's token models are modular, compliance-aware, and is designed to interopera
 
 This specification outlines the key token categories and their lifecycle logic, permissions, and data structure standards.
 
-Each token model is built upon Arda's [Core Primitives](../primitives/core-primitives.md) and inherits the protocol's compliance and lifecycle management capabilities. This document specifies the key token types and their attributes.
+Each token model is built upon Arda's [Core Primitives](../ardaos/core-primitives.md) and inherits the protocol's compliance and lifecycle management capabilities. This document specifies the key token types and their attributes.
 
 ---
 

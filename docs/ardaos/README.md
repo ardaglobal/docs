@@ -1,12 +1,6 @@
 --8<-- "warning.md"
 # Shared Protocol Primitives
 
-> *Version: 1.0 • Last updated: 2025-06-23*
-
----
-
-## Overview
-
 Arda defines a library of reusable, interoperable protocol primitives that form the foundation of asset lifecycle management, compliance enforcement, identity gating, accounting, and zero-knowledge interaction. These primitives are embedded in Arda Core and extended into all capital, trading, and registry applications.
 
 Each primitive is deterministic, auditable, and portable across ArdaOS regions.
@@ -40,17 +34,3 @@ Each primitive is deterministic, auditable, and portable across ArdaOS regions.
 - Used in Capital: Loan structures, TrancheTokens, Syndication rules
 - Used in Trading: Order compliance, liquidity filters, settlement finality
 - Used in Core: Identity gating, governance logic, bridge validation
-
----
-
-## Related Docs
-
-- [`accounting.md`](./accounting.md)
-- [`compliance.md`](./compliance.md)
-- [`governance.md`](./governance.md)
-- [`modules.md`](./modules.md)
-- [`zktees.md`](./zktees.md)
-
----
-
-*© ArdaOS Documentation • Licensed under MIT*

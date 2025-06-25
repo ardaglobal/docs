@@ -1,12 +1,6 @@
 --8<-- "warning.md"
 # ZK and TEE Primitives
 
-> *Version: 1.0 • Last updated: 2025-06-23*
-
----
-
-## Overview
-
 Arda supports zero-knowledge (ZK) and trusted execution environment (TEE) primitives for enforcing privacy, integrity, and selective disclosure across its protocol stack. These cryptographic mechanisms enable users and agents to verify data or behavior without revealing the underlying values — essential for compliance, privacy law alignment, and regulated institutional usage.
 
 ZK/TEE primitives are used in identity, vault, risk evaluation, deal execution, and settlement logic.
@@ -66,13 +60,3 @@ ZK/TEE primitives are used in identity, vault, risk evaluation, deal execution, 
 - All proofs are hash-linked to AuditLog entries for traceability
 
 ---
-
-## Related Docs
-
-- [`vault.md`](../arda-core/vault.md)
-- [`compliance.md`](./compliance.md)
-- [`external-agents.md`](../reference/external-agents.md)
-
----
-
-*© ArdaOS Documentation • Licensed under MIT*

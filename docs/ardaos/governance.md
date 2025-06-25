@@ -1,12 +1,6 @@
 --8<-- "warning.md"
 # Governance Primitives
 
-> *Version: 1.0 • Last updated: 2025-06-23*
-
----
-
-## Overview
-
 Arda's governance primitives define how roles, rights, and protocol upgrades are managed in a modular, jurisdiction-aware, and compliance-first fashion. Governance spans asset configuration, pool rules, agent registration, and protocol module evolution.
 
 All governance actions are tracked and scoped via identity, attestation, and jurisdictional logic — ensuring region-specific control where needed while enabling global coordination.
@@ -81,7 +75,7 @@ All governance actions are tracked and scoped via identity, attestation, and jur
 
 - [`identity.md`](../arda-core/identity.md)
 - [`token-factory.md`](../arda-core/token-factory.md)
-- [`external-agents.md`](../reference/external-agents.md)
+- [`external-agents.md`](../appendix/external-agents.md)
 
 ---
 

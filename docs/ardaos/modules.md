@@ -1,12 +1,6 @@
 --8<-- "warning.md"
 # Protocol Modules
 
-> *Version: 1.0 • Last updated: 2025-06-23*
-
----
-
-## Overview
-
 Protocol modules in Arda are reusable, self-contained logic units that implement the behavior of tokens, pools, agents, settlements, or compliance enforcement. Each module can be deployed across ArdaOS regions, imported by SDKs, and extended by agents or DAOs to fit local requirements.
 
 Modules encapsulate state machines, lifecycle hooks, and external integrations to drive Arda's programmable infrastructure.
@@ -71,15 +65,3 @@ These hooks trigger internal logic and external coordination (e.g. with Arda Cle
 - **Syndication Engine**: Applies pool module logic for risk and tranching
 - **Clear**: Executes lifecycle hooks and disbursement logic
 - **Interop**: Verifies module compatibility across chains
-
----
-
-## Related Docs
-
-- [`token-factory.md`](../arda-core/token-factory.md)
-- [`treasury.md`](../arda-capital/treasury.md)
-- [`governance.md`](./governance.md)
-
----
-
-*© ArdaOS Documentation • Licensed under MIT*
