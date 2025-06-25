@@ -15,17 +15,16 @@ Arda Core is the global coordination layer of the Arda architecture. It provides
 
 ## Key Modules in Arda Core
 
-- **ArdaOS** — Sovereign rollup operating system for region-specific compliance and execution.
-- **Taxonomy** — A universal classification system for assets, rights, and obligations.
-- **Vault** — FHE/MPC-enabled encrypted storage for sensitive property and legal data.
-- **Wallet** — Supports custody, multisig, and KYC tier enforcement.
-- **Onboarding** — Handles asset and user registration, with fallback to manual verification.
-- **Compliance Engine** — Defines and enforces TransferRules, JurisdictionProfiles, and permissions.
-- **Token Factory** — Generates token types like AssetToken, DebtToken, TrancheToken with full compliance bindings.
-- **Arda Clear** — Settlement engine for asset transfers and capital netting across chains.
-- **Network-as-a-Service (NaaS)** — Arda's framework for deploying regional chains with sovereign control.
-- **Identity** — Core entity structures like Entity, WalletGroup, and attestation-backed KYC Tiers.
-- **Interop** — SDK and bridge routing layer, enabling state discovery and message passing across sovereign Arda chains.
+- **Taxonomy** — A universal classification system for assets, rights, entities, and legal structures across the entire Arda ecosystem.
+- **Vault** — Privacy-preserving data layer with FHE/MPC-enabled encrypted storage for sensitive property and legal data.
+- **Wallet** — Governs user and institutional access with KYC tier enforcement, custody configurations, and compliance integration.
+- **Onboarding** — Handles user, entity, and real-world asset registration with automated and manual verification workflows.
+- **Compliance** — Dynamic compliance engine with KYC/AML, TransferRules, JurisdictionProfiles, and audit logging.
+- **Arda Foundry** — Protocol-native legal entity and structure creation system for SPVs, trusts, and other legal wrappers.
+- **Token Factory** — Generates token types like AssetToken, DebtToken, TrancheToken with full compliance bindings and lifecycle management.
+- **Clear** — Settlement engine for asset transfers, capital netting, and cross-chain clearing with escrow support.
+- **Network-as-a-Service (NaaS)** — Framework for deploying regional chains with sovereign control and compliance alignment.
+- **Identity** — Core entity structures like Entity, WalletGroup, KYC Tiers, and attestation-backed identity management.
 
 ### 1. **Arda Taxonomy**
 - A shared data model for describing assets, rights, entities, and relationships.
@@ -82,9 +81,8 @@ Each sovereign ArdaOS instance imports Core definitions for compliance, taxonomy
 |-----------------|------------------|--------------------------|
 | Token Factory   | AssetToken       | SDK, Compliance Engine   |
 | Vault           | Encrypted Blobs  | FHE/MPC Services         |
-| ArdaOS          | SDK Interfaces   | Arda Core Modules        |
 | Identity        | KYC Tiers        | Custody APIs, Verifiers  |
-| Arda Clear      | Transfers/Settles| Global bridges, NaaS     |
+| Clear           | Transfers/Settles| Global bridges, NaaS     |
 
 ## Coordination Responsibilities
 
