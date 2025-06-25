@@ -19,7 +19,7 @@ Data residency in Arda ensures that sensitive data—such as personal identity, 
 - Documents never leave jurisdiction unless explicitly authorized
 
 ### 2. **Execution-Data Decoupling**
-- Arda OS executes business logic
+- ArdaOS executes business logic
 - Documents and metadata resolved off-chain within local vault clusters
 - Hashes, attestations, and ZK proofs shared globally
 

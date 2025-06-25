@@ -9,7 +9,7 @@ ArdaOS is the sovereign execution layer for individual jurisdictions within the 
 
 Each ArdaOS instance is a zk-augmented rollup (or optionally a POA appchain) designed to enforce jurisdiction-specific regulatory constraints, enable low-latency execution, and interoperate with the global coordination layer via the Arda SDK.
 
-Arda OS is the regional execution environment layer within the Arda architecture. Each Arda OS instance operates as a sovereign, compliant, high-performance blockchain tailored to the needs of a specific jurisdiction. These chains integrate with Arda Core to ensure shared semantics, compliance rules, and interoperability.
+ArdaOS is the regional execution environment layer within the Arda architecture. Each ArdaOS instance operates as a sovereign, compliant, high-performance blockchain tailored to the needs of a specific jurisdiction. These chains integrate with Arda Core to ensure shared semantics, compliance rules, and interoperability.
 
 ---
 
@@ -62,7 +62,7 @@ Arda OS is the regional execution environment layer within the Arda architecture
 ## Cross-Chain Coordination
 
 - Cross-region transactions routed through Arda Clear.
-- Arda OS instances interact via:
+- ArdaOS instances interact via:
   - Message relays (ZK, TEE, multisig)
   - Validator signatures
   - State snapshot proofs
@@ -85,3 +85,9 @@ Each ArdaOS deployment includes a reference SDK interface that:
 - SDK allows for modular deployment and permission configuration.
 - Compliance engine templates are region-specific but interoperable.
 - Chains are indexed in Arda Core for routing and discovery.
+
+## Key Interactions
+
+- ArdaOS instances interact via:
+  - **Arda Core**: For identity, compliance, and governance syncs.
+  - **IBC/Bridges**: For asset transfers and cross-chain messaging.

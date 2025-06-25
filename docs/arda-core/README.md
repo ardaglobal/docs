@@ -9,7 +9,7 @@ Arda Core is the foundational infrastructure layer of the Arda protocol. It defi
 
 Arda Core is jurisdiction-agnostic and interacts with sovereign ArdaOS chains through deterministic APIs, providing global coordination and consistency without enforcing a monolithic execution model.
 
-Arda Core is the global coordination layer of the Arda architecture. It provides shared infrastructure across sovereign Arda OS chains, enabling standardized semantics, identity registry, compliance enforcement, and global liquidity routing. It acts as the "semantic and compliance operating system" for Arda’s ecosystem.
+Arda Core is the global coordination layer of the Arda architecture. It provides shared infrastructure across sovereign ArdaOS chains, enabling standardized semantics, identity registry, compliance enforcement, and global liquidity routing. It acts as the "semantic and compliance operating system" for Arda's ecosystem.
 
 ---
 
@@ -92,7 +92,7 @@ Each sovereign ArdaOS instance imports Core definitions for compliance, taxonomy
   - Wallet Groups and Entities
   - Assets and SPVs
   - Taxonomies and jurisdictions
-- Synchronizes permissioning across sovereign Arda OS chains
+- Synchronizes permissioning across sovereign ArdaOS chains
 - Orchestrates liquidity flows and bridges across regions
 
 ---

@@ -16,9 +16,9 @@ nav:
       - Design Principles: introduction/design-principles.md
       - Architecture Overview: introduction/architecture-overview.md
   - Arda Core:
-      - Arda Foundry: product/arda-foundry.md
       - Overview: arda-core/README.md
       - Arda OS: arda-core/ardaos.md
+      - Arda Foundry: product/arda-foundry.md
       - Taxonomy: arda-core/taxonomy.md
       - Vault: arda-core/vault.md
       - Wallet: arda-core/wallet.md

@@ -1,11 +1,7 @@
 --8<-- "warning.md"
 # Validator Setup
 
----
-
-## Overview
-
-Validators are responsible for block production, compliance enforcement, and cross-chain message signing within each Arda OS region. This guide outlines the setup process, role permissions, and operational requirements for regional validator nodes.
+Validators are responsible for block production, compliance enforcement, and cross-chain message signing within each ArdaOS region. This guide outlines the setup process, role permissions, and operational requirements for regional validator nodes.
 
 ---
 

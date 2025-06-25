@@ -1,11 +1,11 @@
 --8<-- "warning.md"
-# MVP Testnet Flow
+# Arda MVP Testnet Flow
 
 ---
 
 ## Overview
 
-This example outlines a Minimum Viable Product (MVP) flow for testing tokenized real estate functionality in a regional Arda OS testnet. It includes onboarding, asset registration, token issuance, compliance enforcement, and secondary trading—all under test conditions.
+This example outlines a Minimum Viable Product (MVP) flow for testing tokenized real estate functionality in a regional ArdaOS testnet. It includes onboarding, asset registration, token issuance, compliance enforcement, and secondary trading—all under test conditions.
 
 ---
 
@@ -23,7 +23,7 @@ A developer launches a testnet instance for a fictional city (e.g. Testburg) and
 ## Step-by-Step Flow
 
 ### 1. **Create Region Testnet**
-- Launch Arda OS using `testburg-genesis.json`
+- Launch ArdaOS using `testburg-genesis.json`
 - Deploy KYC engine with local T1/T2 schema
 - Register `TEST.USD` MoneyToken and connect Arda Vault node
 
@@ -56,7 +56,7 @@ A developer launches a testnet instance for a fictional city (e.g. Testburg) and
 
 ## Deployment Checklist
 
-- [ ] Arda OS testnet running
+- [ ] ArdaOS testnet running
 - [ ] KYC module deployed and configured
 - [ ] Vault storage and event anchoring enabled
 - [ ] Arda Trading and Arda Clear modules live

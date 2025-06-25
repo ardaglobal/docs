@@ -7,7 +7,7 @@
 
 ## Overview
 
-Arda’s governance primitives define how roles, rights, and protocol upgrades are managed in a modular, jurisdiction-aware, and compliance-first fashion. Governance spans asset configuration, pool rules, agent registration, and protocol module evolution.
+Arda's governance primitives define how roles, rights, and protocol upgrades are managed in a modular, jurisdiction-aware, and compliance-first fashion. Governance spans asset configuration, pool rules, agent registration, and protocol module evolution.
 
 All governance actions are tracked and scoped via identity, attestation, and jurisdictional logic — ensuring region-specific control where needed while enabling global coordination.
 
@@ -85,4 +85,4 @@ All governance actions are tracked and scoped via identity, attestation, and jur
 
 ---
 
-*© Arda OS Documentation • Licensed under MIT*
+*© ArdaOS Documentation • Licensed under MIT*

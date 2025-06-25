@@ -53,4 +53,4 @@ Each primitive is deterministic, auditable, and portable across ArdaOS regions.
 
 ---
 
-*© Arda OS Documentation • Licensed under MIT*
+*© ArdaOS Documentation • Licensed under MIT*

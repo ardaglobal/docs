@@ -14,7 +14,7 @@ Its mission is to make private capital markets as programmable, liquid, and acce
 ## Key Concepts
 
 - **Programmable Infrastructure**: Real estate and private credit assets gain digital identities, encoded rights, and embedded compliance.
-- **Global-Local Model**: Arda splits execution into sovereign regional networks (Arda OS) coordinated via a global registry (Arda Core).
+- **Global-Local Model**: Arda splits execution into sovereign regional networks (ArdaOS) coordinated via a global registry (Arda Core).
 - **Vertical Integration**: Core protocol, product interfaces, agentic coordination, and data models are tightly aligned.
 - **Compliance by Design**: KYC, AML, taxation, and legal structuring are embedded directly into all protocol layers.
 

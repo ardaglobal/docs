@@ -1,18 +1,9 @@
 --8<-- "warning.md"
 # Arda Capital
 
----
+Arda Capital is the programmable capital formation and lending layer of the Arda protocol. It enables compliant issuance, lending, borrowing, syndication, and structuring of real-world asset-backed facilities—such as mortgages, credit lines, construction loans, and tokenized debt pools—using composable primitives across sovereign ArdaOS chains.
 
-## Overview
-
-Arda Capital is the programmable debt and capital formation layer of the Arda protocol. It enables compliant lending, borrowing, syndication, and securitization of real-world assets using composable, interoperable primitives across sovereign ArdaOS chains.
-
-The module is designed to serve the full capital lifecycle — from deal origination and underwriting to tranche structuring, yield distribution, and loan repayment. Arda Capital integrates deeply with the Compliance Engine, Token Factory, Vault, and Arda Clear for enforcement, data, and settlement.
-
-Arda Capital is the programmable capital formation and lending layer of the Arda stack. It enables compliant issuance, syndication, and structuring of real-world asset-backed facilities, such as mortgages, credit lines, construction loans, and tokenized debt pools.
-
-Built on Arda's core primitives, Arda Capital integrates lifecycle logic, compliance, and programmable underwriting into a unified experience.
-
+Built on Arda's core primitives, the module serves the full capital lifecycle—from deal origination and underwriting to tranche structuring, yield distribution, and loan repayment. It integrates deeply with the Compliance Engine, Token Factory, Vault, and Arda Clear to provide a unified experience for enforcement, data, and settlement.
 
 ---
 
@@ -119,16 +110,4 @@ flowchart TD
 
 ## Developer Notes
 
-- SDK includes `createFacility()`, `drawdown()`, `registerTranche()`
-- All facilities are indexed via `FacilityRegistry`
-- Compliance checks embedded into every capital call or repayment action
-
----
-
-## Example Workflow
-
-1. SPV deploys a facility via Foundry
-2. Capital raised via PermissionedPool (KYC Tier 2+ only)
-3. Drawdowns initiated as construction phases complete
-4. Interest split between TrancheToken holders
-5. Facility closes, debt burned, residual equity distributed
+- SDK includes `

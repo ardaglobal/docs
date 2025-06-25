@@ -9,7 +9,7 @@
 
 Protocol modules in Arda are reusable, self-contained logic units that implement the behavior of tokens, pools, agents, settlements, or compliance enforcement. Each module can be deployed across ArdaOS regions, imported by SDKs, and extended by agents or DAOs to fit local requirements.
 
-Modules encapsulate state machines, lifecycle hooks, and external integrations to drive Arda’s programmable infrastructure.
+Modules encapsulate state machines, lifecycle hooks, and external integrations to drive Arda's programmable infrastructure.
 
 ---
 
@@ -82,4 +82,4 @@ These hooks trigger internal logic and external coordination (e.g. with Arda Cle
 
 ---
 
-*© Arda OS Documentation • Licensed under MIT*
+*© ArdaOS Documentation • Licensed under MIT*

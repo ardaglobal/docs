@@ -1,11 +1,7 @@
 --8<-- "warning.md"
-# Fiat Onramp Integration
+# Fiat Onramps
 
----
-
-## Overview
-
-Fiat onramps in Arda allow users to convert local currency into compliant, programmable MoneyTokens for use across Arda OS chains. These integrations bridge banking infrastructure with blockchain execution while preserving KYC, auditability, and jurisdictional scope.
+Fiat onramps in Arda allow users to convert local currency into compliant, programmable MoneyTokens for use across ArdaOS chains. These integrations bridge banking infrastructure with blockchain execution while preserving KYC, auditability, and jurisdictional scope.
 
 ---
 

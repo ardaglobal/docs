@@ -1,11 +1,7 @@
 --8<-- "warning.md"
-# Settlement Specification
+# Arda Settlement
 
----
-
-## Overview
-
-The Arda Settlement system provides finality, netting, and token movement infrastructure across Arda OS chains and external blockchains. It underpins Arda Clear and ensures compliant, auditable, and efficient settlement of real estate and capital markets transactions.
+The Arda Settlement system provides finality, netting, and token movement infrastructure across ArdaOS chains and external blockchains. It underpins Arda Clear and ensures compliant, auditable, and efficient settlement of real estate and capital markets transactions.
 
 This spec defines the settlement-related primitives, flows, and constraints.
 

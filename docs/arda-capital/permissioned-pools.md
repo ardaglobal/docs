@@ -72,4 +72,4 @@ Pool access is governed by:
 
 ---
 
-*© Arda OS Documentation • Licensed under MIT*
+*© ArdaOS Documentation • Licensed under MIT*

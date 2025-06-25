@@ -11,10 +11,9 @@ Arda is architected from first principles to serve as a compliant, programmable,
 
 ## Core Design Principles
 
-### 1. Global Liquidity, Regional Compliance
-
-- Arda separates **global coordination** from **local execution**.
-- Regional chains (Arda OS) comply with local regulations, while Arda Core coordinates identity, registry, and liquidity routing globally.
+### 1. **Sovereign, Interoperable Chains**
+- **Principle**: Global liquidity and local compliance are not mutually exclusive.
+- **Implementation**: Regional chains (ArdaOS) comply with local regulations, while Arda Core coordinates identity, registry, and liquidity routing globally.
 - This allows Arda to scale across jurisdictions without compromising legal enforceability.
 
 ---

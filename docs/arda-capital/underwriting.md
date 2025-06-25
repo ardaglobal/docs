@@ -71,4 +71,4 @@ These are modeled using shared risk primitives and intelligence protocol agents.
 
 ---
 
-*© Arda OS Documentation • Licensed under MIT*
+*© ArdaOS Documentation • Licensed under MIT*

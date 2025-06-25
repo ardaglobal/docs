@@ -15,7 +15,7 @@ Arda's architecture is a vertically integrated, modular system for enabling real
 - Defines Arda's primitives: tokens (Asset, Money, Debt, Yield), identity (Entities, KYC), compliance rules, and lifecycle logic (Drawdown, Settlement).
 - Encoded in a deterministic, no-VM logic format for auditability and control.
 
-### 2. **Execution Layer (Arda OS)**
+### 2. **Execution Layer (ArdaOS)**
 - Regionally deployed sovereign rollups or chains.
 - Enforce local compliance, residency, and performance requirements.
 - Tailored to government and institutional needs (e.g. Dubai, NY, Singapore).
@@ -54,7 +54,7 @@ Arda's architecture is a vertically integrated, modular system for enabling real
            ↑
 [ Coordination Layer: Arda Core ]
            ↑
-[ Execution Layer: Arda OS (Region A, B, ...) ]
+[ Execution Layer: ArdaOS (Region A, B, ...) ]
            ↑
 [ Core Protocol: Tokens | Compliance | Identity ]
 ```

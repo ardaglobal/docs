@@ -90,4 +90,4 @@ The engine consults the Compliance Engine on every action:
 - **Wallet + Identity** — Validates tier and role on submit
 - **Compliance Engine** — Final approval gate
 
-*© Arda OS Documentation • Licensed under MIT*
+*© ArdaOS Documentation • Licensed under MIT*

@@ -1,11 +1,13 @@
 --8<-- "warning.md"
 # Observability
 
+Arda's observability stack provides unified logging, metrics, tracing, and alerting across sovereign ArdaOS chains and Arda Core coordination logic.
+
 ---
 
 ## Overview
 
-Observability in Arda ensures operational integrity, regulatory traceability, and developer visibility across all deployed chains, agents, and vaults. It includes metrics, logging, tracing, and alerting across sovereign Arda OS chains and Arda Core coordination logic.
+Observability in Arda ensures operational integrity, regulatory traceability, and developer visibility across all deployed chains, agents, and vaults. It includes metrics, logging, tracing, and alerting across sovereign ArdaOS chains and Arda Core coordination logic.
 
 Arda's observability layer is modular, privacy-aware, and compatible with enterprise security standards.
 
@@ -63,7 +65,15 @@ Arda's observability layer is modular, privacy-aware, and compatible with enterp
 
 ## Developer Notes
 
-- Arda OS and Core export metrics via `/metrics` and log JSON files
+- ArdaOS and Core export metrics via `/metrics` and log JSON files
 - SDK includes:
   - `subscribeLogs()`, `queryMetrics()`, `reportIssue()`
 - Agent telemetry is opt-in with staking-backed incentives for uptime
+- Bridges and relayers provide transaction-level logs
+- Vault nodes log access control and encryption/decryption events
+
+## Data Sources
+
+- ArdaOS and Core export metrics via `/metrics` and log JSON files
+- Bridges and relayers provide transaction-level logs
+- Vault nodes log access control and encryption/decryption events

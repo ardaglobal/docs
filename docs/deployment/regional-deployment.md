@@ -5,7 +5,7 @@
 
 ## Overview
 
-Regional deployment is the process of launching and configuring an Arda OS instance for a specific jurisdiction. This enables compliance with local regulations, data residency mandates, and infrastructure control, while maintaining global interoperability through Arda Core.
+Regional deployment is the process of launching and configuring an ArdaOS instance for a specific jurisdiction. This enables compliance with local regulations, data residency mandates, and infrastructure control, while maintaining global interoperability through Arda Core.
 
 Each deployment is modular, sovereign, and optimized for local needs.
 

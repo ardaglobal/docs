@@ -55,7 +55,7 @@ It is the primary toolkit for building applications, integrations, agents, and d
 ## Chain Abstraction Layer
 
 - The SDK handles routing and message encoding across:
-  - Arda OS regional chains (via RPC or message bus)
+  - ArdaOS regional chains (via RPC or message bus)
   - Arda Core coordination logic
   - External chains via Arda Clear bridge adapters
 

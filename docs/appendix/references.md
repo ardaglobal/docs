@@ -19,14 +19,15 @@ This document collects all external and internal references used in the design o
 |------------------|--------------------------------------------------|----------------------------------------|
 | Ethereum         | [ethereum.org](https://ethereum.org)           | ERC standards, L2 bridging, wallet infra |
 | Cosmos SDK       | [cosmos.network](https://cosmos.network)       | Sovereign chain modularity             |
-| Rollkit          | [rollkit.dev](https://rollkit.dev)             | Rollup infrastructure for Arda OS      |
-| Celestia         | [celestia.org](https://celestia.org)           | Data availability layer                |
+| Rollkit          | [rollkit.dev](https://rollkit.dev)             | Rollup infrastructure for ArdaOS      |
+| Celestia         | [celestia.org](https://celestia.org)           | Data availability for Arda rollups       |
 | zkSync / ZK Stack| [zksync.io](https://zksync.io)                 | zk-enabled rollup design               |
-| Chainlink        | [chain.link](https://chain.link)               | Oracles and data feeds                 |
+| Chainlink        | [chain.link](https://chain.link)               | Oracles for real-world data feeds        |
 | Hyperliquid      | See research docs                              | Dual-block execution, fast matching    |
 | Fluid Protocol   | See research docs                              | Smart collateral and debt routing      |
 | SWIFT            | [swift.com](https://swift.com)                 | Messaging compatibility with finance   |
 | ISO 19152        | ISO Standard                                   | Land administration domain model       |
+| OpenZeppelin     | [openzeppelin.com](https://openzeppelin.com)     | Access control and security components   |
 
 ---
 
@@ -42,8 +43,8 @@ This document collects all external and internal references used in the design o
 
 ## 🧠 Conceptual Inspirations
 
-- “Smart Legal Contracts” by ISDA
-- MakerDAO’s Collateral Types Framework
+- "Smart Legal Contracts" by ISDA
+- MakerDAO's Collateral Types Framework
 - REIT / CMBS structuring workflows
 - Digital registry models from Estonian e-Gov infrastructure
 - RealT and Centrifuge for RWA tokenization models

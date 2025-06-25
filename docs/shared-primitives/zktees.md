@@ -17,7 +17,7 @@ ZK/TEE primitives are used in identity, vault, risk evaluation, deal execution, 
 
 | Type | Description |
 |------|-------------|
-| ZK Proof | Proves something is true without revealing the input (e.g. “user is accredited”) |
+| ZK Proof | Proves something is true without revealing the input (e.g. "user is accredited") |
 | MPC | Splits computation across multiple parties without any one party seeing all inputs |
 | FHE | Allows arithmetic directly on encrypted data (e.g. for interest checks or audits) |
 | TEE | Executes sensitive logic inside a hardware-secured enclave with remote attestation |
@@ -75,4 +75,4 @@ ZK/TEE primitives are used in identity, vault, risk evaluation, deal execution, 
 
 ---
 
-*© Arda OS Documentation • Licensed under MIT*
+*© ArdaOS Documentation • Licensed under MIT*

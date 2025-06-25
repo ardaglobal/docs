@@ -1,11 +1,7 @@
 --8<-- "warning.md"
 # Token Models
 
----
-
-## Overview
-
-Arda supports a suite of token types purpose-built to represent real-world financial and legal constructs. Each token type conforms to the underlying Arda compliance engine and is designed to interoperate across Arda OS chains and external networks via bridges.
+Arda's token models are modular, compliance-aware, and is designed to interoperate across ArdaOS chains and external networks via bridges.
 
 This specification outlines the key token categories and their lifecycle logic, permissions, and data structure standards.
 
@@ -31,7 +27,7 @@ Each token model is built upon Arda's [Core Primitives](../primitives/core-primi
   - Development or option rights
 
 ### 3. **DebtToken**
-- Represents credit exposure tied to a facility, mortgage, or bond.
+- Represents credit exposure to a facility, mortgage, or bond.
 - Includes scheduled repayment, interest, and optional callable terms.
 - Tied to a `Drawdown` and amortized over time.
 - Convertible into `TrancheToken` for syndication.
