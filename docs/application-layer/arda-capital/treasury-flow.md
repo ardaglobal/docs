@@ -18,36 +18,36 @@ This enables real-time capital flows across structured financial products with f
 
 - Defines automatic movement of MoneyTokens from one account to another.
 - Examples:
-  - Daily sweep from borrower wallet to facility escrow
-  - Weekly distribution from SPV to yield token holders
+    - Daily sweep from borrower wallet to facility escrow
+    - Weekly distribution from SPV to yield token holders
 - Can be conditional (e.g. only if >$10,000 available)
 
 ### 2. **InterestSplitRule**
 
 - Governs how interest is allocated across stakeholders.
 - Fields:
-  - Percentage to senior tranche, junior tranche, servicer, protocol
-  - Optional floors and caps
+    - Percentage to senior tranche, junior tranche, servicer, protocol
+    - Optional floors and caps
 - Can dynamically change based on FacilityStatus
 
 ### 3. **FeeEngine**
 
 - Central routing hub for fees in a transaction.
 - Supported fee types:
-  - Origination
-  - Platform
-  - Servicer
-  - Auditor
-  - Regulatory reserve
+    - Origination
+    - Platform
+    - Servicer
+    - Auditor
+    - Regulatory reserve
 - Fees are expressed as flat amounts or basis points, and paid in MoneyToken
 
 ### 4. **OracleUpdate**
 
 - Triggers price or valuation changes.
 - Used to:
-  - Update LTV calculations
-  - Drive dynamic repayment terms
-  - Adjust reserve ratios
+    - Update LTV calculations
+    - Drive dynamic repayment terms
+    - Adjust reserve ratios
 
 ---
 

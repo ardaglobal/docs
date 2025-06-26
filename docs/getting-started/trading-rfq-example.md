@@ -21,20 +21,20 @@ A Tier 3 investor negotiates to acquire a 5% stake in a Dubai residential buildi
 ### 1. **List RFQ Offer**
 
 - Seller calls `createRFQ()` via SDK:
-  - Token: `AssetToken.009`
-  - Quantity: 5,000 (5% stake)
-  - Ask price: $50,000
-  - Valid for: 72 hours
-  - Conditions: UAE KYC Tier 2+ buyer only
+    - Token: `AssetToken.009`
+    - Quantity: 5,000 (5% stake)
+    - Ask price: $50,000
+    - Valid for: 72 hours
+    - Conditions: UAE KYC Tier 2+ buyer only
 
 ### 2. **Buyer Discovery and Validation**
 
 - RFQ listed in Arda Trading portal
 - Buyer (Tier 3, accredited) initiates `respondToRFQ()`
 - Compliance engine runs:
-  - Jurisdictional match → ✅
-  - KYC Tier match → ✅
-  - Holding limit → ✅
+    - Jurisdictional match → ✅
+    - KYC Tier match → ✅
+    - Holding limit → ✅
 
 ### 3. **Escrow Setup**
 
@@ -62,6 +62,6 @@ A Tier 3 investor negotiates to acquire a 5% stake in a Dubai residential buildi
 ## Developer Notes
 
 - SDK:
-  - `createRFQ()`, `respondToRFQ()`, `finalizeRFQTrade()`
+    - `createRFQ()`, `respondToRFQ()`, `finalizeRFQTrade()`
 - All trades visible via `queryRFQBook()` and `SettlementQueue`
 - AuditLog indexed by jurisdiction and token ID

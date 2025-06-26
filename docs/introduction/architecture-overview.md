@@ -41,8 +41,8 @@ A standardized data model that turns fragmented deal data into machine-readable 
 Capital formation, trading, asset management, marketplace tools.
 
 - Composed of products like:
-  - **Arda Capital**: lending, issuance, capital formation
-  - **Arda Trading**: secondary markets, RFQs, exchanges
+    - **Arda Capital**: lending, issuance, capital formation
+    - **Arda Trading**: secondary markets, RFQs, exchanges
 - Exposed via SDKs and platform APIs.
 
 ---

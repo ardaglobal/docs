@@ -23,9 +23,9 @@ Each deployment is modular, sovereign, and optimized for local needs.
 ### 2. **Cloud or On-Prem Infrastructure**
 
 - Common environments:
-  - AWS Region (e.g. UAE, Singapore)
-  - Azure Government Cloud
-  - Local Ministry Datacenters
+    - AWS Region (e.g. UAE, Singapore)
+    - Azure Government Cloud
+    - Local Ministry Datacenters
 
 ### 3. **Chain Configuration**
 
@@ -39,10 +39,10 @@ Each deployment is modular, sovereign, and optimized for local needs.
 ## Integration with Arda Core
 
 - All regional chains register:
-  - Chain ID
-  - Supported token types
-  - KYC schemas
-  - Validator identities
+    - Chain ID
+    - Supported token types
+    - KYC schemas
+    - Validator identities
 - Synced via Arda Core messaging or snapshot state export
 
 ---
@@ -50,9 +50,9 @@ Each deployment is modular, sovereign, and optimized for local needs.
 ## Legal & Regulatory Considerations
 
 - Requires MOU or legal agreement with:
-  - Land registry
-  - Financial regulator
-  - KYC providers
+    - Land registry
+    - Financial regulator
+    - KYC providers
 - SPV registration and legal wrappers often deployed in parallel (via Foundry)
 
 ---
@@ -61,7 +61,7 @@ Each deployment is modular, sovereign, and optimized for local needs.
 
 - Deployment SDK available for scripted config and validator launch
 - Initial setup includes:
-  - Genesis file creation
-  - Validator keygen and rotation
-  - Compliance rule upload
+    - Genesis file creation
+    - Validator keygen and rotation
+    - Compliance rule upload
 - Monitored by observability tools via Arda Core

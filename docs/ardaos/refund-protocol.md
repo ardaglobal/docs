@@ -19,25 +19,25 @@ Integrate a non-custodial, programmable refund mechanism for stablecoin payments
 ### 1. **Protocol-Embedded Escrow Module**
 
 - Holds stablecoin (e.g., USDC) in protocol-controlled escrow state until:
-  - Timelock expires
-  - Both parties sign a release
-  - Arbiter triggers a refund
+    - Timelock expires
+    - Both parties sign a release
+    - Arbiter triggers a refund
 - Emits events for off-chain indexing (e.g., "RefundInitiated", "FundsReleased")
 
 ### 2. **Arbiter Registry Module**
 
 - Maintains a whitelisted registry of arbiters
 - Encodes rules:
-  - Max decision timeframe
-  - Resolution thresholds
-  - Auditable dispute logs
+    - Max decision timeframe
+    - Resolution thresholds
+    - Auditable dispute logs
 
 ### 3. **Refund Resolution Engine (off-chain service)**
 
 - Runs workflows:
-  - Off-chain consent handling
-  - Dispute evidence submission
-  - Notifies arbiter + tracks timeouts
+    - Off-chain consent handling
+    - Dispute evidence submission
+    - Notifies arbiter + tracks timeouts
 - May leverage zk-verified attestations for decision logs
 
 ### 4. **Wallet Abstraction Layer**

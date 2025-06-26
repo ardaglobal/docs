@@ -17,65 +17,65 @@ It is the primary toolkit for building applications, integrations, agents, and d
 ### 1. **Identity & Access**
 
 - Methods:
-  - `registerEntity()`, `verifyKYC()`, `linkWalletGroup()`
+    - `registerEntity()`, `verifyKYC()`, `linkWalletGroup()`
 - Used to onboard users, investors, originators, and regulators
 
 ### 2. **Token Operations**
 
 - Methods:
-  - `createAssetToken()`, `mintDebtToken()`, `splitTrancheToken()`
-  - `transferWithComplianceCheck()`, `burnToken()`
+    - `createAssetToken()`, `mintDebtToken()`, `splitTrancheToken()`
+    - `transferWithComplianceCheck()`, `burnToken()`
 - Tokens scoped to region, asset type, compliance class
 
 ### 3. **Facility & Capital Logic**
 
 - Methods:
-  - `createFacility()`, `drawdown()`, `repay()`
-  - `registerWaterfall()`, `distributeYield()`
+    - `createFacility()`, `drawdown()`, `repay()`
+    - `registerWaterfall()`, `distributeYield()`
 
 ### 4. **Vault Integration**
 
 - Methods:
-  - `registerDoc()`, `linkToToken()`, `verifyAccess()`
+    - `registerDoc()`, `linkToToken()`, `verifyAccess()`
 
 ### 5. **Compliance**
 
 - Methods:
-  - `simulateTransfer()`, `checkTransferRule()`, `getJurisdictionProfile()`
+    - `simulateTransfer()`, `checkTransferRule()`, `getJurisdictionProfile()`
 
 ### 6. **Agent Framework**
 
 - Methods:
-  - `registerAgent()`, `publishTemplate()`, `triggerEventHook()`
-  - Agent roles include Connect, Risk, Structuring, Monitoring
+    - `registerAgent()`, `publishTemplate()`, `triggerEventHook()`
+    - Agent roles include Connect, Risk, Structuring, Monitoring
 
 ### 7. **Settlement & Treasury**
 
 - Methods:
-  - `enqueueSettlement()`, `settleBatch()`, `createSweepInstruction()`
+    - `enqueueSettlement()`, `settleBatch()`, `createSweepInstruction()`
 
 ### 8. **Governance**
 
 - Methods:
-  - `submitAIP()`, `castVote()`, `queryPolicy()`
+    - `submitAIP()`, `castVote()`, `queryPolicy()`
 
 ---
 
 ## Chain Abstraction Layer
 
 - The SDK handles routing and message encoding across:
-  - ArdaOS regional chains (via RPC or message bus)
-  - Arda Core coordination logic
-  - External chains via Arda Clear bridge adapters
+    - ArdaOS regional chains (via RPC or message bus)
+    - Arda Core coordination logic
+    - External chains via Arda Clear bridge adapters
 
 ---
 
 ## Permissions & Role Control
 
 - SDK actions restricted by:
-  - WalletGroup affiliation
-  - KYC tier
-  - Jurisdiction and role scope
+    - WalletGroup affiliation
+    - KYC tier
+    - Jurisdiction and role scope
 - Session tokens, agent keys, and signature wrapping are supported
 
 ---

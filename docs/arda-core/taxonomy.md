@@ -15,13 +15,13 @@ The taxonomy is structured hierarchically with top-level categories, subtypes, a
 ### Asset Classes
 
 - **Real Estate**
-  - Residential / Commercial / Industrial / Hospitality
+    - Residential / Commercial / Industrial / Hospitality
 - **Debt Instruments**
-  - Mortgage / Bridge Loan / Convertible Note
+    - Mortgage / Bridge Loan / Convertible Note
 - **Equity Instruments**
-  - LP Interests / SPV Shares / REIT Units
+    - LP Interests / SPV Shares / REIT Units
 - **Derivatives**
-  - Perpetual Swap / Interest Rate Option
+    - Perpetual Swap / Interest Rate Option
 
 ### Rights and Roles
 

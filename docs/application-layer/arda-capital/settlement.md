@@ -14,31 +14,31 @@ This spec defines the settlement-related primitives, flows, and constraints.
 
 - Queue of pending transfers and nettable events.
 - Types:
-  - Internal (same chain, direct finality)
-  - Cross-region (requires bridging)
-  - Conditional (e.g. legal check, fiat clearance)
+    - Internal (same chain, direct finality)
+    - Cross-region (requires bridging)
+    - Conditional (e.g. legal check, fiat clearance)
 - Each entry includes:
-  - Source and destination wallet
-  - Token type and amount
-  - Dependencies (e.g. compliance check or hook)
+    - Source and destination wallet
+    - Token type and amount
+    - Dependencies (e.g. compliance check or hook)
 
 ### 2. **NettingEngine**
 
 - Aggregates multi-party flows into net positions for final settlement.
 - Reduces gas and execution overhead.
 - Example:
-  - 5 buyers contribute funds to a pool → net to SPV
-  - 3 lenders repay a tranche → net repayment to token holders
+    - 5 buyers contribute funds to a pool → net to SPV
+    - 3 lenders repay a tranche → net repayment to token holders
 
 ### 3. **FeeSink**
 
 - Final recipient for all protocol or regulatory fees.
 - Configured by governance or jurisdiction profile.
 - Can route to:
-  - DAO treasury
-  - Regulator
-  - Operating company
-  - Burn address
+    - DAO treasury
+    - Regulator
+    - Operating company
+    - Burn address
 
 ---
 
@@ -55,9 +55,9 @@ Arda Clear handles cross-network finality via:
 ## Compliance Integration
 
 - All settlement actions must pass:
-  - `TransferRule`
-  - `JurisdictionProfile`
-  - Role-based access
+    - `TransferRule`
+    - `JurisdictionProfile`
+    - Role-based access
 - SettlementQueue entries are subject to slashing or rejection if unauthorized
 
 ---

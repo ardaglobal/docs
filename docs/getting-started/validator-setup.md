@@ -28,14 +28,14 @@ Validators are responsible for block production, compliance enforcement, and cro
 ## Setup Requirements
 
 - **Hardware**:
-  - 4–8 vCPUs, 16–32 GB RAM, SSD storage
-  - Redundant network interface
+    - 4–8 vCPUs, 16–32 GB RAM, SSD storage
+    - Redundant network interface
 - **Hosting**:
-  - Regional cloud infra (AWS, Azure) or approved sovereign data center
+    - Regional cloud infra (AWS, Azure) or approved sovereign data center
 - **Software**:
-  - Arda Node binary (Rollkit/Cosmos SDK variant)
-  - Validator keygen utility
-  - Access to compliance module
+    - Arda Node binary (Rollkit/Cosmos SDK variant)
+    - Validator keygen utility
+    - Access to compliance module
 
 ---
 
@@ -43,8 +43,8 @@ Validators are responsible for block production, compliance enforcement, and cro
 
 - Validator keys are generated per chain ID
 - Stored securely using:
-  - HSM modules (for government deployments)
-  - Encrypted local or cloud KMS
+    - HSM modules (for government deployments)
+    - Encrypted local or cloud KMS
 - Supports hot or cold key rotation
 
 ---
@@ -61,6 +61,6 @@ Validators are responsible for block production, compliance enforcement, and cro
 ## Developer Notes
 
 - SDK methods:
-  - `registerValidator()`, `rotateKeys()`, `submitProof()`
+    - `registerValidator()`, `rotateKeys()`, `submitProof()`
 - Validators can be assigned compliance zones
 - Alerting via Prometheus or Arda observability plugin

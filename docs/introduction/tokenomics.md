@@ -138,8 +138,8 @@ Automated trigger for lifecycle transitions
 
 - Can be time-based, oracle-based, or dependent on compliance state
 - Examples:
-  - Convert a development right token to an ownership token upon milestone completion
-  - Auto-freeze transfers if tax documentation expires
+    - Convert a development right token to an ownership token upon milestone completion
+    - Auto-freeze transfers if tax documentation expires
 
 ## Future Token Concepts
 
@@ -162,8 +162,8 @@ All tokens issued in Arda adhere to a “compliance-by-default” design:
 ## Reusability and Composition
 
 - Multiple lifecycle objects can be linked:
-  - One PaymentSchedule may cover several TrancheTokens
-  - One EventHook may update both FacilityStatus and FeeEngine
+    - One PaymentSchedule may cover several TrancheTokens
+    - One EventHook may update both FacilityStatus and FeeEngine
 - Lifecycle definitions can be cloned and reused across deal templates (via SDK)
 
 ## Summary

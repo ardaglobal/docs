@@ -11,9 +11,9 @@ Data residency in Arda ensures that sensitive data—such as personal identity, 
 ### 1. **Jurisdictional Vault Nodes**
 
 - Arda Vaults can be deployed regionally with:
-  - FHE/MPC key hosting
-  - Localized document anchors
-  - Regulator access interface
+    - FHE/MPC key hosting
+    - Localized document anchors
+    - Regulator access interface
 - Documents never leave jurisdiction unless explicitly authorized
 
 ### 2. **Execution-Data Decoupling**
@@ -25,13 +25,13 @@ Data residency in Arda ensures that sensitive data—such as personal identity, 
 ### 3. **Regulatory Scope Isolation**
 
 - Each jurisdiction has:
-  - Unique data control schema
-  - Approved KYC/ID providers
-  - Vault role-based access control
+    - Unique data control schema
+    - Approved KYC/ID providers
+    - Vault role-based access control
 - Regional vaults may include:
-  - Public agency key
-  - Notary verification access
-  - Legal override privileges
+    - Public agency key
+    - Notary verification access
+    - Legal override privileges
 
 ---
 
@@ -46,7 +46,7 @@ Data residency in Arda ensures that sensitive data—such as personal identity, 
 ## Developer Notes
 
 - SDK allows:
-  - `registerRegionalVault()`, `verifyResidency()`
+    - `registerRegionalVault()`, `verifyResidency()`
 - Compliance checks validate residency on read/write
 - Vault metadata includes region, purpose, and retention period
 
@@ -55,6 +55,6 @@ Data residency in Arda ensures that sensitive data—such as personal identity, 
 ## Interop and Encryption
 
 - Data can be mirrored across jurisdictions only with:
-  - Attestation by owner or regulator
-  - Double-keyed access (MPC share + regional gate)
+    - Attestation by owner or regulator
+    - Double-keyed access (MPC share + regional gate)
 - All metadata hashes traceable to Arda Core or AuditLog

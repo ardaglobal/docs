@@ -23,18 +23,18 @@ A developer sets up a $2M construction loan facility for a residential project u
 - SPV entity initialized with `createEntity()`
 - Legal documents uploaded via Arda Vault
 - Call `createFacility()` with:
-  - Max principal: $2M
-  - Term: 24 months
-  - Interest: 6% fixed
-  - Jurisdiction: UAE
-  - Repayment type: Bullet
+    - Max principal: $2M
+    - Term: 24 months
+    - Interest: 6% fixed
+    - Jurisdiction: UAE
+    - Repayment type: Bullet
 
 ### 2. **Define Drawdown Milestones**
 
 - Register PaymentSchedule:
-  - Tranche 1: $500k upon permitting
-  - Tranche 2: $700k upon foundation
-  - Tranche 3: $800k upon roofing
+    - Tranche 1: $500k upon permitting
+    - Tranche 2: $700k upon foundation
+    - Tranche 3: $800k upon roofing
 - Milestones tracked by Monitoring Agent
 
 ### 3. **Deploy Compliance Rules**
@@ -73,6 +73,6 @@ A developer sets up a $2M construction loan facility for a residential project u
 ## Developer Notes
 
 - SDK used:
-  - `createFacility()`, `registerSchedule()`, `drawdown()`, `repay()`
+    - `createFacility()`, `registerSchedule()`, `drawdown()`, `repay()`
 - Milestone status queryable via Monitoring Agent output
 - Tranche data viewable in `TrancheIndex`

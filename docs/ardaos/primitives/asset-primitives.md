@@ -16,23 +16,23 @@ This document outlines the key primitives that define assets on Arda. For a broa
 
 - Tokenized representation of a physical or legal asset.
 - Includes:
-  - Ownership structure (e.g. fractional, collective)
-  - Metadata (valuation, square footage, usage rights)
-  - Jurisdictional tag
+    - Ownership structure (e.g. fractional, collective)
+    - Metadata (valuation, square footage, usage rights)
+    - Jurisdictional tag
 
 ### 2. **UsageRight**
 
 - Encodes non-ownership entitlements such as:
-  - Rental use
-  - Time-share access
-  - Right of abode or commercial operation
+    - Rental use
+    - Time-share access
+    - Right of abode or commercial operation
 
 ### 3. **DevelopmentRight**
 
 - Represents forward-looking rights:
-  - Air rights
-  - Zoning approvals
-  - Construction licenses
+    - Air rights
+    - Zoning approvals
+    - Construction licenses
 - May convert into full ownership upon event or milestone completion
 
 ### 4. **RegistryRecord**
@@ -77,7 +77,7 @@ Assets can evolve through:
 ## Compliance & Permissions
 
 - Ownership transfers require:
-  - KYC Tier match
-  - Jurisdiction compliance
-  - Valid registry entry or override
+    - KYC Tier match
+    - Jurisdiction compliance
+    - Valid registry entry or override
 - Assets may have restricted transferability or use based on legal constraints

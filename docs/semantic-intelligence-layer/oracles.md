@@ -11,45 +11,45 @@ Oracles in Arda supply off-chain data needed for risk assessment, asset valuatio
 ### 1. **Asset Valuation**
 
 - Periodic updates for:
-  - LTV calculations
-  - Loan re-underwriting
-  - Collateral rebalancing
+    - LTV calculations
+    - Loan re-underwriting
+    - Collateral rebalancing
 
 ### 2. **Payment Confirmation**
 
 - Used to:
-  - Confirm fiat repayments
-  - Release escrowed funds
-  - Trigger YieldToken distribution
+    - Confirm fiat repayments
+    - Release escrowed funds
+    - Trigger YieldToken distribution
 
 ### 3. **Milestone Triggers**
 
 - Common for:
-  - Construction loans
-  - Development phases
-  - Legal registration milestones
+    - Construction loans
+    - Development phases
+    - Legal registration milestones
 
 ### 4. **Compliance Updates**
 
 - Supports:
-  - Jurisdiction blacklist sync
-  - Sanctions list refresh
-  - Economic indicator thresholds (e.g. interest cap by region)
+    - Jurisdiction blacklist sync
+    - Sanctions list refresh
+    - Economic indicator thresholds (e.g. interest cap by region)
 
 ---
 
 ## Security Models
 
 - Oracles may be:
-  - Signed by validator sets
-  - Anchored via ZK proof or MPC attestations
-  - Submitted via multi-party threshold schemes
+    - Signed by validator sets
+    - Anchored via ZK proof or MPC attestations
+    - Submitted via multi-party threshold schemes
 
 - Oracle metadata includes:
-  - Source (e.g. DLD, Bloomberg, Chainlink node)
-  - Region and role scope
-  - Validity window
-  - Hash of input data
+    - Source (e.g. DLD, Bloomberg, Chainlink node)
+    - Region and role scope
+    - Validity window
+    - Hash of input data
 
 ---
 

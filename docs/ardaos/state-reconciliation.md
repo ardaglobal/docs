@@ -50,7 +50,7 @@ One challenge in modern blockchain architectures is the overhead required to rec
 ### 2. **Snapshot Query Interface**
 
 - Supports time-based and block-based queries:
-  - "What was wallet 0xABC’s balance on 2025-06-01?"
+    - "What was wallet 0xABC’s balance on 2025-06-01?"
 - Integrates with `FacilityRegistry`, `WalletGroup`, and `AuditLog` modules
 
 ### 3. **Structured Append-Only Logs**
@@ -62,9 +62,9 @@ One challenge in modern blockchain architectures is the overhead required to rec
 ### 4. **Event-Triggered Reconciliation**
 
 - Triggers include:
-  - Threshold crossings
-  - Facility status transitions
-  - Manual snapshot request
+    - Threshold crossings
+    - Facility status transitions
+    - Manual snapshot request
 - Can reconcile per-region, per-token, or globally
 
 ### 5. **Compliance-Aware Design**

@@ -23,9 +23,9 @@ Fiat onramps in Arda allow users to convert local currency into compliant, progr
 ### 3. **Licensed Payment Gateway**
 
 - Integration with:
-  - Checkout.com
-  - Stripe (crypto API)
-  - Adyen
+    - Checkout.com
+    - Stripe (crypto API)
+    - Adyen
 - Card payments → Token issuance after KYC and fraud checks
 
 ---
@@ -34,9 +34,9 @@ Fiat onramps in Arda allow users to convert local currency into compliant, progr
 
 - KYC enforced before token issuance
 - TransferRules encode:
-  - Spending limits
-  - Jurisdiction boundaries
-  - Flow tracking
+    - Spending limits
+    - Jurisdiction boundaries
+    - Flow tracking
 - Every fiat → MoneyToken mint logged in AuditLog and Vault
 
 ---
@@ -62,6 +62,6 @@ Fiat onramps in Arda allow users to convert local currency into compliant, progr
 ## Developer Notes
 
 - SDK includes:
-  - `initiateFiatOnramp()`, `mintMoneyToken()`, `burnMoneyToken()`
+    - `initiateFiatOnramp()`, `mintMoneyToken()`, `burnMoneyToken()`
 - Oracle feeds verify off-chain payment status
 - Integrated with Arda Vault for regulatory audit trail

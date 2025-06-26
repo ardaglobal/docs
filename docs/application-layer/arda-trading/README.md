@@ -29,15 +29,15 @@ Arda Trading enables institutions, brokers, and individuals to interact with tok
 ### 1. **Hybrid Exchange Model**
 
 - Supports both:
-  - Public limit and market orders
-  - Private negotiated RFQs and OTC trades
+    - Public limit and market orders
+    - Private negotiated RFQs and OTC trades
 - Trade types:
-  - AssetToken, DebtToken, TrancheToken, YieldToken
+    - AssetToken, DebtToken, TrancheToken, YieldToken
 
 ### 2. **Order Management System**
 
 - Standard order types:
-  - Limit, market, stop, TWAP, fill-or-kill
+    - Limit, market, stop, TWAP, fill-or-kill
 - Compliance checks triggered before order execution
 - Wallet-level permissions integrated
 
@@ -50,9 +50,9 @@ Arda Trading enables institutions, brokers, and individuals to interact with tok
 ### 4. **Compliance-Layer Matching**
 
 - Matches only allowed trades:
-  - Jurisdictional permission
-  - Role and wallet status
-  - KYC tier and holding limits
+    - Jurisdictional permission
+    - Role and wallet status
+    - KYC tier and holding limits
 - Disallowed trades are rejected before matching
 
 ### 5. **Escrow & Conditional Settlement**
@@ -126,9 +126,9 @@ flowchart TD
 
 - Executed trades are routed through Arda Clear
 - Supports:
-  - Instant on-chain swaps
-  - Cross-chain or fiat-linked netting
-  - Delayed finality for regulated jurisdictions
+    - Instant on-chain swaps
+    - Cross-chain or fiat-linked netting
+    - Delayed finality for regulated jurisdictions
 
 ---
 

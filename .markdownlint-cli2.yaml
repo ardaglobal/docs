@@ -12,6 +12,10 @@ config:
   MD024:
     siblings_only: true
 
+  # MD007/ul-indent - Indent unordered list items by 4 spaces
+  MD007:
+    indent: 4
+
 globs:
   - "docs/**/*.md"
   - "*.md"

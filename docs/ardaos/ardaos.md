@@ -67,9 +67,9 @@ The goal of ArdaOS is for individual regions to be able to launch a standardized
 
 - Cross-region transactions routed through Arda Clear.
 - ArdaOS instances interact via:
-  - Message relays (ZK, TEE, multisig)
-  - Validator signatures
-  - State snapshot proofs
+    - Message relays (ZK, TEE, multisig)
+    - Validator signatures
+    - State snapshot proofs
 
 ---
 

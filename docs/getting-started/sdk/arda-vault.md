@@ -18,20 +18,20 @@ Arda Vault is foundational for asset legitimacy, compliance, auditability, and r
 
 - Documents stored off-chain with hash anchoring on-chain.
 - Storage backends may include:
-  - Encrypted cloud storage (jurisdictional)
-  - Distributed storage (IPFS/Filecoin)
-  - Government/private APIs
+    - Encrypted cloud storage (jurisdictional)
+    - Distributed storage (IPFS/Filecoin)
+    - Government/private APIs
 
 ### 2. **Encryption and Access Control**
 
 - Uses:
-  - Fully Homomorphic Encryption (FHE)
-  - Multi-Party Computation (MPC)
-  - Attribute-Based Encryption (ABE)
+    - Fully Homomorphic Encryption (FHE)
+    - Multi-Party Computation (MPC)
+    - Attribute-Based Encryption (ABE)
 - Access scoped by:
-  - Role (auditor, investor, agent)
-  - Jurisdiction
-  - Time window or event
+    - Role (auditor, investor, agent)
+    - Jurisdiction
+    - Time window or event
 
 ### 3. **Document Types Supported**
 
@@ -43,11 +43,11 @@ Arda Vault is foundational for asset legitimacy, compliance, auditability, and r
 ### 4. **Vault Anchors**
 
 - Every entry includes:
-  - Hash (SHA-256 or Poseidon for ZK use)
-  - Document type
-  - Jurisdictional tag
-  - Expiry or version number
-  - Optional tags or doc linkage
+    - Hash (SHA-256 or Poseidon for ZK use)
+    - Document type
+    - Jurisdictional tag
+    - Expiry or version number
+    - Optional tags or doc linkage
 
 ---
 
@@ -63,15 +63,15 @@ Arda Vault is foundational for asset legitimacy, compliance, auditability, and r
 ## Query and Compute
 
 - MPC or FHE allows:
-  - "Yes/No" compliance proofs without revealing data
-  - Statistical summaries (e.g. investor demographics)
-  - Verification of document state without decrypting content
+    - "Yes/No" compliance proofs without revealing data
+    - Statistical summaries (e.g. investor demographics)
+    - Verification of document state without decrypting content
 
 ---
 
 ## Developer Notes
 
 - Vault API includes:
-  - `registerDoc()`, `getHash()`, `verifyAccess()`
+    - `registerDoc()`, `getHash()`, `verifyAccess()`
 - Access granted via key attestations or agent permissions
 - Frontends can reference Vault docs by hash ID, not content

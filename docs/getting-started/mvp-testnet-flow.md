@@ -33,9 +33,9 @@ A developer launches a testnet instance for a fictional city (e.g. Testburg) and
 
 - Call `createEntity()` → SPV owner onboarded
 - Use Arda Vault to register property deed with metadata:
-  - Location: "123 Test Street"
-  - Valuation: $500,000
-  - Document: `deed-testburg.pdf`
+    - Location: "123 Test Street"
+    - Valuation: $500,000
+    - Document: `deed-testburg.pdf`
 
 ### 3. **Issue AssetToken**
 

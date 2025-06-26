@@ -19,22 +19,22 @@ Arda's observability layer is modular, privacy-aware, and compatible with enterp
 ### 1. **Metrics & Monitoring**
 
 - Collected from:
-  - Validators
-  - Arda Vaults
-  - SettlementQueue
-  - SDK clients
+    - Validators
+    - Arda Vaults
+    - SettlementQueue
+    - SDK clients
 - Exported to:
-  - Prometheus
-  - Grafana
-  - Cloud-native dashboards (e.g. AWS CloudWatch)
+    - Prometheus
+    - Grafana
+    - Cloud-native dashboards (e.g. AWS CloudWatch)
 
 ### 2. **Logs**
 
 - Categories:
-  - Transaction logs
-  - Compliance events (KYC, transfer rejections)
-  - Governance proposals
-  - Lifecycle transitions (drawdown, default, repayment)
+    - Transaction logs
+    - Compliance events (KYC, transfer rejections)
+    - Governance proposals
+    - Lifecycle transitions (drawdown, default, repayment)
 - Persisted with timestamp and hash for auditability
 - Anchored to AuditLog
 
@@ -47,23 +47,23 @@ Arda's observability layer is modular, privacy-aware, and compatible with enterp
 ### 4. **Alerting**
 
 - Rule-based triggers for:
-  - Missed validator heartbeats
-  - Slashed agent actions
-  - Bridge latency anomalies
-  - Jurisdictional rule drift
+    - Missed validator heartbeats
+    - Slashed agent actions
+    - Bridge latency anomalies
+    - Jurisdictional rule drift
 
 - Alert channels:
-  - Email/SMS/webhook
-  - Slack, Discord bots
-  - Regulator dashboards
+    - Email/SMS/webhook
+    - Slack, Discord bots
+    - Regulator dashboards
 
 ---
 
 ## Data Privacy
 
 - Logs can be scoped by:
-  - Jurisdiction
-  - Role (regulator, investor, validator)
+    - Jurisdiction
+    - Role (regulator, investor, validator)
 - PII redacted unless access key approved via Arda Vault
 
 ---
@@ -72,7 +72,7 @@ Arda's observability layer is modular, privacy-aware, and compatible with enterp
 
 - ArdaOS and Core export metrics via `/metrics` and log JSON files
 - SDK includes:
-  - `subscribeLogs()`, `queryMetrics()`, `reportIssue()`
+    - `subscribeLogs()`, `queryMetrics()`, `reportIssue()`
 - Agent telemetry is opt-in with staking-backed incentives for uptime
 - Bridges and relayers provide transaction-level logs
 - Vault nodes log access control and encryption/decryption events

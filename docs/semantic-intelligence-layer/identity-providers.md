@@ -11,17 +11,17 @@ Identity provider integrations enable Arda to verify users, investors, instituti
 ### 1. **KYC (Individuals)**
 
 - Tiered system:
-  - Tier 0: Email-only (read-only access)
-  - Tier 1: Government ID
-  - Tier 2: Proof of address, selfie, AML screen
-  - Tier 3: Source of funds, enhanced due diligence
+    - Tier 0: Email-only (read-only access)
+    - Tier 1: Government ID
+    - Tier 2: Proof of address, selfie, AML screen
+    - Tier 3: Source of funds, enhanced due diligence
 
 ### 2. **KYB (Organizations)**
 
 - Entity verification includes:
-  - Registration number
-  - UBO (ultimate beneficial owner) data
-  - Tax and regulatory standing
+    - Registration number
+    - UBO (ultimate beneficial owner) data
+    - Tax and regulatory standing
 
 ### 3. **Agent Attribution**
 
@@ -35,7 +35,7 @@ Identity provider integrations enable Arda to verify users, investors, instituti
 - OAuth2 and OpenID Connect supported
 - Verifiable Credential (VC) format with ZK proof compatibility
 - REST APIs for provider hooks:
-  - `verifyIdentity()`, `getKYCStatus()`, `updateRiskScore()`
+    - `verifyIdentity()`, `getKYCStatus()`, `updateRiskScore()`
 
 ---
 
