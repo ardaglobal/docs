@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Fiat Onramps
 
 Fiat onramps in Arda allow users to convert local currency into compliant, programmable MoneyTokens for use across ArdaOS chains. These integrations bridge banking infrastructure with blockchain execution while preserving KYC, auditability, and jurisdictional scope.
@@ -8,16 +9,19 @@ Fiat onramps in Arda allow users to convert local currency into compliant, progr
 ## Supported Models
 
 ### 1. **Bank Transfer via Trusted Partner**
+
 - ACH / SEPA / SWIFT transfers
 - User wires funds to a designated collection account
 - Platform mints corresponding `MoneyToken` (e.g. `USD.ae`) after settlement
 
 ### 2. **Bank-Issued Stablecoin Minting**
+
 - Regulated banks mint tokens (e.g. Dirham Stablecoin)
 - Arda integrates token registry and TransferRules
 - Token backed 1:1 in licensed custody
 
 ### 3. **Licensed Payment Gateway**
+
 - Integration with:
   - Checkout.com
   - Stripe (crypto API)

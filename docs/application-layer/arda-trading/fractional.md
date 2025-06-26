@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Fractional Ownership and Trading
 
 ---

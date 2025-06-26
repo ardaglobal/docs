@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Validator Setup
 
 Validators are responsible for block production, compliance enforcement, and cross-chain message signing within each ArdaOS region. This guide outlines the setup process, role permissions, and operational requirements for regional validator nodes.
@@ -8,14 +9,17 @@ Validators are responsible for block production, compliance enforcement, and cro
 ## Validator Roles
 
 ### 1. **Block Producer**
+
 - Participates in consensus (POA or rollup sequencer)
 - Signs blocks, orders transactions
 
 ### 2. **Compliance Executor**
+
 - Applies TransferRules and JurisdictionProfiles
 - Ensures pre-trade and post-trade validation
 
 ### 3. **Bridge Attestor**
+
 - Signs outbound cross-chain messages for Arda Clear
 - Provides proofs for external bridge validation (ZK, multisig, etc.)
 

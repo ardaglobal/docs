@@ -24,7 +24,7 @@ Traditional private market deals and transfers, often plagued by multi-month set
 
 ### Empowering Business Model Innovation
 
-Our vision is not just about what Arda does itself but what Arda does for others too. Activating and empowering thousands of businesses and a global community to bloom. Imagine a 10x more powerful digital and programmable version of what Coldwell Banker might facilitate. 
+Our vision is not just about what Arda does itself but what Arda does for others too. Activating and empowering thousands of businesses and a global community to bloom. Imagine a 10x more powerful digital and programmable version of what Coldwell Banker might facilitate.
 
 Arda’s programmable ecosystem enables the creation of composable financial products and private market applications tailored to user needs.
 
@@ -93,6 +93,3 @@ This site is structured to help both technical and non-technical stakeholders ex
 ---
 
 ## Glossary
-
-
-

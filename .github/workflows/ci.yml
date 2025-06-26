@@ -3,28 +3,81 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches: [main]
 permissions:
   contents: write
+  issues: write
 jobs:
-  deploy:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install dependencies
+        run: npm install
+      - name: Run linters
+        run: make lint
+
+  release:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    needs: lint
+    outputs:
+      new_release_published: ${{ steps.semantic-release.outputs.new_release_published }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
+      # Semantic Release Step
+      - name: Configure Semantic Release
+        # Work around for non npm project
+        # REF: https://github.com/cycjimmy/semantic-release-action/issues/115#issuecomment-1817264419
+        run: echo '{"branches":[],"plugins":["@semantic-release/commit-analyzer","@semantic-release/release-notes-generator","@semantic-release/github"]}' > .releaserc.json
+
+      - name: Create Release
+        id: semantic-release
+        uses: cycjimmy/semantic-release-action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          branches: |
+            ["main"]
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: release
+    if: needs.release.outputs.new_release_published == 'true'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Deploy Steps (only if release was created)
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
+
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
           path: .cache
           restore-keys: |
             mkdocs-material-
+
       - run: pip install mkdocs-material
+
       - name: Create CNAME file
         run: echo "docs.arda.xyz" > docs/CNAME
+
       - run: mkdocs gh-deploy --force

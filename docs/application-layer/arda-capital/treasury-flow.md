@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Treasury Flow
 
 ---
@@ -14,6 +15,7 @@ This enables real-time capital flows across structured financial products with f
 ## Core Components
 
 ### 1. **SweepInstruction**
+
 - Defines automatic movement of MoneyTokens from one account to another.
 - Examples:
   - Daily sweep from borrower wallet to facility escrow
@@ -21,6 +23,7 @@ This enables real-time capital flows across structured financial products with f
 - Can be conditional (e.g. only if >$10,000 available)
 
 ### 2. **InterestSplitRule**
+
 - Governs how interest is allocated across stakeholders.
 - Fields:
   - Percentage to senior tranche, junior tranche, servicer, protocol
@@ -28,6 +31,7 @@ This enables real-time capital flows across structured financial products with f
 - Can dynamically change based on FacilityStatus
 
 ### 3. **FeeEngine**
+
 - Central routing hub for fees in a transaction.
 - Supported fee types:
   - Origination
@@ -38,6 +42,7 @@ This enables real-time capital flows across structured financial products with f
 - Fees are expressed as flat amounts or basis points, and paid in MoneyToken
 
 ### 4. **OracleUpdate**
+
 - Triggers price or valuation changes.
 - Used to:
   - Update LTV calculations

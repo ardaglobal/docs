@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Data Residency
 
 ---
@@ -12,6 +13,7 @@ Data residency in Arda ensures that sensitive data—such as personal identity, 
 ## Residency Strategies
 
 ### 1. **Jurisdictional Vault Nodes**
+
 - Arda Vaults can be deployed regionally with:
   - FHE/MPC key hosting
   - Localized document anchors
@@ -19,11 +21,13 @@ Data residency in Arda ensures that sensitive data—such as personal identity, 
 - Documents never leave jurisdiction unless explicitly authorized
 
 ### 2. **Execution-Data Decoupling**
+
 - ArdaOS executes business logic
 - Documents and metadata resolved off-chain within local vault clusters
 - Hashes, attestations, and ZK proofs shared globally
 
 ### 3. **Regulatory Scope Isolation**
+
 - Each jurisdiction has:
   - Unique data control schema
   - Approved KYC/ID providers

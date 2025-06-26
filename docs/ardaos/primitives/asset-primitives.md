@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Asset Primitives
 
 Asset Primitives in Arda define how physical, legal, and economic characteristics of real-world assets are modeled on-chain. These primitives serve as the foundation for tokenizing and interacting with real estate, infrastructure, commodities, and their associated rights.
@@ -12,6 +13,7 @@ This document outlines the key primitives that define assets on Arda. For a broa
 ## Core Asset Types
 
 ### 1. **AssetToken**
+
 - Tokenized representation of a physical or legal asset.
 - Includes:
   - Ownership structure (e.g. fractional, collective)
@@ -19,12 +21,14 @@ This document outlines the key primitives that define assets on Arda. For a broa
   - Jurisdictional tag
 
 ### 2. **UsageRight**
+
 - Encodes non-ownership entitlements such as:
   - Rental use
   - Time-share access
   - Right of abode or commercial operation
 
 ### 3. **DevelopmentRight**
+
 - Represents forward-looking rights:
   - Air rights
   - Zoning approvals
@@ -32,6 +36,7 @@ This document outlines the key primitives that define assets on Arda. For a broa
 - May convert into full ownership upon event or milestone completion
 
 ### 4. **RegistryRecord**
+
 - Anchors asset in a recognized registry (e.g. land department).
 - Links Vault entry (e.g. deed or title document hash) to AssetToken.
 - Used to assert enforceability and legitimacy of claims.

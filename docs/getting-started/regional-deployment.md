@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Regional Deployment
 
 ---
@@ -14,17 +15,20 @@ Each deployment is modular, sovereign, and optimized for local needs.
 ## Deployment Architecture
 
 ### 1. **Sovereign Chain Instance**
+
 - Rollkit / Cosmos SDK-based rollup or POA chain
 - Anchored to Celestia, EigenDA, or local DA layer
 - Validator set controlled by regional stakeholders
 
 ### 2. **Cloud or On-Prem Infrastructure**
+
 - Common environments:
   - AWS Region (e.g. UAE, Singapore)
   - Azure Government Cloud
   - Local Ministry Datacenters
 
 ### 3. **Chain Configuration**
+
 - Governance parameters
 - Local stablecoin support
 - Compliance module registry

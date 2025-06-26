@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Arda Foundry
 
 Arda Foundry is the protocol-native legal entity and structure creation system. It automates the instantiation of SPVs, trusts, funds, and other wrappers to provide legal enforceability and investor protections for real-world asset tokenization.
@@ -10,6 +11,7 @@ Foundry is essential for bridging the on-chain logic of Arda with the off-chain 
 ## Core Capabilities
 
 ### SPV Creation
+
 - Instantiates special-purpose vehicles in supported jurisdictions.
 - Supported structures:
   - LLC (Delaware, DIFC, etc.)
@@ -18,6 +20,7 @@ Foundry is essential for bridging the on-chain logic of Arda with the off-chain 
   - Cayman Trusts
 
 ### Legal Wrapper Binding
+
 - Links SPVs to AssetTokens or DebtTokens.
 - Enables enforceability of:
   - Ownership
@@ -26,12 +29,14 @@ Foundry is essential for bridging the on-chain logic of Arda with the off-chain 
 - Anchored via document hashes in Arda Vault.
 
 ### Lifecycle Integration
+
 - Foundry-issued entities can:
   - Track cap table via Arda Ledger
   - Issue or revoke tokens based on legal status
   - Receive treasury flows (rent, fees, repayments)
 
 ### Investor & Board Management
+
 - Permissions for entity-level roles:
   - Directors
   - Auditors
@@ -39,15 +44,18 @@ Foundry is essential for bridging the on-chain logic of Arda with the off-chain 
 - Changes to governance encoded via on-chain proposals or verified docs
 
 ### Template Library
+
 - Reusable legal and operational templates for:
   - Equity-only SPVs
   - Tranche-based debt facilities
   - Property co-ownership schemes
 
 ### Digital Twin Creation
+
 - Generate a compliant, enforceable digital representation of any asset.
 
 ### Automated Governance
+
 - Embed rules for transfer, reporting, and lifecycle events directly into the asset.
 
 ---

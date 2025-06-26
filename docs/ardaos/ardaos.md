@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # ArdaOS
 
 ArdaOS is the sovereign execution layer for individual jurisdictions within the Arda ecosystem. It enables each region—such as the UAE, United States, or Singapore—to run a dedicated rollup with its own compliance, settlement, and performance rules, while still conforming to the global Arda Core standard.
@@ -23,25 +24,31 @@ The goal of ArdaOS is for individual regions to be able to launch a standardized
 - **Coordination-Enabled**: Synchronizes with Arda Core for cross-region functionality and shared identity.
 
 ### POA / Rollup Architecture
+
 - Supported as sovereign Proof-of-Authority chains or zk-enabled rollups.
 - Optimized for <100ms latency and regional scalability.
 
 ### Localized Compliance Layer
+
 - KYC/AML, jurisdiction rules, investor limits, and transaction gating enforced on-chain.
 - Built on the same primitives as Arda Core but scoped to local legal frameworks.
 
 ### Validator Coordination
+
 - 3–7 regionally approved validators per chain.
 - Includes notaries, registrars, public agencies, or approved financial institutions.
 
 ### Native Asset Support
+
 - Region-specific MoneyTokens, AssetTokens, DebtTokens, and YieldTokens.
 - Customizable bridge wrappers and token templates.
 
 ### Shared Security & Compliance
+
 - Inherit global compliance rules and validator security from Arda Core.
 
 ### Low-Cost, High-Throughput
+
 - Optimized for enterprise-grade workloads without the high fees of public mainnets.
 
 ---

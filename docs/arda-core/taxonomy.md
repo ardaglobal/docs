@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Arda Taxonomy
 
 ---
@@ -16,6 +17,7 @@ Every on-chain asset or transaction references taxonomy categories to define its
 The taxonomy is structured hierarchically with top-level categories, subtypes, and attributes. Examples include:
 
 ### Asset Classes
+
 - **Real Estate**
   - Residential / Commercial / Industrial / Hospitality
 - **Debt Instruments**
@@ -26,12 +28,14 @@ The taxonomy is structured hierarchically with top-level categories, subtypes, a
   - Perpetual Swap / Interest Rate Option
 
 ### Rights and Roles
+
 - **Use Rights**: Right of abode, leasing rights, timeshare access
 - **Economic Rights**: Yield entitlement, profit sharing, rent collection
 - **Governance Rights**: Voting weight, proposal rights
 - **Service Roles**: Custodian, Auditor, Manager, Verifier
 
 ### Entities
+
 - **Natural Person** (individual investors or residents)
 - **Legal Entity** (SPVs, REITs, custodians, etc.)
 - **Regulator** (state or national compliance authority)

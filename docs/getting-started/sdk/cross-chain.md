@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Cross-Chain Interoperability
 
 Arda's cross-chain architecture enables secure interoperability between sovereign ArdaOS chains, Arda Core, and external blockchains. It ensures that assets, users, and rights can move across jurisdictions without fragmenting compliance, state, or governance.
@@ -10,6 +11,7 @@ Arda achieves this via a layered bridging and message-passing infrastructure anc
 ## Key Interaction Models
 
 ### 1. **ArdaOS ↔ ArdaOS**
+
 - Message passing via:
   - Validator signatures
   - zkBridge (ZK light client)
@@ -20,6 +22,7 @@ Arda achieves this via a layered bridging and message-passing infrastructure anc
   - Liquidity migration
 
 ### 2. **ArdaOS ↔ Arda Core**
+
 - Trusted coordination layer with global registry and event syncing
 - Used for:
   - Wallet and entity mapping
@@ -27,6 +30,7 @@ Arda achieves this via a layered bridging and message-passing infrastructure anc
   - Token indexing
 
 ### 3. **Arda ↔ External Blockchains**
+
 - Supported via:
   - ERC-20 / ERC-721 wrappers
   - Cosmos IBC-compatible relays

@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # ZK and TEE Primitives
 
 Arda supports zero-knowledge (ZK) and trusted execution environment (TEE) primitives for enforcing privacy, integrity, and selective disclosure across its protocol stack. These cryptographic mechanisms enable users and agents to verify data or behavior without revealing the underlying values — essential for compliance, privacy law alignment, and regulated institutional usage.

@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Trading RFQ Example
 
 ---
@@ -18,6 +19,7 @@ A Tier 3 investor negotiates to acquire a 5% stake in a Dubai residential buildi
 ## Step-by-Step Flow
 
 ### 1. **List RFQ Offer**
+
 - Seller calls `createRFQ()` via SDK:
   - Token: `AssetToken.009`
   - Quantity: 5,000 (5% stake)
@@ -26,6 +28,7 @@ A Tier 3 investor negotiates to acquire a 5% stake in a Dubai residential buildi
   - Conditions: UAE KYC Tier 2+ buyer only
 
 ### 2. **Buyer Discovery and Validation**
+
 - RFQ listed in Arda Trading portal
 - Buyer (Tier 3, accredited) initiates `respondToRFQ()`
 - Compliance engine runs:
@@ -34,11 +37,13 @@ A Tier 3 investor negotiates to acquire a 5% stake in a Dubai residential buildi
   - Holding limit → ✅
 
 ### 3. **Escrow Setup**
+
 - Buyer deposits $50,000 in `TEST.USD` via PermissionedPool
 - Seller pre-commits 5,000 tokens to escrow contract
 - Both parties sign execution intent
 
 ### 4. **Arda Clear Settlement**
+
 - SettlementQueue entry created
 - Compliance re-check executed before final swap
 - Delay buffer: 24h for optional regulator review

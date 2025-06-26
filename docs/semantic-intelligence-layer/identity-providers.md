@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Identity Providers
 
 ---
@@ -12,6 +13,7 @@ Identity provider integrations enable Arda to verify users, investors, instituti
 ## Identity Types
 
 ### 1. **KYC (Individuals)**
+
 - Tiered system:
   - Tier 0: Email-only (read-only access)
   - Tier 1: Government ID
@@ -19,12 +21,14 @@ Identity provider integrations enable Arda to verify users, investors, instituti
   - Tier 3: Source of funds, enhanced due diligence
 
 ### 2. **KYB (Organizations)**
+
 - Entity verification includes:
   - Registration number
   - UBO (ultimate beneficial owner) data
   - Tax and regulatory standing
 
 ### 3. **Agent Attribution**
+
 - Agents are linked to originating Entity
 - Enforced by signature attestations or AIP delegation
 

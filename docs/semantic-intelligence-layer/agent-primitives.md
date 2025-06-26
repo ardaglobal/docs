@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Agent Primitives
 
 ---
@@ -14,6 +15,7 @@ They can be composed into deal flows, delegated to users or institutions, or use
 ## Core Agent Types
 
 ### 1. **Connect Agent**
+
 - Matches originators with investors based on:
   - Jurisdiction
   - Risk appetite
@@ -21,6 +23,7 @@ They can be composed into deal flows, delegated to users or institutions, or use
 - Scores matches using protocol-native data and mandate filters.
 
 ### 2. **Risk Agent**
+
 - Ingests loan tapes, cohort history, market data.
 - Outputs:
   - PD, LGD, Sharpe, volatility
@@ -29,6 +32,7 @@ They can be composed into deal flows, delegated to users or institutions, or use
 - Used in underwriting, pricing, and surveillance.
 
 ### 3. **Structuring Agent**
+
 - Models deal structures (waterfalls, tranches, schedules).
 - Parameterizes:
   - Reserve ratios
@@ -37,6 +41,7 @@ They can be composed into deal flows, delegated to users or institutions, or use
 - Publishes programmable templates or auto-populates deal drafts.
 
 ### 4. **Monitoring Agent**
+
 - Tracks post-close performance.
 - Monitors:
   - Payment behavior
@@ -45,6 +50,7 @@ They can be composed into deal flows, delegated to users or institutions, or use
 - Sends alerts or triggers event hooks (e.g. pause disbursement).
 
 ### 5. **IM Agent (Investment Memo Agent)**
+
 - Composes a standardized investment memo using:
   - Facility details
   - Risk tags

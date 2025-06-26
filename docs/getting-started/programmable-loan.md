@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Programmable Loan Example
 
 ---
@@ -18,6 +19,7 @@ A developer sets up a $2M construction loan facility for a residential project u
 ## Step-by-Step Flow
 
 ### 1. **Create SPV and Facility**
+
 - SPV entity initialized with `createEntity()`
 - Legal documents uploaded via Arda Vault
 - Call `createFacility()` with:
@@ -28,6 +30,7 @@ A developer sets up a $2M construction loan facility for a residential project u
   - Repayment type: Bullet
 
 ### 2. **Define Drawdown Milestones**
+
 - Register PaymentSchedule:
   - Tranche 1: $500k upon permitting
   - Tranche 2: $700k upon foundation
@@ -35,20 +38,24 @@ A developer sets up a $2M construction loan facility for a residential project u
 - Milestones tracked by Monitoring Agent
 
 ### 3. **Deploy Compliance Rules**
+
 - KYC Tier 2 minimum
 - JurisdictionProfile = UAE
 - PermissionedPool scoped to investors in GCC only
 
 ### 4. **Raise Capital**
+
 - PermissionedPool receives $2M across 5 investors
 - Auto-allocate pro-rata TrancheTokens
 
 ### 5. **Disburse and Accrue**
+
 - Milestone 1 completed → Monitoring Agent submits attestation
 - `drawdown()` releases $500k to borrower
 - `accrueInterest()` starts for TrancheToken holders
 
 ### 6. **Repayment and Finalization**
+
 - At maturity, borrower sends $2.24M (principal + interest)
 - `repay()` splits to TrancheToken holders via InterestSplitRule
 - `burnDebtToken()` finalizes loan lifecycle

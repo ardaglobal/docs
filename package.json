@@ -1,0 +1,21 @@
+{
+  "name": "arda-docs",
+  "version": "1.0.0",
+  "description": "Arda Documentation",
+  "private": true,
+  "scripts": {
+    "lint": "markdownlint-cli2 \"docs/**/*.md\" \"*.md\"",
+    "lint:fix": "markdownlint-cli2 --fix \"docs/**/*.md\" \"*.md\"",
+    "spellcheck": "cspell '**/*.md' --config cspell.json",
+    "spellcheck:fix": "cspell '**/*.md' --config cspell.json --show-suggestions",
+    "spellcheck:ci": "cspell '**/*.md' --config cspell.json --no-progress --no-summary"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.13.0",
+    "cspell": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/arda-docs"
+  }
+}

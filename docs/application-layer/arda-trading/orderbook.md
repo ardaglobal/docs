@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Orderbook and Matching Engine
 
 ---
@@ -89,5 +90,3 @@ The engine consults the Compliance Engine on every action:
 - **Vault** — Resolves asset metadata (e.g. location, type, rights)
 - **Wallet + Identity** — Validates tier and role on submit
 - **Compliance Engine** — Final approval gate
-
-*© ArdaOS Documentation • Licensed under MIT*

@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Analytics & Reporting
 
 ---
@@ -73,5 +74,3 @@ flowchart TD
 - **Interop Layer**: Aggregates data from multiple sovereign regions
 
 ---
-
-*© ArdaOS Documentation • Licensed under MIT*

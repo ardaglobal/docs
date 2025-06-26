@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Oracle Integration
 
 ---
@@ -12,24 +13,28 @@ Oracles in Arda supply off-chain data needed for risk assessment, asset valuatio
 ## Oracle Use Cases
 
 ### 1. **Asset Valuation**
+
 - Periodic updates for:
   - LTV calculations
   - Loan re-underwriting
   - Collateral rebalancing
 
 ### 2. **Payment Confirmation**
+
 - Used to:
   - Confirm fiat repayments
   - Release escrowed funds
   - Trigger YieldToken distribution
 
 ### 3. **Milestone Triggers**
+
 - Common for:
   - Construction loans
   - Development phases
   - Legal registration milestones
 
 ### 4. **Compliance Updates**
+
 - Supports:
   - Jurisdiction blacklist sync
   - Sanctions list refresh

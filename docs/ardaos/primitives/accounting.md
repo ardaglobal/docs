@@ -1,4 +1,5 @@
 --8<-- "warning.md"
+
 # Accounting Primitives
 
 Arda's accounting primitives define the fundamental mechanisms for calculating, accruing, distributing, and reconciling financial flows across the protocol. These primitives support everything from interest accrual on loans to fee allocation, treasury sweeping, and escrow disbursement.
