@@ -2,10 +2,6 @@
 
 # Arda Network-as-a-Service (NaaS)
 
----
-
-## Overview
-
 Arda Network-as-a-Service (NaaS) is the deployment layer that enables sovereign regions to operate independent ArdaOS chains with full compliance alignment and infrastructure control. It supports both permissioned and semi-public deployments tailored to local performance, regulatory, and data residency requirements.
 
 Arda NaaS abstracts infrastructure complexity, offering pre-configured environments with pluggable compliance modules and SDK compatibility.

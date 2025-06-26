@@ -2,10 +2,6 @@
 
 # Arda Token Factory
 
----
-
-## Overview
-
 The Arda Token Factory is responsible for issuing all tokenized representations of real-world assets and financial rights within the Arda ecosystem. It encodes jurisdiction-specific compliance logic directly into token definitions and supports modular issuance workflows for AssetTokens, DebtTokens, TrancheTokens, and YieldTokens.
 
 This module ensures that every token on Arda conforms to a shared taxonomy, enforces permissions on transfer and use, and is traceable throughout its lifecycle.

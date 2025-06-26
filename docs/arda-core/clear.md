@@ -2,10 +2,6 @@
 
 # Arda Clear
 
----
-
-## Overview
-
 Arda Clear is the clearing and settlement module within Arda Core. It is responsible for resolving asset and capital flows across participants, pools, and chains. Arda Clear enables near-instant, compliance-aware settlement of transactions including primary issuance, secondary trading, syndicated capital allocation, and loan repayment.
 
 It ensures that all transfers respect jurisdictional rules, netting configurations, escrow conditions, and time-based maturity logic.

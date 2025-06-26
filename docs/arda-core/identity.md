@@ -2,10 +2,6 @@
 
 # Arda Identity
 
----
-
-## Overview
-
 The Arda Identity module provides the foundational structures for defining and enforcing participant roles in the Arda ecosystem. It models entities, wallets, KYC tiers, and attestations — enabling secure, compliant, and programmable identity enforcement across all protocol modules.
 
 Identity in Arda is persistent, privacy-aware, and supports role-based permissioning at both the wallet and entity level.

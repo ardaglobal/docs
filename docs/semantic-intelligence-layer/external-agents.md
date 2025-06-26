@@ -2,10 +2,6 @@
 
 # External Agents
 
----
-
-## Overview
-
 External agents in the Arda ecosystem are autonomous or semi-autonomous service providers that perform roles such as deal structuring, monitoring, verification, and execution support. These agents enhance trust, scale throughput, and standardize execution across asset and capital lifecycles.
 
 They operate under permissioned attestations and are tracked via the Agent Registry. Agents may be institutional (e.g. broker-dealers), DAO-governed, or programmatic (smart contracts or AI models).

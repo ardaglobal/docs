@@ -2,10 +2,6 @@
 
 # Oracle Integration
 
----
-
-## Overview
-
 Oracles in Arda supply off-chain data needed for risk assessment, asset valuation, repayment triggers, and compliance enforcement. Arda supports trusted oracles scoped by jurisdiction and role, with optional staking, signature, or zero-knowledge attestation.
 
 ---
@@ -54,15 +50,6 @@ Oracles in Arda supply off-chain data needed for risk assessment, asset valuatio
   - Region and role scope
   - Validity window
   - Hash of input data
-
----
-
-## Developer Notes
-
-- SDK methods:
-  - `registerOracleSource()`, `submitOracleUpdate()`, `verifyOracleProof()`
-- Oracles can trigger EventHooks, repayment recalculations, or compliance lockdowns
-- Indexed via OracleRegistry scoped by asset class or facility
 
 ---
 

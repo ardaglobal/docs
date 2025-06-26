@@ -2,10 +2,6 @@
 
 # Arda Wallet
 
----
-
-## Overview
-
 The Arda Wallet module governs user and institutional access to tokenized real estate and capital markets infrastructure. It enforces compliance policies through KYC tiers, permissions, and custody configurations, supporting both Web3-native users and regulated financial institutions.
 
 Arda Wallet is designed for flexibility and security, enabling non-custodial key management, institutional custody integration, and real-time enforcement of access controls across jurisdictions.

@@ -2,10 +2,6 @@
 
 # Arda Vault
 
----
-
-## Overview
-
 Arda Vault is the privacy-preserving data layer of the Arda protocol. It enables secure storage and controlled access to sensitive real estate, financial, and identity-related information. The Vault combines on-chain anchoring with off-chain encrypted storage, supporting real-time compliance and due diligence while maintaining strict privacy guarantees.
 
 It is a critical component of Arda Core, enabling institutional-grade security, selective disclosure, and cryptographic verifiability for all asset and entity records.

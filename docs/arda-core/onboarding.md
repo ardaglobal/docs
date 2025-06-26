@@ -2,10 +2,6 @@
 
 # Arda Onboarding
 
----
-
-## Overview
-
 Arda Onboarding is the module responsible for registering new users, entities, and real-world assets into the Arda ecosystem. It ensures that all participants meet jurisdictional compliance standards and that off-chain real estate assets are accurately and verifiably linked to their on-chain representations.
 
 This module supports integration with land registries, legal verification providers, and identity attestations, offering both API-based and manual fallback workflows for onboarding in digitized and non-digitized jurisdictions.

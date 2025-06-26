@@ -2,10 +2,6 @@
 
 # Arda Taxonomy
 
----
-
-## Overview
-
 The Arda Taxonomy module defines a universal classification framework for assets, rights, entities, and legal structures across the entire Arda ecosystem. It serves as the semantic backbone of Arda Core, ensuring interoperability, consistent compliance enforcement, and intelligent behavior across sovereign regions and capital products.
 
 Every on-chain asset or transaction references taxonomy categories to define its legal meaning, economic function, and permissible use cases. The taxonomy is extensible via Arda Improvement Proposals (AIPs) and evolves through governance.

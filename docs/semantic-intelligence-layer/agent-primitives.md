@@ -2,10 +2,6 @@
 
 # Agent Primitives
 
----
-
-## Overview
-
 Agent primitives are modular, programmable actors within Arda that facilitate structured decision-making and execution for credit, compliance, trading, and monitoring. These agents operate within the protocol, follow deterministic rules or AI-augmented logic, and are permissioned by role and jurisdiction.
 
 They can be composed into deal flows, delegated to users or institutions, or used as standalone modules in Arda applications.
@@ -79,11 +75,3 @@ They can be composed into deal flows, delegated to users or institutions, or use
 - Agents may be required to stake tokens to operate.
 - Bad behavior may result in slashing or blacklist.
 - Usage and performance tracked for attribution and rewards.
-
----
-
-## Developer Notes
-
-- Agents deploy via SDK using `registerAgent()` and `publishTemplate()`
-- Agent outputs are callable in facility creation, monitoring, and governance
-- Custom agents can extend logic using approved hooks

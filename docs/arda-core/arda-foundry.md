@@ -14,49 +14,51 @@ Foundry is essential for bridging the on-chain logic of Arda with the off-chain 
 
 - Instantiates special-purpose vehicles in supported jurisdictions.
 - Supported structures:
-  - LLC (Delaware, DIFC, etc.)
-  - RAK ICC
-  - UAE Free Zone Entities
-  - Cayman Trusts
+    - LLC (Delaware, DIFC, etc.)
+    - RAK ICC
+    - UAE Free Zone Entities
+    - Cayman Trusts
 
 ### Legal Wrapper Binding
 
 - Links SPVs to AssetTokens or DebtTokens.
 - Enables enforceability of:
-  - Ownership
-  - Liens
-  - Payment rights
+    - Ownership
+    - Liens
+    - Payment rights
 - Anchored via document hashes in Arda Vault.
 
 ### Lifecycle Integration
 
-- Foundry-issued entities can:
-  - Track cap table via Arda Ledger
-  - Issue or revoke tokens based on legal status
-  - Receive treasury flows (rent, fees, repayments)
+Foundry-issued entities can:
+
+- Track cap table via Arda Ledger
+- Issue or revoke tokens based on legal status
+- Receive treasury flows (rent, fees, repayments)
 
 ### Investor & Board Management
 
 - Permissions for entity-level roles:
-  - Directors
-  - Auditors
-  - Beneficiaries
+    - Directors
+    - Auditors
+    - Beneficiaries
 - Changes to governance encoded via on-chain proposals or verified docs
 
 ### Template Library
 
-- Reusable legal and operational templates for:
-  - Equity-only SPVs
-  - Tranche-based debt facilities
-  - Property co-ownership schemes
+Reusable legal and operational templates for:
+
+- Equity-only SPVs
+- Tranche-based debt facilities
+- Property co-ownership schemes
 
 ### Digital Twin Creation
 
-- Generate a compliant, enforceable digital representation of any asset.
+Generate a compliant, enforceable digital representation of any asset.
 
 ### Automated Governance
 
-- Embed rules for transfer, reporting, and lifecycle events directly into the asset.
+Embed rules for transfer, reporting, and lifecycle events directly into the asset.
 
 ---
 
@@ -69,14 +71,6 @@ Foundry is essential for bridging the on-chain logic of Arda with the off-chain 
 
 ---
 
-## Developer Notes
-
-- SDK includes `createEntity()`, `bindAsset()`, `registerDoc()`
-- Role permissions programmable via policy templates
-- Events logged into `AuditLog` and indexed via `FacilityRegistry`
-
----
-
 ## Example Flow
 
 1. Developer creates a Dubai SPV to hold a commercial building
@@ -84,5 +78,3 @@ Foundry is essential for bridging the on-chain logic of Arda with the off-chain 
 3. Mints AssetToken and links it to the SPV via Foundry
 4. Investors participate in PermissionedPool governed by that SPV
 5. Monthly rent routed to SPV, then to TrancheToken holders
-
----

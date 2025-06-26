@@ -2,10 +2,6 @@
 
 # Data Residency
 
----
-
-## Overview
-
 Data residency in Arda ensures that sensitive data—such as personal identity, legal documents, and asset records—remain stored and processed within specific jurisdictions in compliance with local regulations. Arda's architecture separates data layers from consensus to enforce locality while maintaining cryptographic verifiability.
 
 ---

@@ -2,10 +2,6 @@
 
 # Identity Providers
 
----
-
-## Overview
-
 Identity provider integrations enable Arda to verify users, investors, institutions, and agents across jurisdictions using trusted KYC/KYB workflows. Arda supports pluggable, programmable identity systems that conform to both local compliance rules and global coordination needs.
 
 ---
@@ -61,12 +57,3 @@ Identity provider integrations enable Arda to verify users, investors, instituti
 3. Entity created and linked to Wallet Group
 4. JurisdictionProfile + KYC Tier assigned
 5. Logs and documents anchored to Vault
-
----
-
-## Developer Notes
-
-- SDK includes:
-  - `registerIdentityProvider()`, `verifyKYC()`, `updateTier()`
-- WalletGroups may require re-verification after policy change
-- All identity flows logged in AuditLog and scoped by region
